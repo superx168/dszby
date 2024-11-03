@@ -223,7 +223,7 @@ def getHotel():
     lines = OrderedDict()
     ipspeed = []
     try:
-        for item in getHotelSearch("广东电信"):
+        for item in getHotelSearch("四川_电信"):
             lines[item] = getHotelList(item)
 
         #
