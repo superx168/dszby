@@ -144,12 +144,12 @@ def updateChannelUrlsM3U(channels, template_channels):
             if announcement["name"] is None:
                 announcement["name"] = current_date
 
-    with open("live.m3u", "w", encoding="utf-8") as f_m3u:
+    with open("/py/网络收集/live.m3u", "w", encoding="utf-8") as f_m3u:
         f_m3u.write(
             f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n"""
         )
 
-        with open("live.txt", "w", encoding="utf-8") as f_txt:
+        with open("/py/网络收集/live.txt", "w", encoding="utf-8") as f_txt:
             for group in config.announcements:
                 f_txt.write(f"{group['channel']},#genre#\n")
                 for announcement in group["entries"]:
@@ -268,13 +268,13 @@ def getHotel():
                     for url in lines[key]:
                         sources.append(f"{url}")
 
-            with open("hotelspeed.txt", "w", encoding="utf-8") as f_txt:
+            with open("/py/网络收集/hotelspeed.txt", "w", encoding="utf-8") as f_txt:
                 f_txt.write(f"{"\n".join(ipspeed)}")
 
-            with open("hotel.txt", "w", encoding="utf-8") as f_txt:
+            with open("/py/网络收集/hotel.txt", "w", encoding="utf-8") as f_txt:
                 f_txt.write(f"{"\n".join(sources)}")
 
-            with open("hotel.m3u", "w", encoding="utf-8") as f_m3u:
+            with open("/py/网络收集/hotel.m3u", "w", encoding="utf-8") as f_m3u:
                 f_m3u.write(
                     f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n"""
                 )
@@ -304,7 +304,7 @@ def getHotelSearch(key):
         ips = []
         try:
             hips = []
-            with open("hotelspeed.txt", "r", encoding="utf-8") as f_txt:
+            with open("/py/网络收集/hotelspeed.txt", "r", encoding="utf-8") as f_txt:
                 hips = f_txt.read().split("\n")
             for item in hips:
                 ip, speed = item.split(",")
@@ -408,7 +408,7 @@ def getHotelList(ip):
 def getHisHotel():
     sources = []
     logging.error(f"url: 酒店组播 爬取失败❌, 读取历史记录")
-    with open("hotel.txt", "r", encoding="utf-8") as f_txt:
+    with open("/py/网络收集/hotel.txt", "r", encoding="utf-8") as f_txt:
         #
         # 测速
         #
