@@ -466,6 +466,6 @@ def download_speed_test(ip, channel):
 
 
 if __name__ == "__main__":
-    template_file = "demo.txt"
+    template_file = "py/网络收集/demo.txt"
     channels, template_channels = filter_source_urls(template_file)
     updateChannelUrlsM3U(channels, template_channels)
