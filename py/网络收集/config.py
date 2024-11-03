@@ -33,7 +33,7 @@ source_urls = [
 url_blacklist = [
     "epg.pw/stream/",
     "103.40.13.71:12390",
-    "[2409:8087:1a01:df::4077]/PLTV/",
+    "[2409:8087",
     "8.210.140.75:68",
     "154.12.50.54",
     "yinhe.live_hls.zte.com",
