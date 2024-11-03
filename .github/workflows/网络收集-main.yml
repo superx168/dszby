@@ -39,7 +39,7 @@ jobs:
 
     - name: Run Python script
       run: |
-        python ${{ github.workspace }}/py/网络收集-main.py
+        python ${{ github.workspace }}/py/网络收集/网络收集-main.py
 
     #- name: Run Python script2
      # run: python main2.py
