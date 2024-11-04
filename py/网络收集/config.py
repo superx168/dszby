@@ -2,11 +2,13 @@ ip_version_priority = "ipv6"
 
 source_urls = [
     "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
-    # "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+    "https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/tvbox/%E7%9B%B4%E6%92%AD%E6%BA%90/live.txt",
     "酒店组播",
     "https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
     "http://175.178.251.183:6689/channel.txt",
     "http://120.79.4.185/new/mdlive.txt",
+    "https://u.kstore.space/download/6851/zby.txt",
+    "http://aktv.top/live.m3u",
     # "https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt",
     # "https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V6.txt",
     # "https://live.zhoujie218.top/tv/iptv6.txt",
