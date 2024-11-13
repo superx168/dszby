@@ -312,7 +312,7 @@ def record_host(host):
     else:
         blacklist_dict[host] = 1
 # 将结果保存为 txt 文件
-def save_blackhost_to_txt(filename=f"{datetime.now().strftime("%Y%m%d_%H_%M_%S")}_blackhost_count.txt"):
+def save_blackhost_to_txt(filename=f"{datetime.now().strftime('%Y%m%d_%H_%M_%S')}_blackhost_count.txt"):
     with open(filename, "w") as file:
         for host, count in blacklist_dict.items():
             file.write(f"{host}: {count}\n")
