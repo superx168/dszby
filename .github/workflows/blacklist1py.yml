@@ -29,17 +29,17 @@ jobs:
         pip install opencc-python-reimplemented
         
     - name: Run Python blacklist1.py
-      run: python py/assets/blacklist1/blacklist1.py
+      run: python py/iptv源收集检测/assets/blacklist1/blacklist1.py
       
     - name: Upload generated files
       uses: actions/upload-artifact@v4
       with:
         name: generated-files
         path: |
-          py/assets/blacklist1/blacklist_auto.txt
-          py/assets/blacklist1/blacklist_manual.txt
-          py/assets/blacklist1/whitelist_auto.txt
-          py/assets/blacklist1/whitelist_manual.txt
+          py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
+          py/iptv源收集检测/assets/blacklist1/blacklist_manual.txt
+          py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt
+          py/iptv源收集检测/assets/blacklist1/whitelist_manual.txt
           
     - name: Commit changes
       run: |
@@ -53,17 +53,17 @@ jobs:
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
 
           current_datetime=$(date +"%Y%m%d_%H%M%S")
-          # cp merged_output.txt history/"${current_datetime}_merged_output.txt"
-          # cp others_output.txt history/"${current_datetime}_others_output.txt"
-          # git add history/"${current_datetime}_merged_output.txt"
-          # git add history/"${current_datetime}_others_output.txt"
-          # git commit -m "Archive file with timestamp"
+          cp merged_output.txt history/"${current_datetime}_merged_output.txt"
+          cp others_output.txt history/"${current_datetime}_others_output.txt"
+          git add history/"${current_datetime}_merged_output.txt"
+          git add history/"${current_datetime}_others_output.txt"
+          git commit -m "Archive file with timestamp"
 
           # 将归档文件打包zip文件
-          zip_filename="history/${current_datetime}_archive_output.zip"
-          zip -j "${zip_filename}" merged_output.txt others_output.txt
-          git add "${zip_filename}"
-          git commit -m "Archive zipfile: ${current_datetime}"
+          # zip_filename="history/${current_datetime}_archive_output.zip"
+          # zip -j "${zip_filename}" merged_output.txt others_output.txt
+          # git add "${zip_filename}"
+          # git commit -m "Archive zipfile: ${current_datetime}"
           
     - name: Push changes
       uses: ad-m/github-push-action@master
