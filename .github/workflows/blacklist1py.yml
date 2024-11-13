@@ -29,7 +29,7 @@ jobs:
         pip install opencc-python-reimplemented
         
     - name: Run Python blacklist1.py
-      run: python blacklist1.py
+      run: python py/assets/blacklist1blacklist1.py
       
     - name: Upload generated files
       uses: actions/upload-artifact@v4
