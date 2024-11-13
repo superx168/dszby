@@ -433,8 +433,8 @@ if __name__ == "__main__":
 
     # 写入history
     timenow=datetime.now().strftime("%Y%m%d_%H_%M_%S")
-    history_success_file = f'py/history/blacklist/{timenow}_whitelist_auto.txt'
-    history_blacklist_file = f'py/history/blacklist/{timenow}_blacklist_auto.txt'
+    history_success_file = f'py/iptv源收集检测/history/blacklist/{timenow}_whitelist_auto.txt'
+    history_blacklist_file = f'py/iptv源收集检测/history/blacklist/{timenow}_blacklist_auto.txt'
     write_list(history_success_file, successlist)
     write_list(history_blacklist_file, blacklist)
     print(f"history成功清单文件已生成: {history_success_file}")
