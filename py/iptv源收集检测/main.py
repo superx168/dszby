@@ -588,8 +588,8 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ [
              ["💓优质个源,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪优质源.txt') + ['\n'] + \
              ["💓儿童专享,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪儿童专享.txt') + ['\n'] + \
              ["💓咪咕直播,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪咪咕直播.txt') + ['\n'] + \
-             ["🏀SPORTS⚽️,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪sports.txt') + ['\n'] + \
-             ["🍹定制台☕️,#genre#"] + read_txt_to_array('py/iptv源收集检测/专区/♪定制源.txt') + ['\n'] + \
+             #["🏀SPORTS⚽️,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪sports.txt') + ['\n'] + \
+             #["🍹定制台☕️,#genre#"] + read_txt_to_array('py/iptv源收集检测/专区/♪定制源.txt') + ['\n'] + \
              ["☘️湖南频道,#genre#"] + sort_data(hn_dictionary,set(correct_name_data(corrections_name,hn_lines))) + ['\n'] + \
              ["☘️湖北频道,#genre#"] + sort_data(hb_dictionary,set(correct_name_data(corrections_name,hb_lines))) + ['\n'] + \
              ["☘️广东频道,#genre#"] + sort_data(gd_dictionary,set(correct_name_data(corrections_name,gd_lines))) + ['\n'] + \
@@ -602,8 +602,8 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ [
 # ["奥运频道,#genre#"] + sort_data(Olympics_2024_Paris_dictionary,set(correct_name_data(corrections_name,Olympics_2024_Paris_lines))) + ['\n'] + \
 # 
 all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n'] +\
-             ["💓专享源🅰️,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪专享源①.txt') + ['\n'] + \
-             ["💓专享源🅱️,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪专享源②.txt') + ['\n'] + \
+             #["💓专享源🅰️,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪专享源①.txt') + ['\n'] + \
+             #["💓专享源🅱️,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪专享源②.txt') + ['\n'] + \
              ["💓专享央视,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪优质央视.txt') + ['\n'] + \
              ["💓专享卫视,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪优质卫视.txt') + ['\n'] + \
              ["💓港澳台📶,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪港澳台.txt') + ['\n'] + \
@@ -613,9 +613,9 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
              ["💓儿童专享,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪儿童专享.txt') + ['\n'] + \
              ["💓咪咕直播,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪咪咕直播.txt') + ['\n'] + \
              ["🏀SPORTS⚽️,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/♪sports.txt') + ['\n'] + \
-             ["🍹定制台☕️,#genre#"] + read_txt_to_array('py/iptv源收集检测/专区/♪定制源.txt') + ['\n'] + \
-             ["🌐央视频道,#genre#"] + sort_data(ys_dictionary,set(correct_name_data(py/iptv源收集检测/地方台/corrections_name,ys_lines))) + ['\n'] + \
-             ["📡卫视频道,#genre#"] + sort_data(ws_dictionary,set(correct_name_data(py/iptv源收集检测/地方台/corrections_name,ws_lines))) + ['\n'] + \
+             #["🍹定制台☕️,#genre#"] + read_txt_to_array('py/iptv源收集检测/专区/♪定制源.txt') + ['\n'] + \
+             ["🌐央视频道,#genre#"] + sort_data(ys_dictionary,set(correct_name_data(corrections_name,ys_lines))) + ['\n'] + \
+             ["📡卫视频道,#genre#"] + sort_data(ws_dictionary,set(correct_name_data(corrections_name,ws_lines))) + ['\n'] + \
              ["上海频道,#genre#"] + sort_data(sh_dictionary,set(correct_name_data(corrections_name,sh_lines))) + ['\n'] + \
              ["体育频道,#genre#"] + sort_data(ty_dictionary,set(correct_name_data(corrections_name,ty_lines))) + ['\n'] + \
              ["电影频道,#genre#"] + sort_data(dy_dictionary,set(correct_name_data(corrections_name,dy_lines))) + ['\n'] + \
@@ -663,9 +663,9 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
              ["春晚,#genre#"] + sort_data(cw_dictionary,set(cw_lines))  + ['\n'] + \
              ["直播中国,#genre#"] + sorted(set(correct_name_data(corrections_name,zb_lines))) + ['\n'] + \
              ["MTV,#genre#"] + sorted(set(correct_name_data(corrections_name,mtv_lines))) + ['\n'] + \
-             ["收音机频道,#genre#"] + sort_data(radio_dictionary,set(radio_lines))  + ['\n'] + \
-             ["❤️与凤行,#genre#"] + read_txt_to_array('主频道/特供频道/♪与凤行.txt')  + ['\n'] + \
-             ["❤️以家人之名,#genre#"] + read_txt_to_array('主频道/特供频道/♪以家人之名.txt')
+             #["收音机频道,#genre#"] + sort_data(radio_dictionary,set(radio_lines))  + ['\n'] + \
+             ["❤️与凤行,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/特供频道/♪与凤行.txt')  + ['\n'] + \
+             ["❤️以家人之名,#genre#"] + read_txt_to_array('py/iptv源收集检测/主频道/特供频道/♪以家人之名.txt')
 
 # # custom定制
 # custom_lines_zhang =  ["更新时间,#genre#"] +[version] + ['\n'] +\
@@ -674,9 +674,9 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
 
 
 # 将合并后的文本写入文件
-output_file = "merged_output.txt"
-output_file_simple = "merged_output_simple.txt"
-others_file = "others_output.txt"
+output_file = "py/iptv源收集检测/merged_output.txt"
+output_file_simple = "py/iptv源收集检测/merged_output_simple.txt"
+others_file = "py/iptv源收集检测/others_output.txt"
 
 # # custom定制
 # output_file_custom_zhang = "custom/zhang.txt"
@@ -795,8 +795,8 @@ def make_m3u(txt_file, m3u_file):
     except Exception as e:
         print(f"发生错误: {e}")
 
-make_m3u(output_file, "merged_output.m3u")
-make_m3u(output_file_simple, "merged_output_simple.m3u")
+make_m3u(output_file, "py/iptv源收集检测/merged_output.m3u")
+make_m3u(output_file_simple, "py/iptv源收集检测/merged_output_simple.m3u")
 
 
 # 执行结束时间
