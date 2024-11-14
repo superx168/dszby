@@ -45,10 +45,11 @@ jobs:
       run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add blacklist_auto.txt
-          git add blacklist_manual.txt
-          git add whitelist_auto.txt
-          git add whitelist_manual.txt
+          # git add blacklist_auto.txt
+          # git add blacklist_manual.txt
+          # git add whitelist_auto.txt
+          # git add whitelist_manual.txt
+          git add .
           
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
 
