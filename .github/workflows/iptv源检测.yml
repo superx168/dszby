@@ -7,8 +7,8 @@ on:
     inputs:
       environment:
         description: 'Environment to deploy to'
-        required: true
-        default: 'production'
+        # required: true
+        # default: 'production'
 
 jobs:
   run_job:
@@ -49,8 +49,8 @@ jobs:
           git add merged_output_simple.m3u
           git add others_output.txt
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
-          git push -f
-          #current_datetime=$(date +"%Y%m%d_%H%M%S")
+         
+          current_datetime=$(date +"%Y%m%d_%H%M%S")
           # cp merged_output.txt history/"${current_datetime}_merged_output.txt"
           # cp others_output.txt history/"${current_datetime}_others_output.txt"
           # git add history/"${current_datetime}_merged_output.txt"
