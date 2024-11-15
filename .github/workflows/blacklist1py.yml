@@ -54,8 +54,8 @@ jobs:
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
 
           current_datetime=$(date +"%Y%m%d_%H%M%S")
-          cp merged_output.txt history/"${current_datetime}_merged_output.txt"
-          cp others_output.txt history/"${current_datetime}_others_output.txt"
+          cp merged_output.txt history/tvlist/"${current_datetime}_merged_output.txt"
+          cp others_output.txt history/tvlist/"${current_datetime}_others_output.txt"
           git add history/"${current_datetime}_merged_output.txt"
           git add history/"${current_datetime}_others_output.txt"
           git commit -m "Archive file with timestamp"
