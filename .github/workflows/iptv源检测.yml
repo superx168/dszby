@@ -36,8 +36,8 @@ jobs:
       with:
         name: generated-files
         path: |
-          py/iptv源收集检测/merged_output.txt
-          py/iptv源收集检测/others_output.txt
+          merged_output.txt
+          others_output.txt
           
     - name: Commit changes
       run: |
@@ -50,7 +50,7 @@ jobs:
           git add others_output.txt
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
 
-          current_datetime=$(date +"%Y%m%d_%H%M%S")
+          #current_datetime=$(date +"%Y%m%d_%H%M%S")
           # cp merged_output.txt history/"${current_datetime}_merged_output.txt"
           # cp others_output.txt history/"${current_datetime}_others_output.txt"
           # git add history/"${current_datetime}_merged_output.txt"
