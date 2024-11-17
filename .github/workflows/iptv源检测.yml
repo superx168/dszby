@@ -36,8 +36,8 @@ jobs:
       with:
         name: generated-files
         path: |
-          yjc/merged_output.txt
-          ujc/others_output.txt
+          merged_output.txt
+          others_output.txt
           
     - name: Commit changes
       run: |
