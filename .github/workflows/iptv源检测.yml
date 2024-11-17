@@ -36,8 +36,8 @@ jobs:
       with:
         name: generated-files
         path: |
-          merged_output.txt
-          others_output.txt
+          py/iptv源收集检测/merged_output.txt
+          py/iptv源收集检测/others_output.txt
           
     - name: Commit changes
       run: |
