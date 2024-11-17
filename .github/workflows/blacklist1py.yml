@@ -36,12 +36,12 @@ jobs:
       with:
         name: generated-files
         path: |
-          py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
-          py/iptv源收集检测/assets/blacklist1/blacklist_manual.txt
-          py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt
-          py/iptv源收集检测/assets/blacklist1/whitelist_manual.txt
-          py/iptv源收集检测/history/tvlist/merged_output.txt
-          py/iptv源收集检测/history/tvlist/others_output.txt
+          assets/blacklist1/blacklist_auto.txt
+          assets/blacklist1/blacklist_manual.txt
+          assets/blacklist1/whitelist_auto.txt
+          assets/blacklist1/whitelist_manual.txt
+          history/tvlist/merged_output.txt
+          history/tvlist/others_output.txt
           
     - name: Commit changes
       run: |
