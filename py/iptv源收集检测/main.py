@@ -676,13 +676,13 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
 
 
 # 将合并后的文本写入文件
-output_file = "merged_output.txt"
-output_file_simple = "merged_output_simple.txt"
-others_file = "others_output.txt"
+output_file = "/home/runner/work/dszby/dszby/py/iptv源收集检测/merged_output.txt"
+output_file_simple = "/home/runner/work/dszby/dszby/py/iptv源收集检测/merged_output_simple.txt"
+others_file = "/home/runner/work/dszby/dszby/py/iptv源收集检测/others_output.txt"
 
 # NEW将合并后的文本写入文件
-new_output_file = "live.txt"
-new_output_file_simple = "live_lite.txt"
+new_output_file = "/home/runner/work/dszby/dszby/py/iptv源收集检测/live.txt"
+new_output_file_simple = "/home/runner/work/dszby/dszby/py/iptv源收集检测/live_lite.txt"
 
 # # custom定制
 # output_file_custom_zhang = "custom/zhang.txt"
@@ -761,7 +761,7 @@ def get_logo_by_channel_name(channel_name):
 #             output_text += f"#EXTINF:-1  tvg-name=\"{channel_name}\" tvg-logo=\"{logo_url}\"  group-title=\"{group_name}\",{channel_name}\n"
 #             output_text += f"{channel_url}\n"
 
-# with open("merged_output.m3u", "w", encoding='utf-8') as file:
+# with open("/home/runner/work/dszby/dszby/py/iptv源收集检测/merged_output.m3u", "w", encoding='utf-8') as file:
 #     file.write(output_text)
 
 # print("merged_output.m3u文件已生成。")
@@ -816,8 +816,8 @@ def make_m3u(txt_file, m3u_file, m3u_file_copy):
     except Exception as e:
         print(f"发生错误: {e}")
 
-make_m3u(output_file, "merged_output.m3u", "live.m3u")
-make_m3u(output_file_simple, "merged_output_simple.m3u", "live_lite.m3u")
+make_m3u(output_file, "/home/runner/work/dszby/dszby/py/iptv源收集检测/merged_output.m3u", "/home/runner/work/dszby/dszby/py/iptv源收集检测/live.m3u")
+make_m3u(output_file_simple, "/home/runner/work/dszby/dszby/py/iptv源收集检测/merged_output_simple.m3u", "/home/runner/work/dszby/dszby/py/iptv源收集检测/live_lite.m3u")
 
 
 # 执行结束时间
