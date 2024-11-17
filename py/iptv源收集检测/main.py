@@ -539,7 +539,7 @@ def custom_sort(s):
 
 #读取whitelist,把高响应源从白名单中抽出加入merged_output。
 print(f"ADD whitelist_auto.txt")
-whitelist_auto_lines=read_txt_to_array('assets/blacklist1/whitelist_auto.txt') #
+whitelist_auto_lines=read_txt_to_array('py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt') #
 for whitelist_line in whitelist_auto_lines:
     if  "#genre#" not in whitelist_line and "," in whitelist_line and "://" in whitelist_line:
         whitelist_parts = whitelist_line.split(",")
@@ -562,7 +562,7 @@ def get_random_url(file_path):
     # 随机返回一个URL
     return random.choice(urls) if urls else None
 
-daily_mtv="每日一首,"+get_random_url('assets/今日推荐.txt')
+daily_mtv="每日一首,"+get_random_url('py/iptv源收集检测/assets/今日推荐.txt')
 
 # 获取当前的 UTC 时间
 utc_time = datetime.now(timezone.utc)
@@ -676,13 +676,13 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
 
 
 # 将合并后的文本写入文件
-output_file = "merged_output.txt"
-output_file_simple = "merged_output_simple.txt"
-others_file = "others_output.txt"
+output_file = "py/iptv源收集检测/merged_output.txt"
+output_file_simple = "py/iptv源收集检测/merged_output_simple.txt"
+others_file = "py/iptv源收集检测/others_output.txt"
 
 # NEW将合并后的文本写入文件
-new_output_file = "live.txt"
-new_output_file_simple = "live_lite.txt"
+new_output_file = "py/iptv源收集检测/live.txt"
+new_output_file_simple = "py/iptv源收集检测/live_lite.txt"
 
 # # custom定制
 # output_file_custom_zhang = "custom/zhang.txt"
