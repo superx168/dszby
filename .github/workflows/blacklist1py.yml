@@ -38,7 +38,7 @@ jobs:
         path: |
           assets/blacklist1/blacklist_auto.txt
           assets/blacklist1/whitelist_auto.txt
-          assets/blacklist1/whitelist_manual.txt
+          #assets/blacklist1/whitelist_manual.txt
           history/tvlist/merged_output.txt
           history/tvlist/others_output.txt
           
@@ -47,11 +47,11 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
         
-          git add blacklist_manual.txt
+          #git add blacklist_manual.txt
           git add blacklist_auto.txt
+          
           git add whitelist_auto.txt
-          git add whitelist_manual.txt
-          #git add .
+          git add whitelist_auto_tv.txt
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
 
            current_datetime=$(date +"%Y%m%d_%H%M%S")
