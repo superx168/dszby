@@ -312,7 +312,7 @@ def record_host(host):
     else:
         blacklist_dict[host] = 1
 # 将结果保存为 txt 文件
-def save_blackhost_to_txt(filename=f"{datetime.now().strftime('%Y%m%d_%H_%M_%S')}_/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blackhost_count.txt"):
+def save_blackhost_to_txt(filename=f"{datetime.now().strftime('%Y%m%d_%H_%M_%S')}_blackhost_count.txt"):
     with open(filename, "w") as file:
         for host, count in blacklist_dict.items():
             file.write(f"{host}: {count}\n")
@@ -358,7 +358,7 @@ if __name__ == "__main__":
     # 获取上一层目录
     parent_dir = os.path.dirname(current_dir)
 
-    input_file1 = os.path.join(parent_dir, 'merged_output.txt')  # 输入文件路径1
+    input_file1 = os.path.join(parent_dir, '/home/runner/work/dszby/dszby/merged_output.txt')  # 输入文件路径1
     input_file2 = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt')  # 输入文件路径2 
     success_file = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt')  # 成功清单文件路径
     success_file_tv = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto_tv.txt')  # 成功清单文件路径（另存一份直接引用源）
