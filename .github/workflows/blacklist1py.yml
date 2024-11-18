@@ -36,11 +36,11 @@ jobs:
       with:
         name: generated-files
         path: |
-          /home/runner/work/dszby/dszby/assets/blacklist1/blacklist_auto.txt
-          /home/runner/work/dszby/dszby/assets/blacklist1/whitelist_auto.txt
-          #/home/runner/work/dszby/dszby/assets/blacklist1/whitelist_manual.txt
-          /home/runner/work/dszby/dszby/history/tvlist/merged_output.txt
-          /home/runner/work/dszby/dszby/history/tvlist/others_output.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt
+          #/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_manual.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/merged_output.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/others_output.txt
           
     - name: Commit changes
       run: |
@@ -55,10 +55,10 @@ jobs:
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
 
            current_datetime=$(date +"%Y%m%d_%H%M%S")
-          # cp merged_output.txt py/iptv源收集检测/history/tvlist/"${current_datetime}_merged_output.txt"
-          # cp others_output.txt py/iptv源收集检测/history/tvlist/"${current_datetime}_others_output.txt"
-          # git add py/iptv源收集检测/history/tvlist/"${current_datetime}_merged_output.txt"
-          # git add py/iptv源收集检测/history/tvlist/"${current_datetime}_others_output.txt"
+          # cp merged_output.txt /home/runner/work/dszby/dszby/py/iptv源收集检测//history/tvlist/"${current_datetime}_merged_output.txt"
+          # cp /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/"${current_datetime}_others_output.txt"
+          # git add /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/"${current_datetime}_merged_output.txt"
+          # git add /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/"${current_datetime}_others_output.txt"
           # git commit -m "Archive file with timestamp"
 
           # 将归档文件打包zip文件
