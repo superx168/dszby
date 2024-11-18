@@ -39,7 +39,7 @@ jobs:
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt
           #/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_manual.txt
-          /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/merged_output.txt
+          #/home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/merged_output.txt
           /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/others_output.txt
           
     - name: Commit changes
