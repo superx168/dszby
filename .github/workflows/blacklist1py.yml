@@ -37,7 +37,6 @@ jobs:
         name: generated-files
         path: |
           assets/blacklist1/blacklist_auto.txt
-          assets/blacklist1/blacklist_manual.txt
           assets/blacklist1/whitelist_auto.txt
           assets/blacklist1/whitelist_manual.txt
           history/tvlist/merged_output.txt
