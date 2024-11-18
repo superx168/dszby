@@ -36,11 +36,11 @@ jobs:
       with:
         name: generated-files
         path: |
-          assets/blacklist1/blacklist_auto.txt
-          assets/blacklist1/whitelist_auto.txt
-          #assets/blacklist1/whitelist_manual.txt
-          history/tvlist/merged_output.txt
-          history/tvlist/others_output.txt
+          /home/runner/work/dszby/dszbyassets/blacklist1/blacklist_auto.txt
+          /home/runner/work/dszby/dszbyassets/blacklist1/whitelist_auto.txt
+          #/home/runner/work/dszby/dszbyassets/blacklist1/whitelist_manual.txt
+          /home/runner/work/dszby/dszbyhistory/tvlist/merged_output.txt
+          /home/runner/work/dszby/dszbyhistory/tvlist/others_output.txt
           
     - name: Commit changes
       run: |
