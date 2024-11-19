@@ -48,6 +48,7 @@ jobs:
           git config --local user.name "GitHub Actions"
         
           #git add blacklist_manual.txt
+          git add blackhost_count.txt
           git add blacklist_auto.txt
           
           git add whitelist_auto.txt
