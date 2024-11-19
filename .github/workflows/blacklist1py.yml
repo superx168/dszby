@@ -46,7 +46,7 @@ jobs:
       run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-        
+          git restore blackhost_count.txt
           #git add blacklist_manual.txt
           git add blackhost_count.txt
           git add blacklist_auto.txt
