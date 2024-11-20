@@ -254,8 +254,6 @@ def process_channel_line(line):
                 sh_lines.append(process_name_string(line.strip()))
             elif channel_name in gat_dictionary and check_url_existence(gat_lines, channel_address):  #港澳台
                 gat_lines.append(process_name_string(line.strip()))
-            elif channel_name in GAT_dictionary and check_url_existence(GAT_lines, channel_address):  #国际台
-                GAT_lines.append(process_name_string(line.strip()))
             elif channel_name in gj_dictionary and check_url_existence(gj_lines, channel_address):  #国际台
                 gj_lines.append(process_name_string(line.strip()))
             elif channel_name in jlp_dictionary and check_url_existence(jlp_lines, channel_address):  #纪录片
@@ -412,7 +410,6 @@ ty_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集�
 dy_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/电影.txt') #过滤
 dsj_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/电视剧.txt') #过滤
 gat_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/港澳台.txt') #过滤
-GAT_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/港澳台.txt') #过滤
 gj_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/国际台.txt') #过滤
 jlp_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/纪录片.txt') #过滤
 dhp_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/动画片.txt') #过滤
