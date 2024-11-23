@@ -35,6 +35,14 @@ source_urls = [
 url_blacklist = [
     "epg.pw/stream/",
     "103.40.13.71:12390",
+    "gslbservzqhsw.itv.cmvideo.cn",
+    "livednow.com",
+    "kxrj.site:8081",
+"cqcbn1.live.cbncdn.cn:8090",
+"211.101.247.19:6699",
+"111.31.22.5",
+"36.156.94.111",
+"39.134.24.162",
     "[2409:8087",
     "8.210.140.75:68",
     "154.12.50.54",
@@ -51,6 +59,7 @@ url_blacklist = [
     "p3p://",
     "p2p://",
     "P2p://",
+    "rtp",
     "udp://"
 ]
 
