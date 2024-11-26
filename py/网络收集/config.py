@@ -64,7 +64,7 @@ url_blacklist = [
 "maomao.kandiantv.cn",
 "111.20.40.171",
 "182.92.109.190:1668",
-kxrj.site:64325,
+"kxrj.site:64325",
 "4eae7f.tv.netsite.cc",
 "live.goodiptv.club",
     "[2409:8087",
