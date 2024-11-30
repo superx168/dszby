@@ -344,7 +344,7 @@ files = filter_files('py/测绘站采集/playlist', '.txt')
 # 打开输出文件
 with open("4.txt", "w", encoding="utf-8") as output:
     for file_path in files:
-        with open(os.path.join('playlist', file_path), 'r', encoding="utf-8") as file:
+        with open(os.path.join('py/测绘站采集/playlist', file_path), 'r', encoding="utf-8") as file:
             content = file.read()
             output.write(content + '\n\n')
 print("电视频道成功写入")
