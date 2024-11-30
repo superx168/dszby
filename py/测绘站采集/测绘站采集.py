@@ -33,7 +33,7 @@ from translate import Translator  # 导入Translator类,用于文本翻译
 
 ######################################################################################################################
 # 获取rtp目录下的文件名,组播IP采集
-files = os.listdir('rtp')
+files = os.listdir('py/测绘站采集/rtp')
 files_name = []
 # 去除后缀名并保存至provinces_isps
 for file in files:
@@ -62,7 +62,7 @@ requested_urls = set()  # 用于记录已经请求过的地址
 parse_count = {}  # 用于记录每个 URL 的解析次数
 ######################################################################################################################
 # 获取rtp目录下的文件名,组播IP采集
-files = os.listdir('rtp')
+files = os.listdir('py/测绘站采集/rtp')
 files_name = []
 # 去除后缀名并保存至provinces_isps
 for file in files:
@@ -174,8 +174,8 @@ for keyword in keywords:
 
     if valid_ips:
         # 生成节目列表 省份运营商.txt
-        rtp_filename = f'rtp/{province}_{isp}.txt'
-        txt_filename = f'playlist/{province}{isp}.txt'
+        rtp_filename = f'py/测绘站采集/rtp/{province}_{isp}.txt'
+        txt_filename = f'py/测绘站采集/playlist/{province}{isp}.txt'
         with open(rtp_filename, 'r', encoding='utf-8') as file:
             data = file.read()
         with open(txt_filename, 'a') as new_file:  # 以追加形式写入
@@ -200,7 +200,7 @@ def remove_duplicates_keep_order(folder_path):
             with open(file_path, 'w', encoding='utf-8') as file:
                 file.writelines(unique_lines)
 # 使用示例
-folder_path = 'playlist'  # 替换为你的文件夹路径
+folder_path = 'py/测绘站采集/playlist'  # 替换为你的文件夹路径
 remove_duplicates_keep_order(folder_path)
 print('文件去重完成！移除存储的旧文件！')
 
@@ -231,7 +231,7 @@ def get_ip_key(url):
     return url[start:end].strip()
 
 # 设置固定的文件夹路径
-folder_path = 'playlist'
+folder_path = 'py/测绘站采集/playlist'
 
 # 确保文件夹路径存在
 if not os.path.isdir(folder_path):
@@ -299,7 +299,7 @@ for ip_key, result in detected_ips.items():
 #  获取远程直播源文件,打开文件并输出临时文件
 url = "https://raw.bgithub.xyz/frxz751113/AAAAA/main/IPTV/汇汇.txt"          #源采集地址
 r = requests.get(url)
-open('综合源.txt','wb').write(r.content)         #打开源文件并临时写入
+open('py/测绘站采集/综合源.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
 #简体转繁体#
@@ -308,12 +308,12 @@ open('综合源.txt','wb').write(r.content)         #打开源文件并临时写
 converter = OpenCC('t2s.json')#繁转简
 #converter = OpenCC('s2t.json')#简转繁
 # 打开txt文件
-with open('综合源.txt', 'r', encoding='utf-8') as file:
+with open('py/测绘站采集/综合源.txt', 'r', encoding='utf-8') as file:
     traditional_text = file.read()
 # 进行繁体字转简体字的转换
 simplified_text = converter.convert(traditional_text)
 # 将转换后的简体字写入txt文件
-with open('综合源.txt', 'w', encoding='utf-8') as file:
+with open('py/测绘站采集/综合源.txt', 'w', encoding='utf-8') as file:
     file.write(simplified_text)
 
 
@@ -556,7 +556,7 @@ for line in lines:
         seen_lines.add(line)
 
 # 将唯一的行写入第一个文件
-with open('组播优选.txt', 'w', encoding="utf-8") as file:
+with open('py/测绘站采集/组播优选.txt', 'w', encoding="utf-8") as file:
     for line in unique_lines:
         file.write(line)  # 确保每行后面有换行符 + '\n'
 # 将唯一的行追加到第二个文件
@@ -569,7 +569,7 @@ excluded_keywords = ['CCTV', '卫视', '关键词3']
 # 定义例外关键词列表，即使它们在排除列表中，也应该被保留
 exception_keywords = ['4K', '8K', '例外关键词']
 # 打开原始文本文件并读取内容
-with open('组播优选.txt', 'r', encoding='utf-8') as file:
+with open('py/测绘站采集/组播优选.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 # 过滤掉包含关键词的行，但是允许含有例外关键词的行
 filtered_lines = []
@@ -585,11 +585,11 @@ for line in lines:
         # 如果行不包含排除关键词，或者同时包含排除关键词和例外关键词，则保留该行
         filtered_lines.append(line)
 # 将过滤后的内容追加写入新的文本文件
-with open('综合源.txt', 'a', encoding='utf-8') as file:
+with open('py/测绘站采集/综合源.txt', 'a', encoding='utf-8') as file:
     file.writelines(filtered_lines)
 
 #从整理好的文本中进行特定关键词替换以规范频道名#
-for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文件原地替换关键字
+for line in fileinput.input("py/测绘站采集/综合源.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("CCTV164K", "CCTV16-4K")  
     line = line.replace("CCTV4K", "CCTV-4K")  
     print(line, end="")   
