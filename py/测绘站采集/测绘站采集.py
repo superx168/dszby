@@ -340,7 +340,7 @@ print("任务运行完毕,分类频道列表可查看文件夹内综合源.txt�
 def filter_files(directory, extension):
     return [f for f in os.listdir(directory) if f.endswith(extension)]
 # 获取playlist目录下的所有.txt文件
-files = filter_files('playlist', '.txt')
+files = filter_files('py/测绘站采集/playlist', '.txt')
 # 打开输出文件
 with open("4.txt", "w", encoding="utf-8") as output:
     for file_path in files:
