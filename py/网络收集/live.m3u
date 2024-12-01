@@ -6110,9 +6110,9 @@ https://stream1.freetv.fun/zhe-jiang-xin-wen-2.m3u8$V4『线路12』
 #EXTINF:-1 tvg-id="13" tvg-name="浙江新闻" tvg-logo="https://live.fanmingming.com/tv/浙江新闻.png" group-title="浙江频道",浙江新闻
 https://stream1.freetv.fun/zhe-jiang-xin-wen-7.m3u8$V4『线路13』
 #EXTINF:-1 tvg-id="1" tvg-name="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png" group-title="浙江频道",浙江国际
-http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8$V4『线路1』
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png" group-title="浙江频道",浙江国际
-https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8$V4『线路2』
+http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8$V4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png" group-title="浙江频道",浙江国际
 https://stream1.freetv.fun/8edc171ba7945fd93cc0f2c9e39b48ba0a94500d0029db9456dfdc2d75f9ea9d.m3u8$V4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png" group-title="浙江频道",浙江国际
@@ -6128,9 +6128,9 @@ https://stream1.freetv.fun/zhe-jiang-guo-ji-4.m3u8$V4『线路8』
 #EXTINF:-1 tvg-id="9" tvg-name="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png" group-title="浙江频道",浙江国际
 https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8?$V4『线路9』
 #EXTINF:-1 tvg-id="1" tvg-name="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="浙江频道",浙江少儿
-http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8$V4『线路1』
+https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="浙江频道",浙江少儿
-https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8$V4『线路2』
+http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8$V4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="浙江频道",浙江少儿
 https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8$V4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png" group-title="浙江频道",浙江少儿
@@ -6218,11 +6218,13 @@ https://stream1.freetv.fun/feng-huang-zhong-wen-7.ctv$V4『线路30』
 #EXTINF:-1 tvg-id="31" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港·澳·台",凤凰中文
 https://stream1.freetv.fun/feng-huang-zhong-wen-8.ctv$V4『线路31』
 #EXTINF:-1 tvg-id="32" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港·澳·台",凤凰中文
-https://k44991.kylintv.tv/live/pxna_iphone.m3u8$V4『线路32』
+http://pi.0472.org/tv/cbn.php?id=xfjcHD$V4『线路32』
 #EXTINF:-1 tvg-id="33" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港·澳·台",凤凰中文
-http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8577/.m3u8$V4『线路33』
+https://k44991.kylintv.tv/live/pxna_iphone.m3u8$V4『线路33』
 #EXTINF:-1 tvg-id="34" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港·澳·台",凤凰中文
-http://146.56.153.245:20121/bysid/258$V4『线路34』
+http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8577/.m3u8$V4『线路34』
+#EXTINF:-1 tvg-id="35" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港·澳·台",凤凰中文
+http://146.56.153.245:20121/bysid/258$V4『线路35』
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
 http://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港·澳·台",凤凰资讯
