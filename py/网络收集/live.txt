@@ -503,10 +503,10 @@ CCTV9-纪录,http://cqshushu.us.kg:2086/gitv.php?id=G_CCTV-9-CQ$V4『线路45』
 CCTV9-纪录,http://8.138.90.107/公众号【睡眼迷离的猫】/migu.php?id=cctv9$V4『线路46』
 CCTV9-纪录,http://1.203.184.45:4000/udp/225.1.8.9:8112$V4『线路47』
 CCTV10-科教,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8$V4『线路1』
-CCTV10-科教,http://60.255.240.247:8090/live/CCTV-10H265.m3u8$V4『线路2』
-CCTV10-科教,http://60.255.240.247:8090/live/CCTV-10H265_4000.m3u8$V4『线路3』
-CCTV10-科教,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225730/index.m3u8$V4『线路4』
-CCTV10-科教,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226473/index.m3u8$V4『线路5』
+CCTV10-科教,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225730/index.m3u8$V4『线路2』
+CCTV10-科教,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226473/index.m3u8$V4『线路3』
+CCTV10-科教,http://60.255.240.247:8090/live/CCTV-10H265.m3u8$V4『线路4』
+CCTV10-科教,http://60.255.240.247:8090/live/CCTV-10H265_4000.m3u8$V4『线路5』
 CCTV10-科教,http://8.138.7.223/tv/mgitv.php?id=51$V4『线路6』
 CCTV10-科教,http://8.138.7.223/tv/mgitv.php?id=52$V4『线路7』
 CCTV10-科教,http://8.138.7.223/tv/mgitv.php?id=53$V4『线路8』
@@ -586,10 +586,10 @@ CCTV11-戏曲,https://api.livednow.org/migu/667987558?sign=gAAAAABnJcJq0uxG3wXdt
 CCTV11-戏曲,http://cqshushu.us.kg:2086/gitv.php?id=G_CCTV-11-CQ$V4『线路39』
 CCTV11-戏曲,http://8.138.90.107/公众号【睡眼迷离的猫】/migu.php?id=cctv11$V4『线路40』
 CCTV12-社会与法,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8$V4『线路1』
-CCTV12-社会与法,http://60.255.240.247:8090/live/CCTV-12H265.m3u8$V4『线路2』
-CCTV12-社会与法,http://60.255.240.247:8090/live/CCTV-12H265_4000.m3u8$V4『线路3』
-CCTV12-社会与法,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225731/index.m3u8$V4『线路4』
-CCTV12-社会与法,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226568/index.m3u8$V4『线路5』
+CCTV12-社会与法,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225731/index.m3u8$V4『线路2』
+CCTV12-社会与法,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226568/index.m3u8$V4『线路3』
+CCTV12-社会与法,http://60.255.240.247:8090/live/CCTV-12H265.m3u8$V4『线路4』
+CCTV12-社会与法,http://60.255.240.247:8090/live/CCTV-12H265_4000.m3u8$V4『线路5』
 CCTV12-社会与法,http://111.196.129.152:20000/udp/239.3.1.64:8124$V4『线路6』
 CCTV12-社会与法,http://wouu.net:9977/udp/239.93.1.30:8124$V4『线路7』
 CCTV12-社会与法,http://8.138.7.223/tv/mgitv.php?id=61$V4『线路8』
@@ -892,8 +892,8 @@ CHC影迷电影,https://stream1.freetv.fun/chcying-mi-dian-ying-9.m3u8$V4『线�
 CHC动作电影,http://[2001:250:5800:1005::155]:80/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/index.m3u8$LR•32•IPV6『线路1』
 CHC动作电影,http://106.59.3.147:55555/udp/239.200.201.31:8144$V4『线路2』
 CHC动作电影,http://60.255.240.247:8090/live/wqCHCdzdyH265_4000.m3u8$V4『线路3』
-CHC动作电影,http://eastscreen.tv/ooooo.php?id=chcdz$V4『线路4』
-CHC动作电影,https://pi.0472.org/chc/dz.m3u8$V4『线路5』
+CHC动作电影,https://pi.0472.org/chc/dz.m3u8$V4『线路4』
+CHC动作电影,http://eastscreen.tv/ooooo.php?id=chcdz$V4『线路5』
 CHC动作电影,http://11.xmyxc.cn/api/php/yy.php?id=1382745096$V4『线路6』
 CHC动作电影,https://stream1.freetv.fun/chcdong-zuo-dian-ying-9.m3u8$V4『线路7』
 CHC动作电影,https://stream1.freetv.fun/chcdong-zuo-dian-ying-15.m3u8$V4『线路8』
@@ -923,10 +923,10 @@ CHC动作电影,https://stream1.freetv.fun/chcdong-zuo-dian-ying-8.m3u8$V4『线
 CHC动作电影,https://stream1.freetv.fun/chcdong-zuo-dian-ying-27.m3u8$V4『线路32』
 CHC家庭影院,http://[2001:250:5800:1005::155]:80/liverespath/449d51febadb152094085d373b9af94a6ac5f1dd/index.m3u8$LR•22•IPV6『线路1』
 CHC家庭影院,http://106.59.3.147:55555/udp/239.200.201.30:8140$V4『线路2』
-CHC家庭影院,http://60.255.240.247:8090/live/jbtygqCHCjtyyH265_4000.m3u8$V4『线路3』
-CHC家庭影院,http://nas.hssvm.com:8888/udp/225.1.1.213:5002$V4『线路4』
+CHC家庭影院,https://pi.0472.org/chc/jt.m3u8$V4『线路3』
+CHC家庭影院,http://60.255.240.247:8090/live/jbtygqCHCjtyyH265_4000.m3u8$V4『线路4』
 CHC家庭影院,http://eastscreen.tv/ooooo.php?id=chcjt$V4『线路5』
-CHC家庭影院,https://pi.0472.org/chc/jt.m3u8$V4『线路6』
+CHC家庭影院,http://nas.hssvm.com:8888/udp/225.1.1.213:5002$V4『线路6』
 CHC家庭影院,https://stream1.freetv.fun/chcjia-ting-ying-yuan-5.m3u8$V4『线路7』
 CHC家庭影院,https://stream1.freetv.fun/chcjia-ting-ying-yuan-21.ctv$V4『线路8』
 CHC家庭影院,https://stream1.freetv.fun/ipv6-chcjia-ting-ying-yuan-2.m3u8$V4『线路9』
@@ -952,8 +952,8 @@ CHC家庭影院,http://122.189.103.194:8010/udp/228.0.0.211:6108$V4『线路22�
 CCTV第一剧场,http://nas.hssvm.com:8888/udp/225.1.1.183:5002$V4『线路1』
 CCTV第一剧场,http://59.51.113.18:18888/udp/239.76.254.49:9000$V4『线路2』
 CCTV怀旧剧场,http://nas.hssvm.com:8888/udp/225.1.1.184:5002$V4『线路1』
-CCTV怀旧剧场,http://122.189.103.194:8010/udp/228.0.0.237:6108$V4『线路2』
-CCTV怀旧剧场,http://59.51.113.18:18888/udp/239.76.254.53:9000$V4『线路3』
+CCTV怀旧剧场,http://59.51.113.18:18888/udp/239.76.254.53:9000$V4『线路2』
+CCTV怀旧剧场,http://122.189.103.194:8010/udp/228.0.0.237:6108$V4『线路3』
 CCTV风云剧场,http://nas.hssvm.com:8888/udp/225.1.1.185:5002$V4『线路1』
 CCTV风云剧场,http://59.51.113.18:18888/udp/239.76.254.50:9000$V4『线路2』
 CCTV风云音乐,http://nas.hssvm.com:8888/udp/225.1.1.192:5002$V4『线路1』
@@ -961,8 +961,8 @@ CCTV风云音乐,http://59.51.113.18:18888/udp/239.76.254.51:9000$V4『线路2�
 CCTV兵器科技,http://59.51.113.18:18888/udp/239.76.254.59:9000$v4
 CCTV老故事,http://nas.hssvm.com:8888/udp/225.1.1.188:5002$V4『线路1』
 CCTV老故事,http://kxrj.site:1333/86/mg.php?id=lgs$V4『线路2』
-CCTV风云足球,http://122.189.103.194:8010/udp/228.0.0.236:6108$V4『线路1』
-CCTV风云足球,http://nas.hssvm.com:8888/udp/225.1.1.181:5002$V4『线路2』
+CCTV风云足球,http://nas.hssvm.com:8888/udp/225.1.1.181:5002$V4『线路1』
+CCTV风云足球,http://122.189.103.194:8010/udp/228.0.0.236:6108$V4『线路2』
 CCTV风云足球,http://124.230.56.27:55555/udp/239.76.254.52:9000$V4『线路3』
 CCTV风云足球,http://124.230.56.119:55555/udp/239.76.254.52:9000$V4『线路4』
 CCTV央视台球,http://nas.hssvm.com:8888/udp/225.1.1.198:5002$V4『线路1』
@@ -974,11 +974,11 @@ CCTV电视指南,http://nas.hssvm.com:8888/udp/225.1.1.194:5002$V4『线路1』
 CCTV电视指南,http://59.51.113.18:18888/udp/239.76.254.61:9000$V4『线路2』
 CCTV世界地理,http://60.2.190.206:4000/udp/239.253.92.113:8066$V4『线路1』
 CCTV世界地理,http://60.7.56.33:4000/udp/239.253.92.131:6113$V4『线路2』
-CCTV世界地理,http://60.2.190.206:4000/udp/239.253.92.131:6113$V4『线路3』
-CCTV世界地理,http://60.7.56.33:4000/udp/239.253.92.113:8066$V4『线路4』
-CCTV世界地理,http://124.230.56.27:55555/udp/239.76.254.57:9000$V4『线路5』
-CCTV世界地理,http://nas.hssvm.com:8888/udp/225.1.1.186:5002$V4『线路6』
-CCTV世界地理,http://124.230.56.119:55555/udp/239.76.254.57:9000$V4『线路7』
+CCTV世界地理,http://60.7.56.33:4000/udp/239.253.92.113:8066$V4『线路3』
+CCTV世界地理,http://124.230.56.27:55555/udp/239.76.254.57:9000$V4『线路4』
+CCTV世界地理,http://nas.hssvm.com:8888/udp/225.1.1.186:5002$V4『线路5』
+CCTV世界地理,http://124.230.56.119:55555/udp/239.76.254.57:9000$V4『线路6』
+CCTV世界地理,http://60.2.190.206:4000/udp/239.253.92.131:6113$V4『线路7』
 CCTV发现之旅,http://kxrj.site:1333/86/mg.php?id=fxzl$v4
 CCTV中学生,http://kxrj.site:1333/86/mg.php?id=zxs$v4
 CETV4,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001$v4
@@ -2253,18 +2253,18 @@ CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8$V4『线路2』
 嘉佳卡通,http://wouu.net:9977/udp/239.93.0.246:5140$V4『线路11』
 嘉佳卡通,http://43.138.11.122/cq/yh.php?id=G_JIAJIA$V4『线路12』
 嘉佳卡通,https://stream1.freetv.fun/jia-jia-qia-tong-23.ctv$V4『线路13』
-动漫秀场,http://ha.xushining.com:50000/udp/225.1.1.134:5002$V4『线路1』
-动漫秀场,http://nas.hssvm.com:8888/udp/225.1.1.134:5002$V4『线路2』
+动漫秀场,http://nas.hssvm.com:8888/udp/225.1.1.134:5002$V4『线路1』
+动漫秀场,http://221.196.136.66:1/udp/225.1.1.134:5002$V4『线路2』
 动漫秀场,http://60.255.240.247:8090/live/yybb-dmxc-H265_4000.m3u8$V4『线路3』
 动漫秀场,http://60.2.190.206:4000/udp/239.253.93.225:6403$V4『线路4』
 动漫秀场,http://kxrj.site:35455/itv/5000000011000031113.m3u8?cdn=bestzb$V4『线路5』
 动漫秀场,https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-9.m3u8$V4『线路6』
 动漫秀场,https://stream1.freetv.fun/dong-man-xiu-chang-12.ctv$V4『线路7』
 动漫秀场,http://60.7.56.33:4000/udp/239.253.93.225:6403$V4『线路8』
-动漫秀场,https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-10.m3u8$V4『线路9』
-动漫秀场,https://stream1.freetv.fun/dong-man-xiu-chang-8.ctv$V4『线路10』
-动漫秀场,https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-7.m3u8$V4『线路11』
-动漫秀场,http://221.196.136.66:1/udp/225.1.1.134:5002$V4『线路12』
+动漫秀场,http://ha.xushining.com:50000/udp/225.1.1.134:5002$V4『线路9』
+动漫秀场,https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-10.m3u8$V4『线路10』
+动漫秀场,https://stream1.freetv.fun/dong-man-xiu-chang-8.ctv$V4『线路11』
+动漫秀场,https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-7.m3u8$V4『线路12』
 动漫秀场,https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-11.m3u8$V4『线路13』
 动漫秀场,https://stream1.freetv.fun/ipv6-dong-man-xiu-chang-3.m3u8$V4『线路14』
 动漫秀场,https://stream1.freetv.fun/dong-man-xiu-chang-5.m3u8$V4『线路15』
@@ -2348,9 +2348,9 @@ CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8$V4『线路2』
 金鹰纪实,https://stream1.freetv.fun/jin-ying-ji-shi-13.ctv$V4『线路29』
 金鹰纪实,https://stream1.freetv.fun/jin-ying-ji-shi-gao-qing-2.m3u8$V4『线路30』
 金鹰纪实,https://stream1.freetv.fun/jin-ying-ji-shi-14.ctv$V4『线路31』
-劲爆体育,https://api.livednow.org/migu/796071336?sign=gAAAAABnJcJqM_HTVabRYY0y1XrkVaxRyUQD0kZEz3VQ3y_m5G88-puxPaYTeeM95vvfLbpAONBNY5IydUY2MsWrBWs4jK885O8HDIs7shB502xQx6f0vQ8TuKxrMXORgONQBsb4X87_7NQJpQ3S8NHmEhlYT7rsDO3yy0U0DjGwpbMiH9AXzspYRIojn1sZlwKdzaQKzsQky9fj4FcWw0muMwKADmu-sQ%3D%3D$V4『线路1』
-劲爆体育,http://120.77.28.4:8648/mgu.php?id=jbty$V4『线路2』
-劲爆体育,http://kxrj.site:35455/itv/5000000002000029972.m3u8?cdn=bestzb$V4『线路3』
+劲爆体育,http://120.77.28.4:8648/mgu.php?id=jbty$V4『线路1』
+劲爆体育,http://kxrj.site:35455/itv/5000000002000029972.m3u8?cdn=bestzb$V4『线路2』
+劲爆体育,https://api.livednow.org/migu/796071336?sign=gAAAAABnJcJqM_HTVabRYY0y1XrkVaxRyUQD0kZEz3VQ3y_m5G88-puxPaYTeeM95vvfLbpAONBNY5IydUY2MsWrBWs4jK885O8HDIs7shB502xQx6f0vQ8TuKxrMXORgONQBsb4X87_7NQJpQ3S8NHmEhlYT7rsDO3yy0U0DjGwpbMiH9AXzspYRIojn1sZlwKdzaQKzsQky9fj4FcWw0muMwKADmu-sQ%3D%3D$V4『线路3』
 劲爆体育,http://kxrj.site:1333/86/mg.php?id=jbty$V4『线路4』
 乐游,http://kxrj.site:35455/itv/5000000011000031112.m3u8?cdn=bestzb$v4
 快乐垂钓,http://nas.hssvm.com:8888/udp/225.1.2.18:5002$V4『线路1』
@@ -2615,10 +2615,10 @@ CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8$V4『线路2』
 汕头新闻综合,https://stream1.freetv.fun/shan-tou-zong-he-6.ctv$V4『线路2』
 汕头新闻综合,https://stream1.freetv.fun/shan-tou-zong-he-5.ctv$V4『线路3』
 汕头新闻综合,https://stream1.freetv.fun/shan-tou-zong-he-3.ctv$V4『线路4』
-广东珠江,http://113.111.17.180:8888/udp/239.77.0.1:5146$V4『线路1』
-广东珠江,https://stream1.freetv.fun/ipv6-yan-dong-zhu-jiang-14.m3u8$V4『线路2』
-广东珠江,https://stream1.freetv.fun/5f12b986a77ebe5440c508c13895b3e7f8767b2a47c79f3f5fe948097e15337d.m3u8$V4『线路3』
-广东珠江,https://stream1.freetv.fun/468bff09871ed8a1eba7a539f461001a9683ac2cbb084ef2d52449c7f1a52478.m3u8$V4『线路4』
+广东珠江,https://stream1.freetv.fun/ipv6-yan-dong-zhu-jiang-14.m3u8$V4『线路1』
+广东珠江,https://stream1.freetv.fun/5f12b986a77ebe5440c508c13895b3e7f8767b2a47c79f3f5fe948097e15337d.m3u8$V4『线路2』
+广东珠江,https://stream1.freetv.fun/468bff09871ed8a1eba7a539f461001a9683ac2cbb084ef2d52449c7f1a52478.m3u8$V4『线路3』
+广东珠江,http://113.111.17.180:8888/udp/239.77.0.1:5146$V4『线路4』
 广东珠江,https://stream1.freetv.fun/yan-dong-zhu-jiang-gao-qing-1.m3u8$V4『线路5』
 广东珠江,https://stream1.freetv.fun/yan-dong-zhu-jiang-3.ctv$V4『线路6』
 广东珠江,https://stream1.freetv.fun/cd093c8b92ae68affb34b3b0f147bbdac575b4eee76ac0410e85d2777d808b6e.m3u8$V4『线路7』
@@ -2645,32 +2645,31 @@ CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8$V4『线路2』
 广东珠江,https://stream1.freetv.fun/bda519d40a214c2bfff9c5a5949d89c7eb82aba6d67a36488b379ed75adb598d.ctv$V4『线路28』
 广东珠江,http://119.145.76.245:10000/udp/239.77.0.3:5146$V4『线路29』
 广东珠江,http://r.jdshipin.com/sE5vO$V4『线路30』
-广东体育,https://php.17186.eu.org/gdtv/gdty.m3u8$V4『线路1』
+广东体育,http://218.15.214.115:10000/udp/239.77.0.112:5146$V4『线路1』
 广东体育,http://14.112.86.101:4022/udp/239.77.0.112:5146$V4『线路2』
-广东体育,http://218.15.214.115:10000/udp/239.77.0.112:5146$V4『线路3』
-广东体育,http://r.jdshipin.com/LiYdg$V4『线路4』
-广东体育,http://58.252.12.164:8000/udp/239.77.0.112:5146$V4『线路5』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-19.ctv$V4『线路6』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-16.ctv$V4『线路7』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-14.ctv$V4『线路8』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-2.ctv$V4『线路9』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-21.m3u8$V4『线路10』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-4.ctv$V4『线路11』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-gao-qing-2.m3u8$V4『线路12』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-4.m3u8$V4『线路13』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-5.ctv$V4『线路14』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-17.m3u8$V4『线路15』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-24.m3u8$V4『线路16』
-广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-11.ctv$V4『线路17』
-广东民生,http://119.145.76.245:10000/udp/239.77.0.225:5146$V4『线路1』
-广东民生,http://14.112.86.101:4022/udp/239.77.0.225:5146$V4『线路2』
-广东民生,http://113.111.17.180:8888/udp/239.77.0.225:5146$V4『线路3』
-广东民生,http://113.100.72.190:8899/udp/239.77.0.225:5146$V4『线路4』
+广东体育,http://r.jdshipin.com/LiYdg$V4『线路3』
+广东体育,http://58.252.12.164:8000/udp/239.77.0.112:5146$V4『线路4』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-19.ctv$V4『线路5』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-16.ctv$V4『线路6』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-14.ctv$V4『线路7』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-2.ctv$V4『线路8』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-21.m3u8$V4『线路9』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-4.ctv$V4『线路10』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-gao-qing-2.m3u8$V4『线路11』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-4.m3u8$V4『线路12』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-5.ctv$V4『线路13』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-17.m3u8$V4『线路14』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-24.m3u8$V4『线路15』
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-11.ctv$V4『线路16』
+广东民生,http://113.100.72.190:8899/udp/239.77.0.225:5146$V4『线路1』
+广东民生,http://119.145.76.245:10000/udp/239.77.0.225:5146$V4『线路2』
+广东民生,http://113.111.17.180:8888/udp/239.77.0.5:5146$V4『线路3』
+广东民生,http://113.111.17.180:8888/udp/239.77.0.225:5146$V4『线路4』
 广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-13.ctv$V4『线路5』
 广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-6.ctv$V4『线路6』
-广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-5.ctv$V4『线路7』
-广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-9.ctv$V4『线路8』
-广东民生,http://113.111.17.180:8888/udp/239.77.0.5:5146$V4『线路9』
+广东民生,http://14.112.86.101:4022/udp/239.77.0.225:5146$V4『线路7』
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-5.ctv$V4『线路8』
+广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-9.ctv$V4『线路9』
 广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-12.ctv$V4『线路10』
 广东民生,https://stream1.freetv.fun/yan-dong-min-sheng-2.m3u8$V4『线路11』
 广东民生,http://58.252.12.164:8000/udp/239.77.0.225:5146$V4『线路12』
@@ -2718,24 +2717,24 @@ CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8$V4『线路2』
 广州新闻,https://stream1.freetv.fun/yan-zhou-xin-wen-9.ctv$V4『线路16』
 广州影视,https://tencentplaygzrb.gztv.com:443/live/yingshi.m3u8$V4『线路1』
 广州影视,http://tencentplaygzrb01.gztv.com/live/yingshi.m3u8$V4『线路2』
-广州影视,http://58.252.12.164:8000/udp/239.253.43.73:5146$V4『线路3』
-广州影视,https://tencentplaywebsite.gztv.com/live/yingshi.m3u8?txSecret=074974bc25835d38fda6936ae40aabe9&txTime=193108637cb$V4『线路4』
-广州影视,https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ec79a0d817981989c161f548c48c2954&txTime=1903e79e680$V4『线路5』
-广州影视,http://14.112.86.101:4022/udp/239.253.43.73:5146$V4『线路6』
+广州影视,https://tencentplaywebsite.gztv.com/live/yingshi.m3u8?txSecret=074974bc25835d38fda6936ae40aabe9&txTime=193108637cb$V4『线路3』
+广州影视,https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ec79a0d817981989c161f548c48c2954&txTime=1903e79e680$V4『线路4』
+广州影视,http://r.jdshipin.com/sFw4S$V4『线路5』
+广州影视,http://r.jdshipin.com/TcKr2$V4『线路6』
 广州影视,http://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=1bd3a1082ab5b89f48c1bff9a3760da4&txTime=18d57929bd4$V4『线路7』
 广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-11.ctv$V4『线路8』
 广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-3.m3u8$V4『线路9』
 广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-1.ctv$V4『线路10』
-广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-2.ctv$V4『线路11』
-广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-1.m3u8$V4『线路12』
-广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-9.ctv$V4『线路13』
-广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-10.ctv$V4『线路14』
-广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-8.m3u8$V4『线路15』
-广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-5.ctv$V4『线路16』
-广州影视,http://r.jdshipin.com/sFw4S$V4『线路17』
-广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-6.ctv$V4『线路18』
-广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-4.ctv$V4『线路19』
-广州影视,http://r.jdshipin.com/TcKr2$V4『线路20』
+广州影视,http://58.252.12.164:8000/udp/239.253.43.73:5146$V4『线路11』
+广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-2.ctv$V4『线路12』
+广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-1.m3u8$V4『线路13』
+广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-9.ctv$V4『线路14』
+广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-10.ctv$V4『线路15』
+广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-8.m3u8$V4『线路16』
+广州影视,http://14.112.86.101:4022/udp/239.253.43.73:5146$V4『线路17』
+广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-5.ctv$V4『线路18』
+广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-6.ctv$V4『线路19』
+广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-4.ctv$V4『线路20』
 广州影视,https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=2b09d952702fe2c67ddad695faa4c27c&txTime=191b5db5ed0$V4『线路21』
 广州法治,https://tencentplaygzrb.gztv.com:443/live/fazhi.m3u8$v4
 广州竞赛,http://tencentplaygzrb01.gztv.com/live/jingsai.m3u8$V4『线路1』
@@ -2765,16 +2764,16 @@ CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8$V4『线路2』
 江门综合,https://stream1.freetv.fun/jiang-men-zong-he-3.ctv$V4『线路4』
 河源综合,https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8$V4『线路1』
 河源综合,http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8$V4『线路2』
-河源综合,http://14.112.86.101:4022/udp/239.253.43.213:5146$V4『线路3』
-河源综合,https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8?_upt=f767206b1671099007$V4『线路4』
+河源综合,https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8?_upt=f767206b1671099007$V4『线路3』
+河源综合,http://14.112.86.101:4022/udp/239.253.43.213:5146$V4『线路4』
 河源公共,http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8$V4『线路1』
 河源公共,http://14.112.86.101:4022/udp/239.253.43.214:5146$V4『线路2』
 云浮综合,https://livestream.oeeee.com/slive/17806.m3u8$V4『线路1』
 云浮综合,http://14.112.86.101:4022/udp/239.77.0.253:5146$V4『线路2』
-茂名综合,http://14.112.86.101:4022/udp/239.77.0.206:5146$V4『线路1』
-茂名综合,http://119.145.76.245:10000/udp/239.77.0.206:5146$V4『线路2』
-茂名公共,http://14.112.86.101:4022/udp/239.77.0.207:5146$V4『线路1』
-茂名公共,http://119.145.76.245:10000/udp/239.77.0.207:5146$V4『线路2』
+茂名综合,http://119.145.76.245:10000/udp/239.77.0.206:5146$V4『线路1』
+茂名综合,http://14.112.86.101:4022/udp/239.77.0.206:5146$V4『线路2』
+茂名公共,http://119.145.76.245:10000/udp/239.77.0.207:5146$V4『线路1』
+茂名公共,http://14.112.86.101:4022/udp/239.77.0.207:5146$V4『线路2』
 佛山公共,http://14.112.86.101:4022/udp/239.253.43.53:5146$V4『线路1』
 佛山公共,https://stream1.freetv.fun/fo-shan-gong-gong-3.ctv$V4『线路2』
 佛山公共,https://stream1.freetv.fun/fo-shan-gong-gong-7.ctv$V4『线路3』
@@ -2791,9 +2790,9 @@ CGTN阿语,https://livear.cgtn.com/1000a/prog_index.m3u8$V4『线路2』
 佛山影视,https://stream1.freetv.fun/fo-shan-ying-shi-5.ctv$V4『线路6』
 佛山影视,https://stream1.freetv.fun/fo-shan-ying-shi-3.ctv$V4『线路7』
 佛山影视,https://stream1.freetv.fun/fo-shan-ying-shi-7.ctv$V4『线路8』
-佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-4.ctv$V4『线路1』
-佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-2.ctv$V4『线路2』
-佛山综合,http://119.145.76.245:10000/udp/239.253.43.57:5146$V4『线路3』
+佛山综合,http://119.145.76.245:10000/udp/239.253.43.57:5146$V4『线路1』
+佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-4.ctv$V4『线路2』
+佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-2.ctv$V4『线路3』
 佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-9.ctv$V4『线路4』
 佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-5.ctv$V4『线路5』
 佛山综合,https://stream1.freetv.fun/fo-shan-zong-he-3.ctv$V4『线路6』
