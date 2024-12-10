@@ -1,4 +1,4 @@
-name: '(freetv)'
+name: 'freetv'
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Daily Job(freetv)'
+        description: 'freetv'
         required: true
         default: 'production'
 
@@ -28,16 +28,16 @@ jobs:
         python -m pip install --upgrade pip
         
     - name: Run Python script
-      run: python assets/freetv/freetv.py
+      run: python py/iptv源收集检测/assets/freetv/freetv.py
           
     - name: Commit changes
       run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add assets/freetv/freetv_output.txt
-          git add assets/freetv/freetv_output_cctv.txt
-          git add assets/freetv/freetv_output_ws.txt
-          git add assets/freetv/freetv_output_other.txt
+          git add py/iptv源收集检测/assets/freetv/freetv_output.txt
+          git add py/iptv源收集检测/assets/freetv/freetv_output_cctv.txt
+          git add py/iptv源收集检测/assets/freetv/freetv_output_ws.txt
+          git add py/iptv源收集检测/assets/freetv/freetv_output_other.txt
           git commit -m ":tv:  (Freetv)AutoUpdate $(date -d "+8 hours" +'%Y%m%d')"
 
           current_datetime=$(date +"%Y%m%d_%H%M%S")
@@ -46,10 +46,10 @@ jobs:
           # git commit -m "(freetv)Archive file with timestamp"
 
           # 将归档文件打包zip文件
-          zip_filename="${current_datetime}_freetv_output.zip"
-          zip "history/freetv/${zip_filename}" assets/freetv/freetv_output.txt
-          git add "history/freetv/${zip_filename}"
-          git commit -m "(freetv) Archive file as ZIP with timestamp"
+          # zip_filename="${current_datetime}_freetv_output.zip"
+          # zip "history/freetv/${zip_filename}" assets/freetv/freetv_output.txt
+          # git add "history/freetv/${zip_filename}"
+          # git commit -m "(freetv) Archive file as ZIP with timestamp"
           
           
     - name: Push changes
