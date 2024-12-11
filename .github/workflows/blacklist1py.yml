@@ -37,10 +37,12 @@ jobs:
         name: generated-files
         path: |
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto_tv.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blackhost_count.txt
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt
-          #/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_manual.txt
-          #/home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/merged_output.txt
-          /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/others_output.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/_blacklist_auto.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/_whitelist_auto.txt
+          #/home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/others_output.txt
           
     - name: Commit changes
       run: |
@@ -52,7 +54,7 @@ jobs:
           git add blacklist_auto.txt
           
           git add whitelist_auto.txt
-          #git add whitelist_auto_tv.txt
+          git add whitelist_auto_tv.txt
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
 
            current_datetime=$(date +"%Y%m%d_%H%M%S")
