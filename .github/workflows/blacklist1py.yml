@@ -49,16 +49,16 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           
-          #git add blacklist_manual.txt
-          git add blackhost_count.txt
-          git add blacklist_auto.txt
-          git add _blacklist_auto.txt
-          git add _whitelist_auto.txt
-          git add whitelist_auto.txt
-          git add whitelist_auto_tv.txt
+          git add .
+          # git add blackhost_count.txt
+          # git add blacklist_auto.txt
+          # git add _blacklist_auto.txt
+          # git add _whitelist_auto.txt
+          # git add whitelist_auto.txt
+          # git add whitelist_auto_tv.txt
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
 
-           current_datetime=$(date +"%Y%m%d_%H%M%S")
+           #current_datetime=$(date +"%Y%m%d_%H%M%S")
           # cp merged_output.txt /home/runner/work/dszby/dszby/py/iptv源收集检测//history/tvlist/"${current_datetime}_merged_output.txt"
           # cp /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/"${current_datetime}_others_output.txt"
           # git add /home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/"${current_datetime}_merged_output.txt"
