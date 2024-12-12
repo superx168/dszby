@@ -38,10 +38,10 @@ jobs:
     #     path: |
     #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
     #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto_tv.txt
-    #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/_blackhost_count.txt
+    #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blackhost_count.txt
     #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt
-    #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/_blacklist_auto.txt
-    #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/_whitelist_auto.txt
+    #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/blacklist_auto.txt
+    #       /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/whitelist_auto.txt
     #       #/home/runner/work/dszby/dszby/py/iptv源收集检测/history/tvlist/others_output.txt
           
     - name: Commit changes
@@ -50,8 +50,8 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blackhost_count.txt
           git add /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
-          git add /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/_blacklist_auto.txt
-          git add /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/_whitelist_auto.txt
+          git add /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/blacklist_auto.txt
+          git add /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/whitelist_auto.txt
           git add /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
           git add /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto_tv.txt
           git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
