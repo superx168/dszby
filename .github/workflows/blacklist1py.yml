@@ -38,7 +38,7 @@ jobs:
         path: |
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto_tv.txt
-          /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/_blackhost_count.txt
+          /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blackhost_count.txt
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/_blacklist_auto.txt
           /home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/_whitelist_auto.txt
@@ -50,7 +50,7 @@ jobs:
           git config --local user.name "GitHub Actions"
           
           #git add blacklist_manual.txt
-          git add _blackhost_count.txt
+          git add blackhost_count.txt
           git add blacklist_auto.txt
           git add _blacklist_auto.txt
           git add _whitelist_auto.txt
