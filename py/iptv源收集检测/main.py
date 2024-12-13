@@ -602,7 +602,7 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ [
 
 # 合并所有对象中的行文本（去重，排序后拼接）
 # ["奥运频道,#genre#"] + sort_data(Olympics_2024_Paris_dictionary,set(correct_name_data(corrections_name,Olympics_2024_Paris_lines))) + ['\n'] + \
-# 
+#correct：恰当的；合适的，corrections：更正
 all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n'] +\
              ["💓专享源🅰️,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪专享源①.txt') + ['\n'] + \
              ["💓专享源🅱️,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪专享源②.txt') + ['\n'] + \
@@ -617,7 +617,7 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
              ["🏀SPORTS⚽️,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪sports.txt') + ['\n'] + \
              ["🍹定制台☕️,#genre#"] + read_txt_to_array('专区/♪定制源.txt') + ['\n'] + \
              ["💓英语频道,#genre#"] + read_txt_to_array('专区/♪英语频道.txt') + ['\n'] + \
-             ["🌐央视频道,#genre#"] + sort_data(ys_dictionary,set(correct_name_data(corrections_name,ys_lines))) + ['\n'] + \  #correct：恰当的；合适的，corrections：更正
+             ["🌐央视频道,#genre#"] + sort_data(ys_dictionary,set(correct_name_data(corrections_name,ys_lines))) + ['\n'] + \  
              ["📡卫视频道,#genre#"] + sort_data(ws_dictionary,set(correct_name_data(corrections_name,ws_lines))) + ['\n'] + \
              ["上海频道,#genre#"] + sort_data(sh_dictionary,set(correct_name_data(corrections_name,sh_lines))) + ['\n'] + \
              ["体育频道,#genre#"] + sort_data(ty_dictionary,set(correct_name_data(corrections_name,ty_lines))) + ['\n'] + \
