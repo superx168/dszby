@@ -73,7 +73,7 @@ urls = [
        ''
 ]
 # 合并文件的函数
-def merge_txt_files(urls, output_filename='汇总.txt'):
+def merge_txt_files(urls, output_filename='py/GTJM/汇总.txt'):
     try:
         with open(output_filename, 'w', encoding='utf-8') as outfile:
             for url in urls:
@@ -105,17 +105,17 @@ merge_txt_files(urls)
 converter = OpenCC('t2s.json')#繁转简
 #converter = OpenCC('s2t.json')#简转繁
 # 打开txt文件
-with open('汇总.txt', 'r', encoding='utf-8') as file:
+with open('py/GTJM/汇总.txt', 'r', encoding='utf-8') as file:
     traditional_text = file.read()
 # 进行繁体字转简体字的转换
 simplified_text = converter.convert(traditional_text)
 # 将转换后的简体字写入txt文件
-with open('汇总.txt', 'w', encoding='utf-8') as file:
+with open('py/GTJM/汇总.txt', 'w', encoding='utf-8') as file:
     file.write(simplified_text)
 
 
 
-with open('汇总.txt', 'r', encoding="utf-8") as file:
+with open('py/GTJM/汇总.txt', 'r', encoding="utf-8") as file:
     # 读取所有行并存储到列表中
     lines = file.readlines()
 #定义替换规则的字典对频道名替换
@@ -259,7 +259,7 @@ replacements = {
     	"CCTV7CCTV7": "CCTV7",
     	"CCTV10CCTV10": "CCTV10"
 }
-with open('汇总.txt', 'w', encoding='utf-8') as new_file:
+with open('py/GTJM/汇总.txt', 'w', encoding='utf-8') as new_file:
     for line in lines:
         # 去除行尾的换行符
         line = line.rstrip('\n')
@@ -300,7 +300,7 @@ def read_and_process_file(input_filename, output_filename, encodings=['utf-8', '
                 outfile.write(line)
 
 # 调用函数
-read_and_process_file('汇总.txt', '汇总.txt')  # 修改输出文件名以避免覆盖原始文件
+read_and_process_file('py/GTJM/汇总.txt', 'py/GTJM/汇总.txt')  # 修改输出文件名以避免覆盖原始文件
 
 ###################################################################去重#####################################
 def remove_duplicates(input_file, output_file):
@@ -330,7 +330,7 @@ def remove_duplicates(input_file, output_file):
         f.writelines(output_lines)
     print("去重后的行数：", len(output_lines))
 # 使用方法
-remove_duplicates('汇总.txt', '2.txt')   
+remove_duplicates('py/GTJM/汇总.txt', 'py/GTJM/2.txt')   
 
 
 
@@ -353,7 +353,7 @@ extract_keywords = ['1905', '凤凰卫视', '人间卫视', '亚洲卫视', '香
 
 
 # 读取文件并处理每一行
-with open('2.txt', 'r', encoding='utf-8') as file:
+with open('py/GTJM/2.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
     # 创建或打开一个输出文件用于写入处理后的数据
@@ -413,7 +413,7 @@ keywords = ['凤凰卫视', '人间卫视', '香港卫视', '翡翠台', '凤凰
             '华视', '中天', '天良', '美亚', '星影', '无线', '华剧台', '华丽台', '采昌', '靖天', '民视', '三立', '37.27.111.214', 
             '影视3', '中视', '豬哥亮', 'TVB', '公视', '寰宇', '戏剧台', '靖天', '靖洋', '龙华', '龙祥', '猪哥亮', '影迷', '影剧', '台视', '华视', 
             '中华小当家', '中天娱乐', '公视戏剧', '动漫', '动物星球', '动画台', '壹新闻', '大立电视', '天良', '探案', '超人', '番薯', '61.221.215.25', 'AOD']  # 这里定义你的搜索关键词列表
-output_file = 'gat.txt'
+output_file = 'py/GTJM/gat.txt'
 
 with open(output_file, 'w', encoding='utf-8') as f:
     for keyword in keywords:
@@ -427,7 +427,7 @@ with open(output_file, 'w', encoding='utf-8') as f:
         else:
             print(f'请求 {url} 失败,状态码：{response.status_code}')
         time.sleep(1)  # 添加 1 秒的延迟
-with open('gat.txt', 'r', encoding='utf-8') as infile:
+with open('py/GTJM/gat.txt', 'r', encoding='utf-8') as infile:
     lines = infile.readlines()
 new_lines = []
 for i in range(len(lines)):
@@ -440,11 +440,11 @@ for i in range(len(lines)):
                 break
         channel_url = line.strip()
         new_lines.append(f'{channel_name},{channel_url}\n')
-with open('gat.txt', 'w', encoding='utf-8') as outfile:
+with open('py/GTJM/gat.txt', 'w', encoding='utf-8') as outfile:
     outfile.writelines(new_lines)
 #################################################################
 keywords = ['电影', '戏剧', '影院', '八大', '61.221.215.25', 'AOD']  # 这里定义你的搜索关键词列表
-output_file = '2.txt'
+output_file = 'py/GTJM/2.txt'
 with open(output_file, 'w', encoding='utf-8') as f:
     for keyword in keywords:
         url = f'https://api.pearktrue.cn/api/tv/search.php?name={keyword}'
@@ -464,7 +464,7 @@ with open(output_file, 'w', encoding='utf-8') as f:
             print(f"Error fetching URL for keyword {keyword}: {e}")
         time.sleep(1)  # 添加 1 秒的延迟
 result = []
-with open('2.txt', 'r', encoding='utf-8') as f:
+with open('py/GTJM/2.txt', 'r', encoding='utf-8') as f:
     for line in f:
         if '"videoname":' in line:
             videoname_start = line.find('"videoname":') + len('"videoname": "')
@@ -476,7 +476,7 @@ with open('2.txt', 'r', encoding='utf-8') as f:
             link = line[link_start:link_end]
             result.append(f"{videoname},{link}\n")
 
-with open('gat.txt', 'a', encoding='utf-8') as f:
+with open('py/GTJM/gat.txt', 'a', encoding='utf-8') as f:
     f.writelines(result)
 
 
@@ -508,7 +508,7 @@ def remove_duplicates(input_file, output_file):
         f.writelines(output_lines)
     print("去重后的行数：", len(output_lines))
 # 使用方法
-remove_duplicates('gat.txt', 'py/GTJM/网络收集.txt')
+remove_duplicates('py/GTJM/gat.txt', 'py/GTJM/网络收集.txt')
 print("处理完成,去重完成")
 
 ############################################ 假设要打开的文本文件名为*.txt
@@ -802,7 +802,7 @@ def extract_first_number(line):
 # 对列表中的行进行排序,按照第一个数字的大小排列,其余行按中文排序
 sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_number(x) if 'CCTV' in x else lazy_pinyin(x.strip())))
 # 将排序后的行写入新的utf-8编码的文本文件
-with open("网络收集.txt", "w", encoding="utf-8") as file:
+with open("py/GTJM/网络收集.txt", "w", encoding="utf-8") as file:
     for line in sorted_lines:
         file.write(line)
 
@@ -1015,7 +1015,7 @@ replacements = {
 
 
 # 打开新文本文件准备写入替换后的内容
-with open('2.txt', 'w', encoding='utf-8') as new_file:
+with open('py/GTJM/2.txt', 'w', encoding='utf-8') as new_file:
     for line in lines:
         # 去除行尾的换行符
         line = line.rstrip('\n')
@@ -1071,10 +1071,10 @@ def check_and_write_file(input_file, output_file, keywords):
         print(f"未提取到关键词,不创建输出文件 {output_file}。")
 
 # 按类别提取关键词并写入文件
-#check_and_write_file('2.txt','a0.txt',keywords="央视频道1,CCTV")
-check_and_write_file('2.txt','a.txt',keywords="港澳频道,影,剧")
+#check_and_write_file('py/GTJM/2.txt','py/GTJM/a0.txt',keywords="央视频道1,CCTV")
+check_and_write_file('py/GTJM/2.txt','py/GTJM/a.txt',keywords="港澳频道,影,剧")
 
-check_and_write_file('2.txt','e.txt',keywords="港澳频道,TVB,澳门,龙华,民视,中视,华视,AXN,MOMO,采昌,耀才,靖天,镜新闻,靖洋,莲花,年代,爱尔达,好莱坞,华丽,非凡,公视,寰宇,无线,EVEN,MoMo,爆谷,面包,momo,唐人,\
+check_and_write_file('py/GTJM/2.txt','py/GTJM/e.txt',keywords="港澳频道,TVB,澳门,龙华,民视,中视,华视,AXN,MOMO,采昌,耀才,靖天,镜新闻,靖洋,莲花,年代,爱尔达,好莱坞,华丽,非凡,公视,寰宇,无线,EVEN,MoMo,爆谷,面包,momo,唐人,\
 中华小,三立,CNA,FOX,RTHK,Movie,八大,中天,中视,东森,凤凰,天映,美亚,环球,翡翠,亚洲,大爱,大愛,明珠,半岛,AMC,龙祥,台视,1905,纬来,神话,经典都市,视界,番薯,私人,酒店,TVB,凤凰,半岛,星光视界,\
 番薯,大愛,新加坡,星河,明珠,环球,翡翠台,ELTV,大立,elta,好消息,美国中文,神州,天良,18台,BLOOMBERG,Bloomberg,CMUSIC,CN卡通,CNBC,CNBC,CinemaWorld,Cinemax,DMAX,Dbox,Dreamworks,ESPN,Euronews,\
 Eurosports1,FESTIVAL,GOOD2,HBO家庭,HBO,HISTORY,HOY国际财经,HakkaTV,J2,KOREA,LISTENONSPOTIFY,LUXE,MCE,MTV,Now,PremierSports,ROCK,SPOTV,TiTV,VOA,ViuTV,ViuTV6,WSport,WWE,八度,博斯,达文西,迪士尼,\
@@ -1085,9 +1085,9 @@ Eurosports1,FESTIVAL,GOOD2,HBO家庭,HBO,HISTORY,HOY国际财经,HakkaTV,J2,KORE
 ###############################################################################################################################################################################################################################
 ##############################################################对生成的文件进行合并
 file_contents = []
-file_paths = ["a0.txt", "a.txt", "a1.txt", "b0.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "f0.txt", "f.txt", "f1.txt", "g0.txt", "g.txt", "g1.txt", "h0.txt", "h.txt", "h1.txt", "i.txt", \
-              "i1.txt", "j.txt", "j1.txt", "k.txt", "l0.txt", "l.txt", "l1.txt", "m.txt", "m1.txt",  \
-              "n0.txt","n.txt","n1.txt", "e.txt", "o1.txt", "o.txt"]  # 替换为实际的文件路径列表
+file_paths = ["py/GTJM/a0.txt", "py/GTJM/a.txt", "py/GTJM/a1.txt", "py/GTJM/b0.txt", "py/GTJM/b.txt", "py/GTJM/c.txt", "py/GTJM/c1.txt", "py/GTJM/c2.txt", "py/GTJM/d.txt", "py/GTJM/f0.txt", "py/GTJM/f.txt", "py/GTJM/f1.txt", "py/GTJM/g0.txt", "py/GTJM/g.txt", "py/GTJM/g1.txt", "py/GTJM/h0.txt", "py/GTJM/h.txt", "py/GTJM/h1.txt", "py/GTJM/i.txt", \
+              "py/GTJM/i1.txt", "py/GTJM/j.txt", "py/GTJM/j1.txt", "py/GTJM/k.txt", "py/GTJM/l0.txt", "py/GTJM/l.txt", "py/GTJM/l1.txt", "py/GTJM/m.txt", "py/GTJM/m1.txt",  \
+              "py/GTJM/n0.txt","py/GTJM/n.txt","py/GTJM/n1.txt", "py/GTJM/e.txt", "py/GTJM/o1.txt", "py/GTJM/o.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -1096,7 +1096,7 @@ for file_path in file_paths:
     else:                # 如果文件不存在,则提示异常并打印提示信息
         print(f"文件 {file_path} 不存在,跳过")
 # 写入合并后的文件
-with open("去重.txt", "w", encoding="utf-8") as output:
+with open("py/GTJM/去重.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
 ###############################################################################################################################################################################################################################
@@ -1130,7 +1130,7 @@ def remove_duplicates(input_file, output_file):
     print("去重后的行数：", len(output_lines))
 
 # 使用方法
-remove_duplicates('去重.txt', 'py/GTJM/网络收集.txt')
+remove_duplicates('py/GTJM/去重.txt', 'py/GTJM/网络收集.txt')
 
 # 打开文档并读取所有行 
 with open('py/GTJM/网络收集.txt', 'r', encoding="utf-8") as file:
@@ -1195,9 +1195,9 @@ for line in fileinput.input("py/GTJM/网络收集.txt", inplace=True):   #打开
 
 
 ################################################################################################任务结束,删除不必要的过程文件
-files_to_remove = ['去重.txt', "2.txt", "a0.txt", "a.txt", "a1.txt", "b0.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "e.txt", "f0.txt", "f.txt", "f1.txt", "g0.txt", "g.txt", "g1.txt", "h0.txt", "h.txt", "h1.txt", "i.txt", \
-              "i1.txt", "j.txt", "j1.txt", "k.txt", "l0.txt", "l.txt", "l1.txt", "m.txt", "m1.txt",  \
-              "n0.txt","n.txt","n1.txt", "o1.txt", "o.txt", "p.txt"]
+files_to_remove = ['py/GTJM/去重.txt', "py/GTJM/2.txt", "py/GTJM/a0.txt", "py/GTJM/a.txt", "py/GTJM/a1.txt", "py/GTJM/b0.txt", "py/GTJM/b.txt", "py/GTJM/c.txt", "py/GTJM/c1.txt", "py/GTJM/c2.txt", "py/GTJM/d.txt", "py/GTJM/e.txt", "py/GTJM/f0.txt", "py/GTJM/f.txt", "py/GTJM/f1.txt", "py/GTJM/g0.txt", "py/GTJM/g.txt", "py/GTJM/g1.txt", "py/GTJM/h0.txt", "py/GTJM/h.txt", "py/GTJM/h1.txt", "py/GTJM/i.txt", \
+              "py/GTJM/i1.txt", "py/GTJM/j.txt", "py/GTJM/j1.txt", "py/GTJM/k.txt", "py/GTJM/l0.txt", "py/GTJM/l.txt", "py/GTJM/l1.txt", "py/GTJM/m.txt", "py/GTJM/m1.txt",  \
+              "py/GTJM/n0.txt","py/GTJM/n.txt","py/GTJM/n1.txt", "py/GTJM/o1.txt", "py/GTJM/o.txt", "py/GTJM/p.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
@@ -1307,15 +1307,15 @@ import datetime
 now = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
 current_time = now.strftime("%Y/%m/%d %H:%M")   #:%M
 # 打开文本文件并将时间添加到开头
-file_path = "综合源.m3u"
+file_path = "py/测绘站采集/综合源.m3u"
 with open(file_path, 'r+', encoding='utf-8') as f:
     content = f.read()
     f.seek(0, 0)
     f.write(f'{content}\n')
     #f.write(f'#EXTINF:-1 group-title="更新时间",请您欣赏\n')    
     #f.write(f'http://em.21dtv.com/songs/60144971.mkv\n')    
-    f.write(f'#EXTINF:-1 group-title="{current_time}更新",虚情的爱\n')    
-    f.write(f'https://vd2.bdstatic.com/mda-mi1dd05gmhwejdwn/sc/cae_h264/1630576203346678103/mda-mi1dd05gmhwejdwn.mp4\n')   
+    #f.write(f'#EXTINF:-1 group-title="{current_time}更新",虚情的爱\n')    
+    #f.write(f'https://vd2.bdstatic.com/mda-mi1dd05gmhwejdwn/sc/cae_h264/1630576203346678103/mda-mi1dd05gmhwejdwn.mp4\n')   
 
 
 
@@ -1332,13 +1332,13 @@ with open(file_path, 'r+', encoding='utf-8') as f:
     f.write(f'')
     #f.write(f'请您欣赏,https://vd2.bdstatic.com/mda-mi1dd05gmhwejdwn/sc/cae_h264/1630576203346678103/mda-mi1dd05gmhwejdwn.mp4\n')
     f.write(f'{current_time}更新,#genre#\n')
-    f.write(f'虚情的爱,https://vd2.bdstatic.com/mda-mi1dd05gmhwejdwn/sc/cae_h264/1630576203346678103/mda-mi1dd05gmhwejdwn.mp4\n')
+    #f.write(f'虚情的爱,https://vd2.bdstatic.com/mda-mi1dd05gmhwejdwn/sc/cae_h264/1630576203346678103/mda-mi1dd05gmhwejdwn.mp4\n')
 
 
      
 
 ################################################################################################任务结束,删除不必要的过程文件
-files_to_remove = ["gat.txt", "汇总.txt"]
+files_to_remove = ["py/GTJM/gat.txt", "py/GTJM/汇总.txt"]
 for file in files_to_remove:
     if os.path.exists(file):
         os.remove(file)
