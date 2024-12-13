@@ -362,6 +362,8 @@ if __name__ == "__main__":
     input_file2 = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt')  # 输入文件路径2 
     success_file = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto.txt')  # 成功清单文件路径
     success_file_tv = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/whitelist_auto_tv.txt')  # 成功清单文件路径（另存一份直接引用源）
+    history_success_file = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/whitelist_auto.txt')
+    history_blacklist_file = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/blacklist_auto.txt')
     blacklist_file = os.path.join(current_dir, '/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt')  # 黑名单文件路径
 
     # 读取输入文件内容
