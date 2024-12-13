@@ -434,7 +434,7 @@ if __name__ == "__main__":
     print(f"黑名单文件已生成: {blacklist_file}")
 
     # 写入history
-    timenow=datetime.now().strftime("%Y%m%d_%H_%M_%S")
+    #timenow=datetime.now().strftime("%Y%m%d_%H_%M_%S")
     history_success_file = f'/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/whitelist_auto.txt'  #{timenow}_
     history_blacklist_file = f'/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/history/blacklist/blacklist_auto.txt'  #{timenow}_
     write_list(history_success_file, successlist)
