@@ -407,7 +407,7 @@ def parse_file(input_file_path, output_file_name):
                 output_file.write(line + '\n')
             output_file.write('\n')  # 在每个小段后添加一个空行作为分隔
 # 调用函数并传入文件路径和输出文件名
-parse_file('py/GTJM/网络收集.txt', 'py/GTJM/网络收集.txt')
+parse_file('py/GTJM/网络收集.txt', '网络收集.txt')
 
 keywords = ['凤凰卫视', '人间卫视', '香港卫视', '翡翠台', '凤凰香港', '凤凰中文', '凤凰资讯', 'AMC电影台', '电影台', '大爱', '东森', '好莱坞', '纬来', '天映', '八大', 
             '华视', '中天', '天良', '美亚', '星影', '无线', '华剧台', '华丽台', '采昌', '靖天', '民视', '三立', '37.27.111.214', 
