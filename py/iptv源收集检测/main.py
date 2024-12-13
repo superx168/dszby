@@ -19,7 +19,7 @@ timestart = datetime.now()
 #print(f"time: {datetime.now().strftime("%Y%m%d_%H_%M_%S")}")
 
 #读取文本方法
-def read_txt_to_array(file_name):
+def read_txt_to_array(file_name): #	混合；多样；大群；大量;陈列；布置;列阵；排列；编队;排列；阵列；数组;数组;
     try:
         with open(file_name, 'r', encoding='utf-8') as file:
             lines = file.readlines()
@@ -43,7 +43,7 @@ def read_blacklist_from_txt(file_path):
 blacklist_auto=read_blacklist_from_txt('/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_auto.txt') 
 blacklist_manual=read_blacklist_from_txt('/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/blacklist1/blacklist_manual.txt') 
 # combined_blacklist = list(set(blacklist_auto + blacklist_manual))
-combined_blacklist = set(blacklist_auto + blacklist_manual)  #list是个列表，set是个集合，据说检索速度集合要快很多。2024-08-08
+combined_blacklist = set(blacklist_auto + blacklist_manual)  #list是个列表，set是个集合，据说检索速度集合要快很多。2024-08-08	combined联合的；共同的;总计的；总体的;
 
 # 定义多个对象用于存储不同内容的行文本
 sh_lines = []
@@ -190,7 +190,7 @@ def convert_m3u_to_txt(m3u_content):
     return '\n'.join(txt_lines)
 
 # 在list是否已经存在url 2024-07-22 11:18
-def check_url_existence(data_list, url):
+def check_url_existence(data_list, url):  #existence:实存；存在
     """
     Check if a given URL exists in a list of data.
 
@@ -209,7 +209,7 @@ def clean_url(url):
         return url[:last_dollar_index]
     return url
 
-# 添加channel_name前剔除部分特定字符
+# 添加频道channel_name前剔除部分特定字符
 removal_list = ["_电信", "电信", "高清", "频道", "（HD）", "-HD","英陆","_ITV","(北美)","(HK)","AKtv","「IPV4」","「IPV6」",
                 "频陆","备陆","壹陆","贰陆","叁陆","肆陆","伍陆","陆陆","柒陆", "频晴","频粤","[超清]","高清","超清","斯特",
                 "粤陆", "国陆","肆柒","频英","频特","频国","频壹","频贰","肆贰","频测","咪咕"]
@@ -226,7 +226,7 @@ def clean_channel_name(channel_name, removal_list):
 
     return channel_name
 
-# 分发直播源，归类，把这部分从process_url剥离出来，为以后加入whitelist源清单做准备。
+# 分发直播源，归类，把这部分从（制作方法）process_url剥离出来，为以后加入whitelist源清单做准备。
 def process_channel_line(line):
     if  "#genre#" not in line and "#EXTINF:" not in line and "," in line and "://" in line:
         channel_name=line.split(',')[0].strip()
@@ -375,7 +375,7 @@ def process_url(url):
 
             #处理m3u和m3u8，提取channel_name和channel_address
             if get_url_file_extension(url)==".m3u" or get_url_file_extension(url)==".m3u8":
-                text=convert_m3u_to_txt(text)
+                text=convert_m3u_to_txt(text)  #convert使转换
 
             # 逐行处理内容
             lines = text.split('\n')
@@ -417,9 +417,9 @@ xq_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集�
 js_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/解说频道.txt') #过滤
 cw_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/春晚.txt') #过滤+排序
 mx_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/明星.txt') #过滤
-ztp_dictionary=read_txt_to_array('主频道/主题片.txt') #过滤
-zy_dictionary=read_txt_to_array('主频道/综艺频道.txt') #过滤
-yy_dictionary=read_txt_to_array('主频道/音乐频道.txt') #过滤
+ztp_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/主题片.txt') #过滤
+zy_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/综艺频道.txt') #过滤
+yy_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/音乐频道.txt') #过滤
 game_dictionary=read_txt_to_array('主频道/游戏频道.txt') #过滤
 radio_dictionary=read_txt_to_array('主频道/收音机频道.txt') #过滤
 
@@ -438,26 +438,26 @@ hb_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集�
 ln_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/辽宁频道.txt') #过滤
 sx_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/陕西频道.txt') #过滤
 shanxi_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/山西频道.txt') #过滤
-shandong_dictionary=read_txt_to_array('地方台/山东频道.txt') #过滤
-yunnan_dictionary=read_txt_to_array('地方台/云南频道.txt') #过滤
+shandong_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/山东频道.txt') #过滤
+yunnan_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/云南频道.txt') #过滤
 
 ##################【2024-07-30 18:04:56】
 bj_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/北京频道.txt') #过滤
 cq_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/重庆频道.txt') #过滤
 fj_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/福建频道.txt') #过滤
 gs_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/甘肃频道.txt') #过滤
-gx_dictionary=read_txt_to_array('地方台/广西频道.txt') #过滤
-gz_dictionary=read_txt_to_array('地方台/贵州频道.txt') #过滤
-heb_dictionary=read_txt_to_array('地方台/河北频道.txt') #过滤
-hen_dictionary=read_txt_to_array('地方台/河南频道.txt') #过滤
-hlj_dictionary=read_txt_to_array('地方台/黑龙江频道.txt') #过滤
-jl_dictionary=read_txt_to_array('地方台/吉林频道.txt') #过滤
-jx_dictionary=read_txt_to_array('地方台/江西频道.txt') #过滤
-nx_dictionary=read_txt_to_array('地方台/宁夏频道.txt') #过滤
-qh_dictionary=read_txt_to_array('地方台/青海频道.txt') #过滤
-sc_dictionary=read_txt_to_array('地方台/四川频道.txt') #过滤
-tj_dictionary=read_txt_to_array('地方台/天津频道.txt') #过滤
-xj_dictionary=read_txt_to_array('地方台/新疆频道.txt') #过滤
+gx_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/广西频道.txt') #过滤
+gz_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/贵州频道.txt') #过滤
+heb_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/河北频道.txt') #过滤
+hen_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/河南频道.txt') #过滤
+hlj_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/黑龙江频道.txt') #过滤
+jl_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/吉林频道.txt') #过滤
+jx_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/江西频道.txt') #过滤
+nx_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/宁夏频道.txt') #过滤
+qh_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/青海频道.txt') #过滤
+sc_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/四川频道.txt') #过滤
+tj_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/天津频道.txt') #过滤
+xj_dictionary=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/地方台/新疆频道.txt') #过滤
 
 #读取纠错频道名称方法
 def load_corrections_name(filename):
@@ -552,7 +552,7 @@ for whitelist_line in whitelist_auto_lines:
         if response_time < 2000:  #2s以内的高响应源
             process_channel_line(",".join(whitelist_parts[1:]))
 
-# 随机取得URL
+# random随机取得URL
 def get_random_url(file_path):
     urls = []
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -609,15 +609,15 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
              ["💓专享央视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质央视.txt') + ['\n'] + \
              ["💓专享卫视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质卫视.txt') + ['\n'] + \
              ["💓港澳台📶,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪港澳台.txt') + ['\n'] + \
-             ["💓台湾台📶,#genre#"] + read_txt_to_array('主频道/♪台湾台.txt') + ['\n'] + \
-             ["💓电视剧🔁,#genre#"] + read_txt_to_array('主频道/♪电视剧.txt') + ['\n'] + \
-             ["💓优质个源,#genre#"] + read_txt_to_array('主频道/♪优质源.txt') + ['\n'] + \
-             ["💓儿童专享,#genre#"] + read_txt_to_array('主频道/♪儿童专享.txt') + ['\n'] + \
-             ["💓咪咕直播,#genre#"] + read_txt_to_array('主频道/♪咪咕直播.txt') + ['\n'] + \
-             ["🏀SPORTS⚽️,#genre#"] + read_txt_to_array('主频道/♪sports.txt') + ['\n'] + \
+             ["💓台湾台📶,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪台湾台.txt') + ['\n'] + \
+             ["💓电视剧🔁,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪电视剧.txt') + ['\n'] + \
+             ["💓优质个源,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质源.txt') + ['\n'] + \
+             ["💓儿童专享,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪儿童专享.txt') + ['\n'] + \
+             ["💓咪咕直播,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪咪咕直播.txt') + ['\n'] + \
+             ["🏀SPORTS⚽️,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪sports.txt') + ['\n'] + \
              ["🍹定制台☕️,#genre#"] + read_txt_to_array('专区/♪定制源.txt') + ['\n'] + \
              ["💓英语频道,#genre#"] + read_txt_to_array('专区/♪英语频道.txt') + ['\n'] + \
-             ["🌐央视频道,#genre#"] + sort_data(ys_dictionary,set(correct_name_data(corrections_name,ys_lines))) + ['\n'] + \
+             ["🌐央视频道,#genre#"] + sort_data(ys_dictionary,set(correct_name_data(corrections_name,ys_lines))) + ['\n'] + \  #correct：恰当的；合适的，corrections：更正
              ["📡卫视频道,#genre#"] + sort_data(ws_dictionary,set(correct_name_data(corrections_name,ws_lines))) + ['\n'] + \
              ["上海频道,#genre#"] + sort_data(sh_dictionary,set(correct_name_data(corrections_name,sh_lines))) + ['\n'] + \
              ["体育频道,#genre#"] + sort_data(ty_dictionary,set(correct_name_data(corrections_name,ty_lines))) + ['\n'] + \
