@@ -320,7 +320,7 @@ def save_blackhost_to_txt(filename=f"/home/runner/work/dszby/dszby/py/iptv源收
 
 if __name__ == "__main__":
     # 定义要访问的多个URL
-    urls = read_txt_to_array('py/iptv源收集检测/assets/urls-daily.txt')
+    urls = ['py/iptv源收集检测/assets/urls-daily.txt']   #read_txt_to_array(py/iptv源收集检测/assets/urls-daily.txt')
     for url in urls:
         print(f"处理URL: {url}")
         process_url(url)   #读取上面url清单中直播源存入urls_all_lines
