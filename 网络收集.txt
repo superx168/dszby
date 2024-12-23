@@ -14,8 +14,8 @@
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=e5b4ef626c5980be2fbdf2e7-158332927312639
-香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=8ee59707fee3ef96c922e680-167055218938751&wsIPSercert=d24f6d7c9d3646d9533d492d5209384b&wsMonitor=0
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=8ee59707fee3ef96c922e680-167055218938751&wsIPSercert=d24f6d7c9d3646d9533d492d5209384b&wsMonitor=0
 
 频道,#genre#
 翡翠台,http://v2h.jdshipin.com/jade/jade.stream/chunklist.m3u8
@@ -221,6 +221,7 @@ TVBSNews,http://50.7.234.10:8278/tvbs_n/playlist.m3u8?tid=MA4A2233260122332601&c
 公视,http://50.7.234.10:8278/ctv_taiwan/playlist.m3u8?tid=MDCD6096520560965205&ct=19249&tsum=64237c7ffa0c00b62657a938247bcab0
 八大戏剧,http://50.7.234.10:8278/badadrama/playlist.m3u8?tid=m4970c4e1b988&ct=18335&tsum=20cb1d15d4e116ab9e44edb542cf51a5
 三立综合,http://50.7.234.10:8278/sanlizhonghe/playlist.m3u8?tid=m3362167a08a014596868&ct=17874&tsum=4472a7c943b67bf52fe5e836ca9f3b6b
+东森戏剧台,http://50.7.234.10:8278/ettvdrama/playlist.m3u8?tid=MA2A9945921599459215&ct=19249&tsum=c9097ecdf4a17c0922196dbf04b0c6e7
 东森洋片,http://50.7.234.10:8278/ettvwestern/playlist.m3u8?tid=MB7B8303252483032524&ct=19249&tsum=14f89967cdf6c504230be29a87cc54f0
 龙华洋片,http://50.7.234.10:8278/lunghuawestern_twn/playlist.m3u8?tid=MC1C3944472239444722&ct=19226&tsum=99c0c7c82e2fc48b16605865c3eaeb82
 龙祥时代,http://50.7.234.10:8278/lungxiangtime_twn/playlist.m3u8?tid=MADA6805114368051143&ct=18392&tsum=d6a1f02ca9abd5368d2a365e40247ae8
@@ -230,7 +231,6 @@ TVBSNews,http://50.7.234.10:8278/tvbs_n/playlist.m3u8?tid=MA4A2233260122332601&c
 凤凰中文,http://50.7.234.10:8278/phoenixtv_hd/playlist.m3u8?tid=MFBF2713938527139385&ct=19225&tsum=1c8ca0899277714ab83db57245220068
 龙华偶像,http://50.7.234.10:8278/lunghuaidol_twn/playlist.m3u8?tid=ME6E1618913016189130&ct=19226&tsum=392d7662a2ff7080289fbe9646e8501d
 龙华戏剧,http://50.7.234.10:8278/lunghuaxiju_twn/playlist.m3u8?tid=MBAB4709384347093843&ct=19226&tsum=a2a7258f8565588e10b8da2f26ba8039
-东森戏剧,http://50.7.234.10:8278/ettvdrama/playlist.m3u8?tid=MA2A9945921599459215&ct=19249&tsum=c9097ecdf4a17c0922196dbf04b0c6e7
 美亚电影台国语,http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MC6C9419277694192776&ct=19234&tsum=43f9d2e13c7cbbce7e5c5ec94fa38750
 AXN,http://50.7.234.10:8278/axn_twn/playlist.m3u8?tid=mc42afe745533&ct=11448811&tsum=eb2e561779222434cac30788692a0ec5
 EYE戏剧,http://50.7.234.10:8278/eyetvxiju_twn/playlist.m3u8?tid=mc42afe745533&ct=11448811&tsum=3c3d3d423c8cb419f027d31857477e68
@@ -319,22 +319,17 @@ TVB星河,http://50.7.234.10:8278/tvbxinhe_twn/playlist.m3u8?tid=mc42afe745533&c
 CAT电影台,https://litv.zapi.us.kg/?id=4gtv-4gtv076
 靖天卡通台,https://litv.zapi.us.kg/?id=4gtv-4gtv044
 民视第一台,https://litv.zapi.us.kg/?id=4gtv-4gtv003
-靖天电影,https://litv.zapi.us.kg/?id=4gtv-4gtv061
 靖天电影,http://litv.zapi.us.kg/?id=4gtv-4gtv061
-靖天戏剧,http://litv.zapi.us.kg/?id=4gtv-4gtv058
 靖天戏剧,http://litv.zapi.us.kg/?ts=https://litvpc-hichannel.cdn.hinet.net/live/pool/4gtv-4gtv058/litv-pc/4gtv-4gtv058-avc1_6000000=1-mp4a_134000_zho=8-begin=3128564000000000-dur=40000000-seq=78214100.ts
+靖天戏剧,http://litv.zapi.us.kg/?id=4gtv-4gtv058
 靖天戏剧,https://litv.zapi.us.kg/?ts=https://litvpc-hichannel.cdn.hinet.net/live/pool/4gtv-4gtv058/litv-pc/4gtv-4gtv058-avc1_6000000=1-mp4a_134000_zho=8-begin=3128563960000000-dur=40000000-seq=78214099.ts
-靖天映画,http://litv.zapi.us.kg/?ts=https://litvpc-hichannel.cdn.hinet.net/live/pool/4gtv-4gtv055/litv-pc/4gtv-4gtv055-avc1_6000000=1-mp4a_134000_zho=8-begin=3128564000000000-dur=40000000-seq=78214100.ts
 靖天映画,https://litv.zapi.us.kg/?ts=https://litvpc-hichannel.cdn.hinet.net/live/pool/4gtv-4gtv055/litv-pc/4gtv-4gtv055-avc1_6000000=1-mp4a_134000_zho=8-begin=3128564040000000-dur=40000000-seq=78214101.ts
+靖天映画,http://litv.zapi.us.kg/?ts=https://litvpc-hichannel.cdn.hinet.net/live/pool/4gtv-4gtv055/litv-pc/4gtv-4gtv055-avc1_6000000=1-mp4a_134000_zho=8-begin=3128564000000000-dur=40000000-seq=78214100.ts
 龙华电影,http://litv.zapi.us.kg/?id=litv-longturn03
 龙华电影,https://litv.zapi.us.kg/?id=litv-longturn03
-AMC电影,https://litv.zapi.us.kg/?id=4gtv-4gtv017
 AMC电影,http://litv.zapi.us.kg/?id=4gtv-4gtv017
-数位电影,https://litv.zapi.us.kg/?id=4gtv-4gtv011
 数位电影,http://litv.zapi.us.kg/?id=4gtv-4gtv011
 龙华卡通,https://litv.zapi.us.kg/?id=litv-longturn01
-龙华卡通,http://litv.zapi.us.kg/?id=litv-longturn01
-公视戏剧,http://litv.zapi.us.kg/?id=4gtv-4gtv042
 龙华戏剧,http://litv.zapi.us.kg/?id=litv-longturn18
 民视闽南,http://litv.zapi.us.kg/?id=4gtv-4gtv002
 民视闽南,http://litv.zapi.us.kg/?id=4gtv-4gtv155
@@ -355,6 +350,7 @@ AMC电影,http://litv.zapi.us.kg/?id=4gtv-4gtv017
 靖天育乐,http://litv.zapi.us.kg/?id=4gtv-4gtv062
 靖天,http://litv.zapi.us.kg/?id=4gtv-4gtv063
 靖天资讯,http://litv.zapi.us.kg/?id=4gtv-4gtv065
+龙华卡通,http://litv.zapi.us.kg/?id=litv-longturn01
 龙华日韩,http://litv.zapi.us.kg/?id=litv-longturn11
 龙华偶像,http://litv.zapi.us.kg/?id=litv-longturn12
 龙华经典,http://litv.zapi.us.kg/?id=litv-longturn21
@@ -373,8 +369,11 @@ AMC电影,http://litv.zapi.us.kg/?id=4gtv-4gtv017
 民视综艺,http://litv.zapi.us.kg/?id=4gtv-4gtv004
 中视菁采,http://litv.zapi.us.kg/?id=4gtv-4gtv064
 中视经典,http://litv.zapi.us.kg/?id=4gtv-4gtv080
+公视戏剧,http://litv.zapi.us.kg/?id=4gtv-4gtv042
 八大精彩,http://litv.zapi.us.kg/?id=4gtv-4gtv034
 八大综艺,http://litv.zapi.us.kg/?id=4gtv-4gtv039
+影迷数位电影,https://litv.zapi.us.kg/?id=4gtv-4gtv011
+AMC电影,https://litv.zapi.us.kg/?id=4gtv-4gtv017
 中视,https://litv.zapi.us.kg/?id=4gtv-4gtv040
 华视,https://litv.zapi.us.kg/?id=4gtv-4gtv041
 靖洋戏剧,https://litv.zapi.us.kg/?id=4gtv-4gtv045
@@ -398,6 +397,7 @@ AMC电影,http://litv.zapi.us.kg/?id=4gtv-4gtv017
 八大精彩,https://litv.zapi.us.kg/?id=4gtv-4gtv034
 民视台湾,https://litv.zapi.us.kg/?id=4gtv-4gtv001
 民视台湾,https://litv.zapi.us.kg/?id=4gtv-4gtv156
+靖天电影,https://litv.zapi.us.kg/?id=4gtv-4gtv061
 中天新闻,https://litv.zapi.us.kg/?id=4gtv-4gtv009
 民视闽南,https://litv.zapi.us.kg/?id=4gtv-4gtv155
 
@@ -409,6 +409,7 @@ AMC电影台,https://stream1.freetv.fun/amcdian-ying-2.m3u8
 三立戏剧台,https://stream1.freetv.fun/san-li-xi-ju-1.m3u8
 纬来电影台,https://stream1.freetv.fun/wei-lai-dian-ying-2.m3u8
 TVB明珠,https://stream1.freetv.fun/ming-zhu-3.ctv
+八大精彩台,https://stream1.freetv.fun/ba-da-jing-cai-1.ctv
 八大综合台,https://stream1.freetv.fun/ba-da-zong-he-2.m3u8
 大爱1,https://stream1.freetv.fun/da-ai-1-1.m3u8
 大爱2,https://stream1.freetv.fun/da-ai-2-1.m3u8
@@ -441,10 +442,10 @@ TVB明珠,https://stream1.freetv.fun/ming-zhu-3.ctv
 凤凰香港,https://stream1.freetv.fun/feng-huang-xiang-gang-11.ctv
 凤凰香港,https://stream1.freetv.fun/feng-huang-xiang-gang-3.ctv
 凤凰香港,https://stream1.freetv.fun/feng-huang-xiang-gang-6.ctv
+凤凰中文,https://stream1.freetv.fun/16bc0b847b4c0a5a1a8645fc01576a0a28d5d8667bad711c48e5d80d12d2d329.ctv
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-12.ctv
+凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-15.ctv
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-16.ctv
-凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-19.m3u8
-凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-4.m3u8
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-5.ctv
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-7.ctv
 凤凰中文,https://stream1.freetv.fun/2b657a181daa345025199e7d6b8de95a1a87b19abceafbd16e2499a49da33c6f.m3u8
@@ -455,11 +456,12 @@ TVB明珠,https://stream1.freetv.fun/ming-zhu-3.ctv
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-2.ctv
 凤凰资讯,https://stream1.freetv.fun/2a72335a63dd0749c5a32d1bf1b0c001a81a26cc81d7e94534791d36f2c87d7d.ctv
 凤凰资讯,https://stream1.freetv.fun/5fb13a1ac8acfc0fbc7121568b65c78e0383919949c35c2a7f278a1ddd081e2b.m3u8
+凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-11.ctv
+凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-15.ctv
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-2.ctv
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-20.ctv
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-21.ctv
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-24.ctv
-凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-3.ctv
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-13.m3u8
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-16.m3u8
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-23.ctv
@@ -488,6 +490,7 @@ TVB明珠,https://stream1.freetv.fun/ming-zhu-3.ctv
 民视新闻台,https://stream1.freetv.fun/min-shi-xin-wen-5.m3u8
 民视新闻台,https://stream1.freetv.fun/min-shi-xin-wen-6.m3u8
 民视综艺台,https://stream1.freetv.fun/min-shi-zong-yi-1.ctv
+三立台湾台,https://stream1.freetv.fun/san-li-tai-wan-1.ctv
 三立台湾台,https://stream1.freetv.fun/san-li-tai-wan-5.m3u8
 三立新闻台,https://stream1.freetv.fun/san-li-xin-wen-3.m3u8
 三立新闻台,https://stream1.freetv.fun/san-li-xin-wen-4.m3u8
@@ -522,22 +525,22 @@ TVB明珠,https://stream1.freetv.fun/ming-zhu-3.ctv
 中天新闻台,https://stream1.freetv.fun/zhong-tian-xin-wen-6.ctv
 中天新闻台,https://stream1.freetv.fun/zhong-tian-xin-wen-7.ctv
 中天新闻,https://stream1.freetv.fun/0efa038ef8b00da22a46c019893c5170b1b49731e8b26ede0655c7f76e5dbfa7.m3u8
-凤凰中文,https://stream1.freetv.fun/16bc0b847b4c0a5a1a8645fc01576a0a28d5d8667bad711c48e5d80d12d2d329.ctv
 凤凰资讯,https://stream1.freetv.fun/a5857ad51b58a0f7a8c9cbdf291571692b0eed9f5ab2cfce97a211260533c0d8.m3u8
 香港卫视,https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv
 香港卫视,https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv
+中视,https://stream1.freetv.fun/zhong-shi-7.m3u8
 东森电影,https://stream1.freetv.fun/dong-sen-dian-ying-1.m3u8
 凤凰资讯,https://stream1.freetv.fun/bfd140266f0bc1d9689c8cca261521038b45d662a160a3785d45d074b26899c2.m3u8
 凤凰中文,https://stream1.freetv.fun/91dffd2dca60b65821a94747f2f3020dfc9642bb89f86ed7fa6d8b0b7487c5d2.m3u8
 凤凰中文,https://stream1.freetv.fun/fe3d3346f748e4ec230691be958aff27e91c225b43b5855685cd1fbe79c56f60.m3u8
 人间卫视,https://stream1.freetv.fun/ren-jian-wei-shi-8.m3u8
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-1.m3u8
-凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-15.ctv
+凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-4.m3u8
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-6.m3u8
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-9.m3u8
-凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-15.ctv
+台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-6.m3u8
 凤凰中文,https://stream1.freetv.fun/4e695e885cc20b20b7e3ec874fe52ed75e27443778c8ff29e498c4c9d7cec4a0.m3u8
-凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-11.ctv
+凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-3.ctv
 
 频道,#genre#
 Now星影,http://aktv.top/AKTV/live/aktv2/now/AKTV.m3u8
@@ -720,7 +723,6 @@ AXN电影,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=axn
 大爱壹,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=daai
 大爱贰,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=catchplay
 靖天卡通,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=jingtiancartoon
-凤凰资讯,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=phoenixinfo_hd
 凤凰香港,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=hkphoenix_twn
 东森综合,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ettvzhonghe
 东森电影,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ettvmovie
@@ -728,6 +730,7 @@ AXN电影,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=axn
 民视新闻,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ftvnew_taiwan
 无线华丽,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Wlt
 TVB无线新闻,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=inews_twn
+凤凰资讯,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=phoenixinfo_hd
 三立戏剧,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=sanlixiju_twn
 中天综合,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ctizhonghe
 八大综合,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=badazhonghe
@@ -762,22 +765,15 @@ SITV七彩戏剧,http://zteres.sn.chinamobile.com:6060/000000001000/200000000200
 SITV七彩戏剧,http://zteres.sn.chinamobile.com:6060/000000001000/5000000011000031116/1.m3u8?channel-id=bestzb&Contentid=5000000011000031116&livemode=1&stbId=3
 
 频道,#genre#
-台视,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=4gtv-4gtv066
-中视,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=4gtv-4gtv040
-华视,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=4gtv-4gtv041
-龙华卡通台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn01
-龙华戏剧台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn18
-台湾戏剧台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn22
-龙华偶像台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn12
-龙华日韩台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn11
-华视新闻,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=4gtv-4gtv052
-三立新闻iNEWS,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=iNEWS
-寰宇财经台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn23
-台视新闻,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=4gtv-4gtv051
-中视新闻,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=4gtv-4gtv074
-中天新闻台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=4gtv-4gtv009
-寰宇新闻台湾台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn15
-寰宇新闻台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn14
-龙华经典台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn21
-龙华电影台,https://dingyue.mytvsuper.xyz/oufei/ofiii_all.php?id=litv-longturn03
+中天新闻2台,http://jpfast.202080.xyz:9090/live.m3u8?c=6
+中天新闻,http://jpfast.202080.xyz:9090/live.m3u8?c=7
+民视新闻,http://jpfast.202080.xyz:9090/live.m3u8?c=8
+寰宇新闻,http://jpfast.202080.xyz:9090/live.m3u8?c=10
+寰宇新闻台湾台,http://jpfast.202080.xyz:9090/live.m3u8?c=11
+东森51,http://jpfast.202080.xyz:9090/live.m3u8?c=12
+东森财经,http://jpfast.202080.xyz:9090/live.m3u8?c=13
+华视新闻,http://jpfast.202080.xyz:9090/live.m3u8?c=14
+公视新闻,http://jpfast.202080.xyz:9090/live.m3u8?c=15
+CTI+|中天2台,http://jpfast.202080.xyz:9090/live.m3u8?c=22
+TVBS新闻,http://jpfast.202080.xyz:9090/live.m3u8?c=23
 
