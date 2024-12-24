@@ -1,3 +1,5 @@
+https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.txt
+https://raw.githubusercontent.com/mhy700207/iptv/refs/heads/main/mhy1.m3u
 https://raw.githubusercontent.com/sublime2025/IPTV/refs/heads/main/TV
 http://wx.thego.cn/ak.m3u
 https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
