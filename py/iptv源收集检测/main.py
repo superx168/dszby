@@ -729,7 +729,7 @@ except Exception as e:
 # 报时
 #print(f"time: {datetime.now().strftime("%Y%m%d_%H_%M_%S")}")
 
-channels_logos=read_txt_to_array('assets/logo.txt') #读入logo库
+channels_logos=read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/assets/logo.txt') #读入logo库
 def get_logo_by_channel_name(channel_name):
     # 遍历数组查找频道名称
     for line in channels_logos:
