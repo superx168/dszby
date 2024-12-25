@@ -585,7 +585,7 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ [
              ["💓专享卫视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质卫视.txt') + ['\n'] + \
              ["💓港澳台📶,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪港澳台.txt') + ['\n'] + \
              ["💓台湾台📶,#genre#"] + read_txt_to_array('主频道/♪台湾台.txt') + ['\n'] + \
-             ["💓电视剧🔁,#genre#"] + read_txt_to_array('主频道/♪电视剧.txt') + ['\n'] + \
+             ["💓专享-1,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪专享-1.txt') + ['\n'] + \
              ["💓优质个源,#genre#"] + read_txt_to_array('主频道/♪优质源.txt') + ['\n'] + \
              ["💓儿童专享,#genre#"] + read_txt_to_array('主频道/♪儿童专享.txt') + ['\n'] + \
              ["💓北京组播,#genre#"] + read_txt_to_array('主频道/♪北京组播.txt') + ['\n'] + \
@@ -610,7 +610,7 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
              ["💓专享卫视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质卫视.txt') + ['\n'] + \
              ["💓港澳台📶,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪港澳台.txt') + ['\n'] + \
              ["💓台湾台📶,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪台湾台.txt') + ['\n'] + \
-             ["💓电视剧🔁,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪电视剧.txt') + ['\n'] + \
+             ["💓专享-1,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪专享-1.txt') + ['\n'] + \
              ["💓优质个源,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质源.txt') + ['\n'] + \
              ["💓儿童专享,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪儿童专享.txt') + ['\n'] + \
              ["💓北京组播,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪北京组播.txt') + ['\n'] + \
