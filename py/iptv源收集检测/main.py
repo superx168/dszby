@@ -573,12 +573,11 @@ beijing_time = utc_time + timedelta(hours=8)
 formatted_time = beijing_time.strftime("%Y%m%d %H:%M:%S")
 
 about_video1="https://gitee.com/kabigo/tv/raw/master/assets/about1080p.mp4"
-about_video2="https://gitlab.com/p2v5/wangtv/-/raw/main/about1080p.mp4"
+#about_video2="https://gitlab.com/p2v5/wangtv/-/raw/main/about1080p.mp4"
 version=formatted_time+","+about_video1
-about="关于本源,"+about_video2
+#about="关于本源,"+about_video2
 # 瘦身版
-# 
-all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ ['\n'] +\
+all_lines_simple =  ["更新时间,#genre#"] +[version] +[daily_mtv]+ ['\n'] +\
              ["💓黑龙江移动专享,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪黑龙江移动专享.txt') + ['\n'] + \
              ["💓历届春晚,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪历届春晚.txt') + ['\n'] + \
              ["💓专享央视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质央视.txt') + ['\n'] + \
@@ -603,7 +602,7 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ [
 # 合并所有对象中的行文本（去重，排序后拼接）
 # ["奥运频道,#genre#"] + sort_data(Olympics_2024_Paris_dictionary,set(correct_name_data(corrections_name,Olympics_2024_Paris_lines))) + ['\n'] + \
 #correct：恰当的；合适的，corrections：更正
-all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n'] +\
+all_lines =  ["更新时间,#genre#"] +[version] +[daily_mtv] + ['\n'] +\
              ["💓黑龙江移动专享,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪黑龙江移动专享.txt') + ['\n'] + \
              ["💓历届春晚,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪历届春晚.txt') + ['\n'] + \
              ["💓专享央视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质央视.txt') + ['\n'] + \
