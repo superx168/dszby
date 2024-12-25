@@ -44,6 +44,7 @@ url_blacklist = [
     "eastscreen.tv",
     "test.zapi.us.kg",
     "pi.0472.org",
+    "218.202.220.2:5000",
 "cqcbn1.live.cbncdn.cn:8090",
 "211.101.247.19:6699",
 "111.31.22.5",
