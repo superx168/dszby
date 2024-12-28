@@ -55,8 +55,8 @@ url_blacklist = [
     "tvbox.nat.netsite.cc:8043",
     "tv.netsite.cc",
     "106.53.99.30",
-    "8.138.90.107‘，
-    “php.jdshipin.com”，
+    "8.138.90.107",
+    "php.jdshipin.com",
 "cqcbn1.live.cbncdn.cn:8090",
 "211.101.247.19:6699",
 "111.31.22.5",
