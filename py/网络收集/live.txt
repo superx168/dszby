@@ -424,6 +424,7 @@ CHC家庭影院,https://stream1.freetv.fun/chcjia-ting-ying-yuan-15.m3u8$V4『�
 香港卫视,https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv$V4『线路19』
 香港卫视,https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv$V4『线路20』
 香港卫视,http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8$V4『线路21』
+香港卫视,http://stream.qhbtv.com/adws/sd/live.m3u8$V4『线路22』
 星空卫视,http://m.azwj.top:31991/stream/channelid/1313986052?auth=Picrjg-DLYUUmUSbwERDW62PYQl0$V4『线路1』
 星空卫视,https://stream1.freetv.fun/xing-kong-wei-shi-10.m3u8$V4『线路2』
 星空卫视,https://stream1.freetv.fun/xing-kong-wei-shi-9.m3u8$V4『线路3』
@@ -791,9 +792,9 @@ CHC家庭影院,https://stream1.freetv.fun/chcjia-ting-ying-yuan-15.m3u8$V4『�
 安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8$V4『线路1』
 安多卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8$V4『线路2』
 安多卫视,https://stream1.freetv.fun/52d0df257c5c3cec42f2ae19268dbbc261256ff391b27bd83553bea941d0c186.m3u8$V4『线路3』
-安多卫视,http://stream.qhbtv.com/adws/sd/live.m3u8$V4『线路4』
-安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8?_upt=be54a04d1719055140$V4『线路5』
-安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8?_upt=d60823ce1718441050$V4『线路6』
+安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8?_upt=d60823ce1718441050$V4『线路4』
+安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8?_upt=848d1a991707377572$V4『线路5』
+安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8?_upt=739abf201649062902$V4『线路6』
 康巴卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8$V4『线路1』
 康巴卫视,https://stream1.freetv.fun/b3baba1d904b40b2d929ec8cbdfa40800abc7cb6d1c18efed0d6d91d97bce5b3.ctv$V4『线路2』
 康巴卫视,https://stream1.freetv.fun/7acb1025eb98d411fe5dc519902069dda51b621f55c7b1fce3acdd50f55d6ad5.ctv$V4『线路3』
@@ -1118,7 +1119,6 @@ CHC家庭影院,https://stream1.freetv.fun/chcjia-ting-ying-yuan-15.m3u8$V4『�
 北京IPTV淘电影,https://stream1.freetv.fun/tao-dian-ying-7.ctv$V4『线路13』
 北京IPTV淘电影,https://stream1.freetv.fun/tao-dian-ying-8.ctv$V4『线路14』
 北京IPTV淘电影,https://stream1.freetv.fun/tao-dian-ying-9.ctv$V4『线路15』
-北京IPTV淘电影,http://39.134.134.85/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?servicetype=1&tenantId=8601&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7EKlErQUXVuBznNsk_8-4cGuvN4oWIYr277XxeOWBSJuska5xHKrAeI7I72_CIJ2tk%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3A20230121144555%2C3067071%2C10.30.228.104%2C20230121144555%2C10000100000000050000000003887498%2C3067071%2C-1%2C0%2C1%2C-1%2C%2C2%2C2201370%2C%2C%2C2%2C%2C10000100000000060000000007266384_0%2CEND&GuardEncType=2&icpid=88888888&from=6&popid=6&hms_devid=3725&prioritypopid=6&vqe=3$V4『线路16』
 江苏,#genre#
 浙江综合,#genre#
 浙江民生休闲,https://stream1.freetv.fun/zhe-jiang-min-sheng-10.m3u8$V4『线路1』
