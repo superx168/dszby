@@ -7,7 +7,7 @@ source_urls = [
     "https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
     "https://raw.githubusercontent.com/mhy700207/iptv/refs/heads/main/mhy1.m3u",
     "https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.txt",
-   # "",
+    "https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/refs/heads/main/my.txt",
     "http://aktv.top/live.m3u",
      "https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt",
     # "",
