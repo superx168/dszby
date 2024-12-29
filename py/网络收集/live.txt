@@ -794,7 +794,6 @@ CHC家庭影院,https://stream1.freetv.fun/chcjia-ting-ying-yuan-15.m3u8$V4『�
 安多卫视,https://stream1.freetv.fun/52d0df257c5c3cec42f2ae19268dbbc261256ff391b27bd83553bea941d0c186.m3u8$V4『线路3』
 安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8?_upt=d60823ce1718441050$V4『线路4』
 安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8?_upt=848d1a991707377572$V4『线路5』
-安多卫视,http://stream.qhbtv.com/adws/playlist.m3u8?_upt=739abf201649062902$V4『线路6』
 康巴卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8$V4『线路1』
 康巴卫视,https://stream1.freetv.fun/b3baba1d904b40b2d929ec8cbdfa40800abc7cb6d1c18efed0d6d91d97bce5b3.ctv$V4『线路2』
 康巴卫视,https://stream1.freetv.fun/7acb1025eb98d411fe5dc519902069dda51b621f55c7b1fce3acdd50f55d6ad5.ctv$V4『线路3』
@@ -1999,10 +1998,10 @@ J2,http://50.7.234.10:8278/j2_twn/playlist.m3u8?tid=MA8A1176878411768784&ct=1922
 法证先锋,http://cdn.jdshipin.com:8880/huya.php?id=23863804$v4
 陀枪师姐,http://huanqiuzhibo.cn/manifest/huya.php?id=23860039$V4『线路1』
 陀枪师姐,http://cdn.jdshipin.com:8880/huya.php?id=23860039$V4『线路2』
-笑傲江湖,https://lunbo.freetv.top/yy/1354930909$V4『线路1』
-笑傲江湖,https://vip.ffzy-play7.com/20221129/7696_58fbd289/index.m3u8$V4『线路2』
-笑傲江湖,http://huanqiuzhibo.cn/manifest/huya.php?id=23865142$V4『线路3』
-笑傲江湖,https://vd4.bdstatic.com/mda-ki3e6haxdv0x0tgr/v1-cae/mda-ki3e6haxdv0x0tgr.mp4?auth_key=1602763155-0-0-1dae92370a0b1d7d9dca0d3d9c748b00&amp;bcevod_channel=searchbox_feed&amp;pd=1&amp;pt=3&amp;abtest=8797_2&amp;sle=1&amp;sl=537&amp;split=597343$V4『线路4』
+笑傲江湖,https://vip.ffzy-play7.com/20221129/7696_58fbd289/index.m3u8$V4『线路1』
+笑傲江湖,http://huanqiuzhibo.cn/manifest/huya.php?id=23865142$V4『线路2』
+笑傲江湖,https://vd4.bdstatic.com/mda-ki3e6haxdv0x0tgr/v1-cae/mda-ki3e6haxdv0x0tgr.mp4?auth_key=1602763155-0-0-1dae92370a0b1d7d9dca0d3d9c748b00&amp;bcevod_channel=searchbox_feed&amp;pd=1&amp;pt=3&amp;abtest=8797_2&amp;sle=1&amp;sl=537&amp;split=597343$V4『线路3』
+笑傲江湖,https://lunbo.freetv.top/yy/1354930909$V4『线路4』
 笑傲江湖,http://120.77.28.4:8648/yy.php?id=1354282410$V4『线路5』
 笑傲江湖,http://cdn.jdshipin.com:8880/huya.php?id=23865142$V4『线路6』
 洗冤录,http://huanqiuzhibo.cn/manifest/huya.php?id=23903130$V4『线路1』
