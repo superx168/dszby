@@ -1643,12 +1643,8 @@ http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8$V4『�
 http://lu1.cc/itv/php/cctv4k.php$V4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV4K超高清" tvg-logo="https://live.fanmingming.com/tv/CCTV4K超高清.png" group-title="央视频道",CCTV4K超高清
 http://223.105.252.60/PLTV/4/224/3221228472/index.m3u8?servicetype=1$V4『线路3』
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV怀旧剧场" tvg-logo="https://live.fanmingming.com/tv/CCTV怀旧剧场.png" group-title="央视频道",CCTV怀旧剧场
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=224$v4
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV老故事" tvg-logo="https://live.fanmingming.com/tv/CCTV老故事.png" group-title="央视频道",CCTV老故事
-http://hms3654nc3747353861.live.aikan.miguvideo.com/wh7f454c46tw1784842410_782070876/migu/kailu/cctvlaogushi/50/20231109/index.m3u8?msisdn=a5fd36f310c1199e87e722953f630b4f&Channel_ID=0119_04102000-99000_400300000040002&client_ip=223.104.119.101&timestamp=20241224064223&encrypt=2bda76fe1c1f3c4fb9827f9dae851a93&ContentId=810326846&timezone=UTC&netType=Cellular&clientType=Android&zjAppVersion=915&zjClientId=fa8369c0be5431ec&mtv_session=c8f24b01e11e67491caf2ae9ce6cd9ee&icpid=88888888&RTS=1735022543&from=22&hms_devid=3654&online=1735022543$V4『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV老故事" tvg-logo="https://live.fanmingming.com/tv/CCTV老故事.png" group-title="央视频道",CCTV老故事
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=166$V4『线路2』
+http://hms3654nc3747353861.live.aikan.miguvideo.com/wh7f454c46tw1784842410_782070876/migu/kailu/cctvlaogushi/50/20231109/index.m3u8?msisdn=a5fd36f310c1199e87e722953f630b4f&Channel_ID=0119_04102000-99000_400300000040002&client_ip=223.104.119.101&timestamp=20241224064223&encrypt=2bda76fe1c1f3c4fb9827f9dae851a93&ContentId=810326846&timezone=UTC&netType=Cellular&clientType=Android&zjAppVersion=915&zjClientId=fa8369c0be5431ec&mtv_session=c8f24b01e11e67491caf2ae9ce6cd9ee&icpid=88888888&RTS=1735022543&from=22&hms_devid=3654&online=1735022543$v4
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV风云足球" tvg-logo="https://live.fanmingming.com/tv/CCTV风云足球.png" group-title="央视频道",CCTV风云足球
 http://livetv.wqwqwq.sbs/rptv/G_FENGSHANGZQ-CQ.m3u8?license=gitv$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV风云足球" tvg-logo="https://live.fanmingming.com/tv/CCTV风云足球.png" group-title="央视频道",CCTV风云足球
@@ -1659,26 +1655,14 @@ http://livetv.wqwqwq.sbs/rptv/G_SHIJIEDL-CQ.m3u8?license=gitv$V4『线路1』
 http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=177$V4『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV央视台球" tvg-logo="https://live.fanmingming.com/tv/CCTV央视台球.png" group-title="央视频道",CCTV央视台球
 http://livetv.wqwqwq.sbs/rptv/G_TAIQIU-CQ.m3u8?license=gitv$v4
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV女性时尚" tvg-logo="https://live.fanmingming.com/tv/CCTV女性时尚.png" group-title="央视频道",CCTV女性时尚
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=176$v4
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV电视指南" tvg-logo="https://live.fanmingming.com/tv/CCTV电视指南.png" group-title="央视频道",CCTV电视指南
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=164$v4
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV发现之旅" tvg-logo="https://live.fanmingming.com/tv/CCTV发现之旅.png" group-title="央视频道",CCTV发现之旅
-http://hms3654nc3747353861.live.aikan.miguvideo.com/wh7f454c46tw1792012171_1511058735/migu/kailu/faxianzhilv/211204/20230918/index.m3u8?msisdn=a5fd36f310c1199e87e722953f630b4f&Channel_ID=0119_04102000-99000_400300000040002&client_ip=223.104.119.101&timestamp=20241224064230&encrypt=270c9219a78fd6e4bd5e2f97f35da031&ContentId=810326624&timezone=UTC&netType=Cellular&clientType=Android&zjAppVersion=915&zjClientId=fa8369c0be5431ec&mtv_session=01252b9f38626e835a32786420ce118e&icpid=88888888&RTS=1735022550&from=22&hms_devid=3654&online=1735022550$V4『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV发现之旅" tvg-logo="https://live.fanmingming.com/tv/CCTV发现之旅.png" group-title="央视频道",CCTV发现之旅
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=151$V4『线路2』
-#EXTINF:-1 tvg-id="1" tvg-name="CETV1" tvg-logo="https://live.fanmingming.com/tv/CETV1.png" group-title="央视频道",CETV1
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=135$v4
-#EXTINF:-1 tvg-id="1" tvg-name="CETV2" tvg-logo="https://live.fanmingming.com/tv/CETV2.png" group-title="央视频道",CETV2
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=492$v4
+http://hms3654nc3747353861.live.aikan.miguvideo.com/wh7f454c46tw1792012171_1511058735/migu/kailu/faxianzhilv/211204/20230918/index.m3u8?msisdn=a5fd36f310c1199e87e722953f630b4f&Channel_ID=0119_04102000-99000_400300000040002&client_ip=223.104.119.101&timestamp=20241224064230&encrypt=270c9219a78fd6e4bd5e2f97f35da031&ContentId=810326624&timezone=UTC&netType=Cellular&clientType=Android&zjAppVersion=915&zjClientId=fa8369c0be5431ec&mtv_session=01252b9f38626e835a32786420ce118e&icpid=88888888&RTS=1735022550&from=22&hms_devid=3654&online=1735022550$v4
 #EXTINF:-1 tvg-id="1" tvg-name="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="央视频道",CHC动作电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰电影" tvg-logo="https://live.fanmingming.com/tv/凤凰电影.png" group-title="央视频道",凤凰电影
 http://home.js001.com:7777/stream/channelid/884059847?profile=pass$v4
 #EXTINF:-1 tvg-id="1" tvg-name="重温经典" tvg-logo="https://live.fanmingming.com/tv/重温经典.png" group-title="卫视频道",重温经典
-http://cdn3.132.us.kg/live/cwjd/stream.m3u8$V4『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="重温经典" tvg-logo="https://live.fanmingming.com/tv/重温经典.png" group-title="卫视频道",重温经典
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=636$V4『线路2』
+http://cdn3.132.us.kg/live/cwjd/stream.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰卫视" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视.png" group-title="卫视频道",凤凰卫视
 http://50.7.238.114:8278/phoenixtv_hd/playlist.m3u8?tid=m18f421b0e58b&amp;ct=18336&amp;tsum=8e0cca627477cbd534c9cef5e2c17c1c$v4
 #EXTINF:-1 tvg-id="1" tvg-name="凤凰卫视中文台" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="卫视频道",凤凰卫视中文台
@@ -3391,8 +3375,6 @@ http://39.135.133.177:80/PLTV/88888888/224/3221225646/1.m3u8$V4『线路5』
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="家庭剧场" tvg-logo="https://live.fanmingming.com/tv/家庭剧场.png" group-title="数字频道",家庭剧场
 http://39.134.136.205:6610/200000001898/460000089800010074/1.m3u8?IAS=$V4『线路2』
-#EXTINF:-1 tvg-id="3" tvg-name="家庭剧场" tvg-logo="https://live.fanmingming.com/tv/家庭剧场.png" group-title="数字频道",家庭剧场
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=290$V4『线路3』
 #EXTINF:-1 tvg-id="1" tvg-name="精品大剧" tvg-logo="https://live.fanmingming.com/tv/精品大剧.png" group-title="数字频道",精品大剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="精品大剧" tvg-logo="https://live.fanmingming.com/tv/精品大剧.png" group-title="数字频道",精品大剧
@@ -3477,8 +3459,6 @@ http://39.135.133.155:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/
 http://39.135.133.157:80/PLTV/88888888/224/3221225635/1.m3u8$V4『线路8』
 #EXTINF:-1 tvg-id="9" tvg-name="金牌综艺" tvg-logo="https://live.fanmingming.com/tv/金牌综艺.png" group-title="数字频道",金牌综艺
 http://39.135.133.157:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8$V4『线路9』
-#EXTINF:-1 tvg-id="1" tvg-name="SiTV-法治天地" tvg-logo="https://live.fanmingming.com/tv/SiTV-法治天地.png" group-title="数字频道",SiTV-法治天地
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=162$v4
 #EXTINF:-1 tvg-id="1" tvg-name="SiTV-七彩戏剧" tvg-logo="https://live.fanmingming.com/tv/SiTV-七彩戏剧.png" group-title="数字频道",SiTV-七彩戏剧
 https://bp-caster.bestv.com.cn/250/1/video.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="SiTV-生活时尚" tvg-logo="https://live.fanmingming.com/tv/SiTV-生活时尚.png" group-title="数字频道",SiTV-生活时尚
@@ -3536,9 +3516,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8$V4『�
 #EXTINF:-1 tvg-id="2" tvg-name="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字频道",纪实人文
 http://39.134.136.161:6610/000000001000/7081356299464623208/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=7081356299464623208$V4『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.com/tv/纪实科教.png" group-title="数字频道",纪实科教
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8$V4『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.com/tv/纪实科教.png" group-title="数字频道",纪实科教
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=113$V4『线路2』
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="求索记录" tvg-logo="https://live.fanmingming.com/tv/求索记录.png" group-title="数字频道",求索记录
 http://39.135.133.154:80/000000001000/6000000002000032052/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032052&livemode=1&stbId=3$v4
 #EXTINF:-1 tvg-id="1" tvg-name="求索动物" tvg-logo="https://live.fanmingming.com/tv/求索动物.png" group-title="数字频道",求索动物
@@ -3970,9 +3948,7 @@ http://tencentplaygzrb01.gztv.com/live/yingshi.m3u8$V4『线路7』
 #EXTINF:-1 tvg-id="8" tvg-name="广州影视" tvg-logo="https://live.fanmingming.com/tv/广州影视.png" group-title="广东频道",广州影视
 http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p10.php?id=jingsai$V4『线路8』
 #EXTINF:-1 tvg-id="1" tvg-name="广州法治" tvg-logo="https://live.fanmingming.com/tv/广州法治.png" group-title="广东频道",广州法治
-https://tencentplaygzrb.gztv.com:443/live/fazhi.m3u8$V4『线路1』
-#EXTINF:-1 tvg-id="2" tvg-name="广州法治" tvg-logo="https://live.fanmingming.com/tv/广州法治.png" group-title="广东频道",广州法治
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p10.php?id=fazhi$V4『线路2』
+https://tencentplaygzrb.gztv.com:443/live/fazhi.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="广州竞赛" tvg-logo="https://live.fanmingming.com/tv/广州竞赛.png" group-title="广东频道",广州竞赛
 https://tencentplaywebsite.gztv.com/live/jingsai.m3u8?txSecret=cd5eb475078e689b230ada7df792e4de&txTime=193108637cb$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="广州竞赛" tvg-logo="https://live.fanmingming.com/tv/广州竞赛.png" group-title="广东频道",广州竞赛
@@ -4005,10 +3981,6 @@ https://livestream.oeeee.com/slive/17806.m3u8$V4『线路2』
 http://livestream.oeeee.com/slive/17807.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="佛山公共" tvg-logo="https://live.fanmingming.com/tv/佛山公共.png" group-title="广东频道",佛山公共
 http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p9.php?id=fsgg$v4
-#EXTINF:-1 tvg-id="1" tvg-name="佛山南海" tvg-logo="https://live.fanmingming.com/tv/佛山南海.png" group-title="广东频道",佛山南海
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p9.php?id=fsnh$v4
-#EXTINF:-1 tvg-id="1" tvg-name="佛山顺德" tvg-logo="https://live.fanmingming.com/tv/佛山顺德.png" group-title="广东频道",佛山顺德
-http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p9.php?id=fssd$v4
 #EXTINF:-1 tvg-id="1" tvg-name="佛山影视" tvg-logo="https://live.fanmingming.com/tv/佛山影视.png" group-title="广东频道",佛山影视
 http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p9.php?id=fsys$v4
 #EXTINF:-1 tvg-id="1" tvg-name="佛山综合" tvg-logo="https://live.fanmingming.com/tv/佛山综合.png" group-title="广东频道",佛山综合
