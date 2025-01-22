@@ -31,9 +31,9 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         git add .
-        git commit *.txt -m "action: `date`"
-        git commit *.m3u -m "action: `date`"
-        git push -f
-        #git diff --quiet && git diff --staged --quiet || (git commit -m "Update live_ipv4.txt" && git push)
+        # git commit *.txt -m "action: `date`"
+        # git commit *.m3u -m "action: `date`"
+        # git push -f
+        git diff --quiet && git diff --staged --quiet || (git commit -m "action: `date`" && git push)
       env:
        TZ: Asia/Shanghai
