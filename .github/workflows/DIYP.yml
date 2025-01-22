@@ -20,7 +20,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install selenium requests futures eventlet
+        run: pip install logging requests OrderedDict 
 
       - name: Run DIYP.py
         run: python ${{ github.workspace }}/py/DIYP/DIYP.py
