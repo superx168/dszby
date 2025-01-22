@@ -6,7 +6,7 @@ from datetime import datetime
 import DIYP_config
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[logging.FileHandler("DIYP/function.log", "w", encoding="utf-8"), logging.StreamHandler()])
+                    handlers=[logging.FileHandler("py/DIYP/function.log", "w", encoding="utf-8"), logging.StreamHandler()])
 
 
 def parse_template(template_file):
@@ -146,12 +146,12 @@ def updateChannelUrlsM3U(channels, template_channels):
             if announcement["name"] is None:
                 announcement["name"] = current_date
 
-    with open("DIYP/live.m3u", "w", encoding="utf-8") as f_m3u:
+    with open("py/DIYP/live.m3u", "w", encoding="utf-8") as f_m3u:
         f_m3u.write(
             f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in DIYP_config.epg_urls)}\n"""
         )
 
-        with open("DIYP/live.txt", "w", encoding="utf-8") as f_txt:
+        with open("py/DIYP/live.txt", "w", encoding="utf-8") as f_txt:
             for group in DIYP_config.announcements:
                 f_txt.write(f"{group['channel']},#genre#\n")
                 for announcement in group["entries"]:
@@ -220,7 +220,7 @@ def updateChannelUrlsM3U(channels, template_channels):
             logging.info(f"爬取完成✅，共计频道数：{count}")
 
 if __name__ == "__main__":
-    template_file = "DIYP/demo.txt"
+    template_file = "py/DIYP/demo.txt"
     channels, template_channels = filter_source_urls(template_file)
     updateChannelUrlsM3U(channels, template_channels)
 ###################
