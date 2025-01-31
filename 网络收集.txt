@@ -9,6 +9,7 @@
 番薯音乐,http://61.216.67.119:1935/TWHG/E1/chunklistw7058102.m3u8?
 番薯音乐,http://61.216.67.119:1935/TWHG/E1/chunklistw705811302.m3u8?
 ﻿番薯,http://61.216.67.119:1935/TWHG/E1/chunklistw7058102.m3u8
+番薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
 
 频道,#genre#
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
@@ -23,9 +24,8 @@ TVB亚洲武侠,http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist
 无线功夫台,https://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
 翡翠台,http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w100.m3u8
 无线直播,http://v2h.jdshipin.com/liveshow/liveshow.stream/chunklist_w10.m3u8
-无线功夫,http://v2h.jdshipin.com/asia_action1/1asia_action.stream/chunklist_w101.m3u8
-无线生活,http://v2h.jdshipin.com/finance2/finance2.stream/chunklist.m3u8
-无线星河,http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
+TVB功夫,http://v2h.jdshipin.com/asia_action1/1asia_action.stream/chunklist_w101.m3u8
+TVB星河,http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 TVB星河3,https://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 
 频道,#genre#
@@ -169,6 +169,7 @@ TVBS,http://37.27.111.214:8080/live/23/hls.m3u8
 影迷,http://37.27.111.214:8080/live/92/hls.m3u8
 影剧,http://37.27.111.214:8080/live/88/hls.m3u8
 靖洋戏居,http://37.27.111.214:8080/live/17/hls.m3u8
+靖天电影,http://37.27.111.214:8080/live/18/hls.m3u8
 
 频道,#genre#
 中视新闻,http://50.7.234.10:8278/ca73a13c37/playlist.m3u8?tid=mee3f06f682eb&ct=18335&tsum=7491cceca17c1e2af05824583855f8bd
@@ -205,18 +206,17 @@ TVBSNews,http://50.7.234.10:8278/tvbs_n/playlist.m3u8?tid=MA4A2233260122332601&c
 公视,http://50.7.234.10:8278/ctv_taiwan/playlist.m3u8?tid=MDCD6096520560965205&ct=19249&tsum=64237c7ffa0c00b62657a938247bcab0
 八大戏剧,http://50.7.234.10:8278/badadrama/playlist.m3u8?tid=m4970c4e1b988&ct=18335&tsum=20cb1d15d4e116ab9e44edb542cf51a5
 三立综合,http://50.7.234.10:8278/sanlizhonghe/playlist.m3u8?tid=m3362167a08a014596868&ct=17874&tsum=4472a7c943b67bf52fe5e836ca9f3b6b
-东森洋片,http://50.7.234.10:8278/ettvwestern/playlist.m3u8?tid=mfdfc048e6c2416337202&ct=17874&tsum=cad39b26202d525ea820bee1d69e545f
-三立戏剧,http://50.7.234.10:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
 东森幼幼,http://50.7.234.10:8278/yoyo_twn/playlist.m3u8?ct=17874&tid=m84c9b210bc7f11269156&tsum=51340c8fb7ca02ab978ee0791843501d
-美亚电影,http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MD3D6323299363232993&ct=18392&tsum=3f73f541d33abe71140d28ada99a071b
 凤凰香港备用2,http://50.7.234.10:8278/hkphoenix_twn/playlist.m3u8?tid=MD0D2495250724952507&ct=19249&tsum=b1c0a577a7f4aaa9af143d124ba24a40
 TVBS,http://50.7.234.10:8278/tvbs/playlist.m3u8?tid=MDED5111960351119603&ct=19226&tsum=49931e2d3885c468d56ffae2c2db9e6e
 中视,http://50.7.234.10:8278/zhongshihd_twn/playlist.m3u8?ct=19226&tid=MB8B7313326473133264&tsum=ae7506028e559f3a6e2a3519b2f6a91e
-东森新闻,http://50.7.234.10:8278/ettvnews/playlist.m3u8?tid=m1785954e5a67&ct=18336&tsum=ce82c650c85a63fe1ead9e30f2d4bfb4
+美亚电影,http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MD3D6323299363232993&ct=18392&tsum=3f73f541d33abe71140d28ada99a071b
 龙祥电影,http://50.7.234.10:8278/cb7a1fec69/playlist.m3u8?tid=md05ab4002297&ct=18335&tsum=ebe4254ee0e073c2d3c9789e679c00a5
 龙华洋片,http://50.7.234.10:8278/lunghuawestern_twn/playlist.m3u8?tid=MC1C3944472239444722&ct=19226&tsum=99c0c7c82e2fc48b16605865c3eaeb82
+东森新闻,http://50.7.234.10:8278/ettvnews/playlist.m3u8?tid=m1785954e5a67&ct=18336&tsum=ce82c650c85a63fe1ead9e30f2d4bfb4
 TVBS欢乐,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB7220883472208834&ct=19234&tsum=82bece8e29754b899ffb60e5246dfc74
 三立台湾,http://50.7.234.10:8278/sanlitaiwan/playlist.m3u8?tid=MD3D6272113862721138&ct=19344&tsum=67db4abe16d57b8ac1ca573eab42c5e4
+三立戏剧,http://50.7.234.10:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
 龙华偶像,http://50.7.234.10:8278/lunghuaidol_twn/playlist.m3u8?tid=ME6E1618913016189130&ct=19226&tsum=392d7662a2ff7080289fbe9646e8501d
 龙华戏剧,http://50.7.234.10:8278/lunghuaxiju_twn/playlist.m3u8?tid=MBAB4709384347093843&ct=19226&tsum=a2a7258f8565588e10b8da2f26ba8039
 龙祥时代,http://50.7.234.10:8278/lungxiangtime_twn/playlist.m3u8?tid=MADA6805114368051143&ct=18392&tsum=d6a1f02ca9abd5368d2a365e40247ae8
@@ -336,11 +336,9 @@ CAT电影台,https://litv.zapi.us.kg/?id=4gtv-4gtv076
 采昌影剧,http://litv.zapi.us.kg/?id=4gtv-4gtv049
 
 频道,#genre#
-香港卫视,https://stream1.freetv.fun/xiang-gang-wei-shi-3.m3u8
-香港卫视,https://stream1.freetv.fun/xiang-gang-wei-shi-8.m3u8
-香港卫视,https://stream1.freetv.fun/xiang-gang-wei-shi-11.m3u8
-香港卫视,https://stream1.freetv.fun/xiang-gang-wei-shi-7.m3u8
-香港卫视,https://stream1.freetv.fun/xiang-gang-wei-shi-10.m3u8
+香港卫视,https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv
+香港卫视,https://stream1.freetv.fun/79e4d77e2f29a2ca7f7cabbbe2ee02d32a4f2f7fb91ae94d0fb9573c9f94b4ab.ctv
+香港卫视,https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv
 AMC电影,https://stream1.freetv.fun/amcdian-ying-1.m3u8
 凤凰中文,https://stream1.freetv.fun/2b657a181daa345025199e7d6b8de95a1a87b19abceafbd16e2499a49da33c6f.m3u8
 东森,https://stream1.freetv.fun/dong-sen-mei-zhou-3.m3u8
@@ -370,9 +368,7 @@ AMC电影,https://stream1.freetv.fun/amcdian-ying-1.m3u8
 八大戏剧,https://stream1.freetv.fun/ba-da-xi-ju-1.m3u8
 民视新闻,https://stream1.freetv.fun/min-shi-xin-wen-7.m3u8
 凤凰资讯,https://stream1.freetv.fun/a5857ad51b58a0f7a8c9cbdf291571692b0eed9f5ab2cfce97a211260533c0d8.m3u8
-凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-19.m3u8
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-4.m3u8
-中天新闻,https://stream1.freetv.fun/zhong-tian-xin-wen-4.m3u8
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-11.m3u8
 东森超视,https://stream1.freetv.fun/dong-sen-chao-shi-4.m3u8
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-10.m3u8
@@ -393,9 +389,7 @@ AMC电影,https://stream1.freetv.fun/amcdian-ying-1.m3u8
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-9.m3u8
 TVBPlus,https://stream1.freetv.fun/tvb-j2-1.m3u8
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-1.m3u8
-凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-12.m3u8
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-12.ctv
-凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-20.m3u8
 中视新闻,https://stream1.freetv.fun/zhong-shi-xin-wen-4.m3u8
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-7.ctv
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-22.m3u8
@@ -425,16 +419,6 @@ TVBPlus,https://stream1.freetv.fun/tvb-j2-1.m3u8
 纬来日本,https://iptv.vip-tptv.xyz/tv.php?id=6
 东森幼幼,https://iptv.vip-tptv.xyz/tv.php?id=8
 爱尔达影剧,https://iptv.vip-tptv.xyz/tv.php?id=9
-
-频道,#genre#
-爱星影视,http://fy27.zbds.top:55455/douyu/9476806
-贝爷求生影视2,http://fy27.zbds.top:55455/douyu/9661369
-1900影剧室,http://fy27.zbds.top:55455/douyu/7796193
-开箱嘤嘤怪,http://fy27.zbds.top:55455/douyu/10319056
-爱情公寓丶神乐,http://fy27.zbds.top:55455/douyu/6566658
-进击D神乐,http://fy27.zbds.top:55455/douyu/122402
-进击的神乐,http://fy27.zbds.top:55455/douyu/85894
-芳芳说故事,http://fy27.zbds.top:55455/douyu/9401905
 
 频道,#genre#
 龙华电影台,https://s2-10623-kwimgs.52520.xyz/4gtv.php?key=e7613508260c3c3d8d25b90c55a923bf&id=litv-longturn03
@@ -498,11 +482,11 @@ TVB翡翠台（备用）,http://php.jdshipin.com/TVOD/iptv.php?id=huali2
 凤凰香港频备,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 无线华丽,http://php.jdshipin.com/smt.php?id=Tvbjade
 无线星河,http://php.jdshipin.com/smt.php?id=Xinhe
-无线新闻,http://php.jdshipin.com/smt.php?id=inews_twn
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
 翡翠台4K,http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 翡翠台备用1,http://php.jdshipin.com/TVOD/iptv.php?id=fct2
 翡翠台备用2,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+无线新闻,http://php.jdshipin.com/smt.php?id=inews_twn
 无线新闻台备用,http://php.jdshipin.com/TVOD/iptv.php?id=wxxwt
 TVB华丽,http://php.jdshipin.com/TVOD/iptv.php?id=huali
 美亚电影台粤语,http://php.jdshipin.com/TVOD/iptv.php?id=meiya
