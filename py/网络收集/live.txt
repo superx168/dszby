@@ -1621,7 +1621,7 @@ CHC家庭影院,mitv://generationnexxxt.com:19806/53491943aa934355b381bc8684bc4f
 河北卫视,http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=108$V4『线路25』
 河北卫视,http://tvpull.careryun.com/tv/cn_hbws.m3u8$V4『线路26』
 河南卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8$V4『线路1』
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=5cac08bd9fb2349bf94dc69850031965&wsTime=1738353600$V4『线路2』
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=08cce93f392a82a1980b177016100e9a&wsTime=1738375212$V4『线路2』
 河南卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226320/index.m3u8$V4『线路3』
 河南卫视,http://home.dzlove.top:35455/itv/1000000002000027731.m3u8?cdn=ystenlive$V4『线路4』
 河南卫视,http://39.135.133.157:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8?$V4『线路5』
@@ -2065,7 +2065,7 @@ CHC家庭影院,mitv://generationnexxxt.com:19806/53491943aa934355b381bc8684bc4f
 延边卫视,http://live.ybtvyun.com/video/s10006-28bc40431485/index.m3u8$V4『线路16』
 延边卫视,http://php.666230.xyz/公众号【睡眼迷离的猫】/proxy/p26.php?id=117$V4『线路17』
 数字频道,#genre#
-梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=10a496e3bb8ed0e568e30bd34f1cfa83&wsTime=1738353600$V4『线路1』
+梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=582270315c50059ccc2eaed26c3e4b81&wsTime=1738375212$V4『线路1』
 梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=bad8f03fc646fa1ae4c7f5d26e592111&wsTime=1738278005$V4『线路2』
 梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=7377c772114199ccbb068205b156b8a8&wsTime=1738299613$V4『线路3』
 黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8$V4『线路1』
@@ -2455,7 +2455,7 @@ SiTV-游戏风云,http://rihou.cc:567/dd.php?id=yxfy$v4
 武汉四台经济,http://stream.appwuhan.com/4tzb/sd/live.m3u8$v4
 武汉六台外语,http://stream.appwuhan.com/6tzb/sd/live.m3u8$v4
 河南,#genre#
-河南乡村频道,http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=22d4258ea4630fde27f74ec8fd2ea86d&wsTime=1738353600$v4
+河南乡村频道,http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=bed495d36adba4a28013ab8b920748b6&wsTime=1738375212$v4
 潢川综合,http://tvpull.dxhmt.cn:9081/tv/11526-1.m3u8$v4
 兰考新闻,http://tvpull.dxhmt.cn:9081/tv/10225-1.m3u8$V4『线路1』
 兰考新闻,http://live.dxhmt.cn:9081/tv/10225-1.m3u8$V4『线路2』
