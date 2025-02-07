@@ -582,9 +582,10 @@ CHC家庭影院,https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8$v4
 凤凰卫视中文台,http://www.terrykang.cn:5678/sxg.php?id=test1_4000$V4『线路6』
 凤凰卫视资讯台,http://223.105.252.5/PLTV/3/224/3221228524/index.m3u8$V4『线路1』
 凤凰卫视资讯台,http://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8$V4『线路2』
-凤凰卫视资讯台,https://cdn3.163189.xyz/live/fhzx/stream.m3u8$V4『线路3』
-凤凰卫视资讯台,http://www.terrykang.cn:5678/sxg.php?id=test2_4000$V4『线路4』
-凤凰卫视资讯台,http://cdn3.132.us.kg/live/fhzx/stream.m3u8$V4『线路5』
+凤凰卫视资讯台,http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8$V4『线路3』
+凤凰卫视资讯台,https://cdn3.163189.xyz/live/fhzx/stream.m3u8$V4『线路4』
+凤凰卫视资讯台,http://www.terrykang.cn:5678/sxg.php?id=test2_4000$V4『线路5』
+凤凰卫视资讯台,http://cdn3.132.us.kg/live/fhzx/stream.m3u8$V4『线路6』
 凤凰卫视香港台,http://223.105.252.5/PLTV/3/224/3221228530/index.m3u8$V4『线路1』
 凤凰卫视香港台,http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8$V4『线路2』
 凤凰卫视香港台,http://50.7.234.10:8278/hkphoenix_twn/playlist.m3u8?tid=MACA2858291128582911&ct=19225&tsum=0f01288bbaa6c0403d07e96b0a5db4ed$V4『线路3』
@@ -1044,7 +1045,7 @@ CHC家庭影院,https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8$v4
 河北卫视,http://dsm.huarunguoji.top:35455/itv/5000000006000040016.m3u8?cdn=bestzb$V4『线路25』
 河北卫视,http://111.11.123.42:6610/030000001000/g_hebei/g_hebei.m3u8?livemode=1$V4『线路26』
 河南卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8$V4『线路1』
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=51f93076a5b98c9e0aa132ee8bae3b4a&wsTime=1738872600$V4『线路2』
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=f929240a43038d9af7ec73da9f6315c6&wsTime=1738894212$V4『线路2』
 河南卫视,http://home.dzlove.top:35455/itv/1000000002000027731.m3u8?cdn=ystenlive$V4『线路3』
 河南卫视,http://39.135.133.157:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8?$V4『线路4』
 河南卫视,http://39.135.133.157:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226480/index.m3u8$V4『线路5』
@@ -1438,7 +1439,7 @@ CHC家庭影院,https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8$v4
 延边卫视,http://live.ybtvyun.com/video/s10006-90fe76c52091/index.m3u8$V4『线路13』
 延边卫视,http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild$V4『线路14』
 数字频道,#genre#
-梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=ed22a7dd504e685b4af6fae32900b66e&wsTime=1738872600$V4『线路1』
+梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=8a6180a7fe3426d5292a46373a23c200&wsTime=1738894212$V4『线路1』
 梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=eb9c05acd3c707c6f486fd2c41e9d768&wsTime=1738810517$V4『线路2』
 梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=bcf078b91414d48df740e11851f9e240&wsTime=1738472417$V4『线路3』
 黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8$V4『线路1』
@@ -1787,7 +1788,7 @@ SiTV-七彩戏剧,https://bp-caster.bestv.com.cn/250/1/video.m3u8$v4
 武汉四台经济,http://stream.appwuhan.com/4tzb/sd/live.m3u8$v4
 武汉六台外语,http://stream.appwuhan.com/6tzb/sd/live.m3u8$v4
 河南,#genre#
-河南乡村频道,http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=c4c326d652f411e1d4edd4358b204bc1&wsTime=1738872600$v4
+河南乡村频道,http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=96fc2a4f52e044dabe9e9b3f6e1c883e&wsTime=1738894212$v4
 潢川综合,http://tvpull.dxhmt.cn:9081/tv/11526-1.m3u8$v4
 兰考新闻,http://tvpull.dxhmt.cn:9081/tv/10225-1.m3u8$V4『线路1』
 兰考新闻,http://live.dxhmt.cn:9081/tv/10225-1.m3u8$V4『线路2』
