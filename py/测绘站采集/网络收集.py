@@ -371,7 +371,7 @@ with open('2.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
     # 创建或打开一个输出文件用于写入处理后的数据
-    with open('网络收集.txt', 'w', encoding='utf-8') as outfile:
+    with open('py/测绘站采集/网络收集.txt', 'w', encoding='utf-8') as outfile:
         for line in lines:
             # 首先检查行是否包含任何提取关键词
             if any(keyword in line for keyword in extract_keywords):
