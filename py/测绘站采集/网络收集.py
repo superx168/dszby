@@ -690,7 +690,7 @@ import datetime
 now = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
 current_time = now.strftime("%Y/%m/%d %H:%M")
 # 打开文本文件并将时间添加到开头
-file_path = "./py/测绘站采集/网络收集.txt"
+file_path = "py/测绘站采集/网络收集.txt"
 with open(file_path, 'r+', encoding='utf-8') as f:
     content = f.read()
     f.seek(0, 0)
