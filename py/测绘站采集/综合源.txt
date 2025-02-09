@@ -1062,7 +1062,6 @@ RTMP频道EXO解码,#genre#
 长宁[1080p],rtmp://cnpull.sccnfb.com/live/123456
 漳州[720p],rtmp://31182.hlsplay.aodianyun.com/lms_31182/tv_channel_175
 达川生活[1080p],rtmp://tv.drs.dzxw.net/channellive/ggpd-dz2
-港澳频道,#genre#
 AMC电影台,https://stream1.freetv.fun/amcdian-ying-1.m3u8
 EYETV戏剧台,http://50.7.234.10:8278/eyetvxiju_twn/playlist.m3u8?tid=ME3E6686724066867240&ct=19254&tsum=728fc49fcd53cd770381ffd87883b1d1
 JStar极限电影台,http://u9v.cn/5FZsLd
@@ -1328,5 +1327,26 @@ USAMCWest,http://doubleclicktv.live:80/70376812/52663544/295775
 中天娱乐,http://50.7.234.10:8278/ctient/playlist.m3u8?tid=MC9C7081133170811331&ct=19249&tsum=8b08b54208f3ee30e12f419d587f46ac
 电视伴音凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_audio.m3u8
 电视伴音凤凰资讯台,http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8
-
 2025/02/08 09:31更新,#genre#
+港澳频道,#genre#
+Amc电影台,http://211.75.171.121:8583/http/61.67.128.137:8092/upload/115/AMC_TS-1111_1.m3u8
+爱星影视,http://fy27.zbds.top:55455/douyu/9476806
+贝爷求生影视2,http://fy27.zbds.top:55455/douyu/9661369
+东森电影台,http://50.7.234.10:8278/ettvmovie/playlist.m3u8?tid=MBDB9268852192688521&ct=19254&tsum=7514b50ebc2e4b06f2e402578d0ac996
+东森戏剧台,http://50.7.234.10:8278/ettvdrama/playlist.m3u8?tid=MA2A9945921599459215&ct=19249&tsum=c9097ecdf4a17c0922196dbf04b0c6e7
+龙祥电影台,http://50.7.234.10:8278/cb7a1fec69/playlist.m3u8?tid=md05ab4002297&ct=18335&tsum=ebe4254ee0e073c2d3c9789e679c00a5
+TVB千禧经典台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbc
+TVB无线新闻台,https://cdn.iptv8k.top/dl/jspd.php?id=2&time=20240926215313&ip=111.229.253.40
+TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxh
+TVBSNews,http://50.7.234.10:8278/tvbs_n/playlist.m3u8?tid=MA4A2233260122332601&ct=19249&tsum=513a9dcb42fa8b98e1792d513dd3e2ee
+八大第一台,http://50.7.234.10:8278/badafirst/playlist.m3u8?tid=MBDB5904995459049954&ct=19193&tsum=ab627e00a84b423b5747a65289eec076
+东森洋片,http://50.7.234.10:8278/ettvwestern/playlist.m3u8?tid=mfdfc048e6c2416337202&ct=17874&tsum=cad39b26202d525ea820bee1d69e545f
+芳芳说故事,http://fy27.zbds.top:55455/douyu/9401905
+翡翠台,http://50.7.234.10:8278/jade_twn/playlist.m3u8?tid=ME6E1330319113303191&ct=19225&tsum=d76985c4965fd63807e131035f66af09
+开箱嘤嘤怪,http://fy27.zbds.top:55455/douyu/10319056
+民视台湾台,http://50.7.234.10:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2
+无线新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
+中天新闻台,https://ythls.armelin.one/channel/UC5l1Yto5oOIgRXlI4p4VKbw.m3u8
+中天综合台,http://50.7.234.10:8278/ctizhonghe/playlist.m3u8?tid=MB6B3888954738889547&ct=19254&tsum=d0cb922e44e8a16bea598530697c581e
+
+2025/02/09 11:33更新,#genre#
