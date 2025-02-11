@@ -3008,7 +3008,7 @@ http://tvbox6.com/tv/bfgd.php?id=108$V4『线路24』
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
-http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=2d7fc47ac5d926e52372a9f9878f4ac6&wsTime=1739217600$V4『线路2』
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=a0aa3c8659eff475d9aa79b7db40529e&wsTime=1739239212$V4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
 http://sc.rrs.169ol.com/PLTV/88888888/224/3221227923/index.m3u8$V4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
@@ -3866,7 +3866,7 @@ http://tvbox6.com/tv/bfgd.php?id=117$V4『线路15』
 #EXTINF:-1 tvg-id="16" tvg-name="延边卫视" tvg-logo="https://live.fanmingming.com/tv/延边卫视.png" group-title="卫视频道",延边卫视
 http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild$V4『线路16』
 #EXTINF:-1 tvg-id="1" tvg-name="梨园频道" tvg-logo="https://live.fanmingming.com/tv/梨园频道.png" group-title="数字频道",梨园频道
-http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=72563d4d35e2a420cfe4e48cffcfe5db&wsTime=1739217600$V4『线路1』
+http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=a813aa1b8aa8de5c7bfa12662de4d056&wsTime=1739239212$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="梨园频道" tvg-logo="https://live.fanmingming.com/tv/梨园频道.png" group-title="数字频道",梨园频道
 http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=853ee6672654735a65a07804fac04186&wsTime=1739163618$V4『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="欢笑剧场" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场.png" group-title="数字频道",欢笑剧场
@@ -4612,7 +4612,7 @@ http://stream.appwuhan.com/4tzb/sd/live.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="武汉六台外语" tvg-logo="https://live.fanmingming.com/tv/武汉六台外语.png" group-title="湖北综合",武汉六台外语
 http://stream.appwuhan.com/6tzb/sd/live.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="河南乡村频道" tvg-logo="https://live.fanmingming.com/tv/河南乡村频道.png" group-title="河南",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=b3dd6dcc6d11fed92829c2fdeb4fdf79&wsTime=1739217600$v4
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=74f4ebf808e7cd5fbb58c5d113088c05&wsTime=1739239212$v4
 #EXTINF:-1 tvg-id="1" tvg-name="潢川综合" tvg-logo="https://live.fanmingming.com/tv/潢川综合.png" group-title="河南",潢川综合
 http://tvpull.dxhmt.cn:9081/tv/11526-1.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="兰考新闻" tvg-logo="https://live.fanmingming.com/tv/兰考新闻.png" group-title="河南",兰考新闻
