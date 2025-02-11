@@ -614,8 +614,8 @@ all_lines =  ["更新时间,#genre#"] +[version] +[daily_mtv] + ['\n'] +\
              ["💓专享-1,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪专享-1.txt') + ['\n'] + \
              ["💓优质个源,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质源.txt') + ['\n'] + \
              ["💓儿童专享,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪儿童专享.txt') + ['\n'] + \
-             ["💓北京组播,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪北京组播.txt') + ['\n'] + \
-             ["💓斗鱼,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪斗鱼.txt') + ['\n'] + \
+             ["💓虎牙轮播平台,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪虎牙轮播平台.txt') + ['\n'] + \
+             ["💓斗鱼轮播平台,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪斗鱼轮播平台.txt') + ['\n'] + \
              ["🏀SPORTS⚽️,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪sports.txt') + ['\n'] + \
              ["🍹定制台☕️,#genre#"] + read_txt_to_array('专区/♪定制源.txt') + ['\n'] + \
              ["💓英语频道,#genre#"] + read_txt_to_array('专区/♪英语频道.txt') + ['\n'] + \
