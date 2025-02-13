@@ -30,8 +30,8 @@ url_blacklist = [
 
 ]
 url_whitelist = [
-    "udp",
-    "rtp",
+    # "udp",
+    # "rtp",
     # "p3p",
     # "mitv",
     # "z.b.bkpcp.top",
