@@ -584,7 +584,7 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[daily_mtv]+ ['\n'] +\
              ["💓央视专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪央视频道.txt') + ['\n'] + \
              ["💓卫视专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪卫视频道.txt') + ['\n'] + \
              ["💓央视卫视专享「源」,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪央视卫视「源」.txt') + ['\n'] + \
-             ["💓咪咕专享视频,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪咪咕视频.txt') + ['\n'] + \
+             ["💓数字频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪数字频道.txt') + ['\n'] + \
              ["💓港台专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪港台频道.txt') + ['\n'] + \
              ["💓虎牙轮播平台,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪虎牙轮播平台.txt') + ['\n'] + \
              ["💓斗鱼轮播平台,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪斗鱼轮播平台.txt') + ['\n'] + \
