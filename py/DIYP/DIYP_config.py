@@ -30,11 +30,11 @@ url_blacklist = [
 
 ]
 url_whitelist = [
-    # "udp",
-    # "rtp",
-    # "p3p",
+     "mt2018.iask.in:55555",
+     "rtp",
+     "udp",
     # "mitv",
-    # "z.b.bkpcp.top",
+     "ottrrs.hl.chinamobile.com",
     # "http://cc-ynbit-wszhibo.ifengli.com:2000",
 ]
 
