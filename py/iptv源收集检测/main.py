@@ -590,7 +590,7 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[daily_mtv]+ ['\n'] +\
              ["💓斗鱼轮播平台,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪斗鱼轮播平台.txt') + ['\n'] + \
              ["💓电影专享,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪电影专享.txt') + ['\n'] + \
              ["💓美食·乡间,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪美食·乡间.txt') + ['\n'] + \
-             ["💓历届春晚,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪历届春晚.txt') + ['\n'] + \
+             ["💓历届春晚,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/历年春晚.txt') + ['\n'] + \
              ["💓专享央视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质央视.txt') + ['\n'] + \
              ["💓港澳台📶,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪港澳台.txt') + ['\n'] + \
              ["☘️湖南频道,#genre#"] + sort_data(hn_dictionary,set(correct_name_data(corrections_name,hn_lines))) + ['\n'] + \
