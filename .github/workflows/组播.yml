@@ -24,7 +24,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install logging requests OrderedDict
     - name: Run DIYP.py
-      run: python ${{ github.workspace }}/py/iptv源收集检测/主频道专享频道/py/组播.py
+      run: python ${{ github.workspace }}/py/iptv源收集检测/主频道/专享频道/py/组播.py
 
     - name: 提交更改
       run: |
