@@ -579,8 +579,9 @@ about_video1="https://v.cdnlz12.com/20250131/18183_a5e8965b/index.m3u8"
 #about_video2="https://gitlab.com/p2v5/wangtv/-/raw/main/about1080p.mp4"
 version=formatted_time+","+about_video1
 #about="关于本源,"+about_video2
-# 瘦身版
+# 瘦身版♪组播频道.txt
 all_lines_simple =  ["更新时间,#genre#"] +[version] +[daily_mtv]+ ['\n'] +\
+             ["💓组播专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪组播频道.txt') + ['\n'] + \
              ["💓央视专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪央视频道.txt') + ['\n'] + \
              ["💓卫视专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪卫视频道.txt') + ['\n'] + \
              ["💓央视卫视专享「源」,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪央视卫视「源」.txt') + ['\n'] + \
@@ -605,6 +606,7 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[daily_mtv]+ ['\n'] +\
 # ["奥运频道,#genre#"] + sort_data(Olympics_2024_Paris_dictionary,set(correct_name_data(corrections_name,Olympics_2024_Paris_lines))) + ['\n'] + \
 #correct：恰当的；合适的，corrections：更正
 all_lines =  ["更新时间,#genre#"] +[version] +[daily_mtv] + ['\n'] +\
+             ["💓组播专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪组播频道.txt') + ['\n'] + \
              ["💓黑龙江移动专享,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪黑龙江移动专享.txt') + ['\n'] + \
              ["💓历届春晚,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪历届春晚.txt') + ['\n'] + \
              ["💓专享央视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质央视.txt') + ['\n'] + \
