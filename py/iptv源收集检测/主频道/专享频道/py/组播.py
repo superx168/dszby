@@ -3,7 +3,7 @@ import requests
 import logging
 from collections import OrderedDict
 from datetime import datetime
-from /py/iptv源收集检测/主频道/专享频道/py/组播 import config
+import config
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.FileHandler("py/iptv源收集检测/主频道/专享频道/py/组播/function.log", "w", encoding="utf-8"), logging.StreamHandler()])
 
