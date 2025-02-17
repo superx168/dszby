@@ -1369,7 +1369,7 @@ CHC家庭影院,https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8$V4『线路2』
 河北卫视,http://hotelplay.net/live/pmb8krf68n4z/4d8cf4af8de3574c/476920.m3u8$V4『线路26』
 河北卫视,http://tvbox6.com/tv/bfgd.php?id=108$V4『线路27』
 河南卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8$V4『线路1』
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=eef4a986f8c5aedb833543315adc77ae&wsTime=1739736000$V4『线路2』
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=0eeaffcba4fe34e6a4998a9bfdbce9a3&wsTime=1739757616$V4『线路2』
 河南卫视,http://sc.rrs.169ol.com/PLTV/88888888/224/3221227923/index.m3u8$V4『线路3』
 河南卫视,http://39.135.133.157:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8?$V4『线路4』
 河南卫视,http://39.135.133.157:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226480/index.m3u8$V4『线路5』
@@ -1905,7 +1905,7 @@ CHC家庭影院,https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8$V4『线路2』
 延边卫视,http://tvbox6.com/tv/bfgd.php?id=117$V4『线路14』
 延边卫视,http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8?zjild$V4『线路15』
 数字频道,#genre#
-梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=89348cf4535c67770f5f1c04bd4803c9&wsTime=1739736000$V4『线路1』
+梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=64f7de7b6f8becb042e18d7b66b5af55&wsTime=1739757616$V4『线路1』
 梨园频道,http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=765e9a2bb1750bcedc41e61fb9a42db2&wsTime=1739682323$V4『线路2』
 欢笑剧场,http://sc.rrs.169ol.com/PLTV/88888888/224/3221227970/index.m3u8$V4『线路1』
 欢笑剧场,http://ct.370829.xyz:35455/itv/5000000002000009455.m3u8?cdn=bestzb$V4『线路2』
@@ -2197,7 +2197,6 @@ SiTV-游戏风云,http://111.29.9.33:6610/000000001000/5000000011000031114/index
 萧山生活频道,http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed$V4『线路2』
 杭州余杭平安,http://l.cztvcloud.com/channels/lantian/SXyuhang2/720p.m3u8$v4
 余杭综合频道,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed$v4
-余杭未来E频道,http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed$v4
 余姚新闻综合,http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed$v4
 余姚姚江文化,http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8?zzhed$V4『线路1』
 余姚姚江文化,http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8zzhed$V4『线路2』
@@ -2272,7 +2271,7 @@ SiTV-游戏风云,http://111.29.9.33:6610/000000001000/5000000011000031114/index
 武汉四台经济,http://stream.appwuhan.com/4tzb/sd/live.m3u8$v4
 武汉六台外语,http://stream.appwuhan.com/6tzb/sd/live.m3u8$v4
 河南,#genre#
-河南乡村频道,http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=f2bd5ada4e637b71a9604feeb8b09949&wsTime=1739736000$v4
+河南乡村频道,http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=2d155e191bea4e752064c919ae4a7d37&wsTime=1739757616$v4
 潢川综合,http://tvpull.dxhmt.cn:9081/tv/11526-1.m3u8$v4
 兰考新闻,http://tvpull.dxhmt.cn:9081/tv/10225-1.m3u8$V4『线路1』
 兰考新闻,http://live.dxhmt.cn:9081/tv/10225-1.m3u8$V4『线路2』
