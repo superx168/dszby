@@ -535,7 +535,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('r2.txt', 'w', encoding=
          r.write(line)  # 将该行写入输出文件
 
 ################
-keywords = ['凤凰','香港','明珠','星河','翡翠']  # 需要提取的关键字列表
+keywords = ['凤凰','香港','明珠','星河','翡翠','星空']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('s2.txt', 'w', encoding='utf-8') as s:    #####定义临时文件名
