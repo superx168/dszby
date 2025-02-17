@@ -26,7 +26,7 @@ jobs:
       - name: run iptvpy
         run: |
           cd $GITHUB_WORKSPACE
-          python ./py/ptv源收集检测/主频道/专享频道/py/酒店源/iptv2.py
+          python py/ptv源收集检测/主频道/专享频道/py/酒店源/iptv2.py
           #python ./iptv.py
           #python ./gxtv.py
            
