@@ -37,7 +37,7 @@ def is_url_accessible(url):
 
 results = []
 urls_all = []
-with open('酒店标清.ip', 'r', encoding='utf-8') as file:
+with open('py/iptv源收集检测/主频道/专享频道/py/酒店源/酒店标清.ip', 'r', encoding='utf-8') as file:
         lines = file.readlines()
         for line in lines:
             url = line.strip()
@@ -594,7 +594,7 @@ for line in lines:
   seen_lines.add(line)
 
 # 将唯一的行写入新的文档 
-with open('iptv2.txt', 'w', encoding="utf-8") as file:
+with open('py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 
 os.remove("itv0.txt")
