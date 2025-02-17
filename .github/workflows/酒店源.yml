@@ -27,15 +27,15 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.py
-          #python ./iptv.py
+          python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.py
           #python ./gxtv.py
            
       - name: 提交更改
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add iptv2.txt
-          git commit -m "第一次上传"
+          git add .
+          git commit *.txt -m "第一次上传"
           #git commit *.m3u -m "Update results"
 
       # - name: Push To Gitee
