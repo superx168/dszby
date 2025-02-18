@@ -327,7 +327,7 @@ def channel_key(channel_name):
 # 对频道进行排序
 results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
 results.sort(key=lambda x: channel_key(x[0]))
-now = datetime.datetime.now(datetime.UTC) + datetime.timedelta(hours=8)
+now = datetime.datetime.now() + datetime.timedelta(hours=8) #datetime.datetime.now(datetime.UTC)
 current_time = now.strftime("%Y/%m/%d %H:%M")
 
 with open('2.txt', 'w', encoding='utf-8') as file:       
