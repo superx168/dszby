@@ -104,7 +104,7 @@ ip4=$(awk 'NR==4{print $2}' result_${city}.txt)
 ip5=$(awk 'NR==5{print $2}' result_${city}.txt)
 rm -f "speedtest_${city}_$time.log"         
 # 用 5 个最快 ip 生成对应城市的 txt 文件
-program="template/template_${city}.txt"
+program="py/iptv源收集检测/主频道/专享频道/py/组播/template/template_${city}.txt"
 sed "s/ipipip/$ip1/g" "$program" > tmp1.txt
 sed "s/ipipip/$ip2/g" "$program" > tmp2.txt
 sed "s/ipipip/$ip3/g" "$program" > tmp3.txt
