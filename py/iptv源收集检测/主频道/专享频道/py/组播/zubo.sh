@@ -89,7 +89,7 @@ i=0
 for temp_file in tmpip/ip_*.txt; do
       ((i++))
      ip=$(<"$temp_file")  # 从临时文件中读取 IP 地址
-     a=$(./speed.sh "$ip" "$stream")
+     a=$(py/iptv源收集检测/主频道/专享频道/py/组播/speed.sh "$ip" "$stream")
      echo "第 $i/$lines 个：$ip $a"
      echo "$ip $a" >> "speedtest_${city}_$time.log"
 done
