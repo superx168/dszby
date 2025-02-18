@@ -4,24 +4,20 @@ on:
   schedule:
     - cron: '0 18 * * *'  # UTC
   workflow_dispatch:
-    inputs:
-      environment:
-        description: 'Environment to deploy to'
-        required: true
-        default: 'production'
 
 jobs:
-  run_job:
+  build:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
-      
+      uses: actions/checkout@v3
+      with:
+          fetch-depth: 0 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.10'
+        python-version: 3.x
         
     - name: Install dependencies
       run: |
@@ -46,3 +42,5 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
           github_token: ${{ secrets.GH_TOKEN }}
+          directory: .
+          force: true
