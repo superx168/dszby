@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add iptv.txt iptv2.txt
+          git add py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.txt py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.txt
           git commit -m "更新直播源"
           #git commit *.m3u -m "Update results"
 
