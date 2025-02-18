@@ -21,7 +21,7 @@ jobs:
     - name: 获取组播地址
       run: |
         cd $GITHUB_WORKSPACE
-        chmod +x py/iptv源收集检测/主频道/专享频道/py/组播/speed.sh
+        # chmod +x py/iptv源收集检测/主频道/专享频道/py/组播/speed.sh
         bash py/iptv源收集检测/主频道/专享频道/py/组播/zubo.sh
 #        bash ./zubo1.sh
 
