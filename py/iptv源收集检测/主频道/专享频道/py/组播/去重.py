@@ -13,6 +13,6 @@ for line in lines:
   unique_lines.append(line)
   seen_lines.add(line)
 # 将唯一的行写入新的文档 
-with open('zubo.txt', 'w', encoding="utf-8") as file:
+with open('py/iptv源收集检测/主频道/专享频道/py/组播/txt/zubo.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 os.remove("zubo1.txt")
