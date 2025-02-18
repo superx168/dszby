@@ -586,6 +586,8 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[daily_mtv]+ ['\n'] +\
              ["💓卫视专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪卫视频道.txt') + ['\n'] + \
              ["💓央视卫视专享「源」,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪央视卫视「源」.txt') + ['\n'] + \
              ["💓数字频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪数字频道.txt') + ['\n'] + \
+             ["💓酒店高清频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪酒店高清.txt') + ['\n'] + \
+             ["💓酒店标清频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪酒店标清.txt') + ['\n'] + \
              ["💓港台专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪港台频道.txt') + ['\n'] + \
              ["💓虎牙轮播平台,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪虎牙轮播平台.txt') + ['\n'] + \
              ["💓斗鱼轮播平台,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪斗鱼轮播平台.txt') + ['\n'] + \
@@ -607,6 +609,8 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[daily_mtv]+ ['\n'] +\
 #correct：恰当的；合适的，corrections：更正
 all_lines =  ["更新时间,#genre#"] +[version] +[daily_mtv] + ['\n'] +\
              ["💓组播专享频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪组播频道.txt') + ['\n'] + \
+             ["💓酒店高清频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪酒店高清.txt') + ['\n'] + \
+             ["💓酒店标清频道,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/专享频道/♪酒店标清.txt') + ['\n'] + \
              ["💓黑龙江移动专享,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪黑龙江移动专享.txt') + ['\n'] + \
              ["💓历届春晚,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪历届春晚.txt') + ['\n'] + \
              ["💓专享央视,#genre#"] + read_txt_to_array('/home/runner/work/dszby/dszby/py/iptv源收集检测/主频道/♪优质央视.txt') + ['\n'] + \
