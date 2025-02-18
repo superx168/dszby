@@ -30,18 +30,9 @@ jobs:
     - name: Run run iptvpy
       run: |
           cd $GITHUB_WORKSPACE
-          python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.py
+          #python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.py
           python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.py
           #python ./gxtv.py      
-      
-      
-    - name: Upload generated files
-      uses: actions/upload-artifact@v4
-      with:
-        name: generated-files
-        path: |
-          merged_output.txt
-          others_output.txt
           
     - name: 提交更改
       run: |
