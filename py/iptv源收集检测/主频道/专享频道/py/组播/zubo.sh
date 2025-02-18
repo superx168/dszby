@@ -54,7 +54,7 @@ good_ip="ip/${channel_key}_good_ip"
 # 搜索最新 IP
 cat ip/${channel_key}.html | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
 cat ip/${channel_key}_good_ip >>tmp_ipfile
-sort tmp_ipfile | uniq | sed '/^\s*$/d' > "$ipfile"
+sort py/iptv源收集检测/主频道/专享频道/py/组播/tmp_ipfile | uniq | sed '/^\s*$/d' > "$ipfile"
 rm -f tmp_ipfile ip/${channel_key}.html $good_ip
 
 while IFS= read -r ip; do
@@ -111,7 +111,7 @@ sed "s/ipipip/$ip3/g" "$program" > tmp3.txt
 sed "s/ipipip/$ip4/g" "$program" > tmp4.txt
 sed "s/ipipip/$ip5/g" "$program" > tmp5.txt
 cat tmp1.txt tmp2.txt tmp3.txt tmp4.txt tmp5.txt > tmp_all.txt
-grep -vE '/{3}' tmp_all.txt > "txt/${channel_key}.txt"
+grep -vE '/{3}' py/iptv源收集检测/主频道/专享频道/py/组播/tmp_all.txt > "py/iptv源收集检测/主频道/专享频道/py/组播/txt/${channel_key}.txt"
 rm -rf "result_${city}.txt" tmp1.txt tmp2.txt tmp3.txt tmp4.txt tmp5.txt tmp_all.txt
 
 #--------------------合并所有城市的txt文件为:   zubo1.txt-----------------------------------------
