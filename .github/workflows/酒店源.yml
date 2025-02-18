@@ -1,57 +1,57 @@
 name: 酒店源
+
 on:
   schedule:
-    - cron: '0 0,10 * * *'       
+    - cron: '0 18 * * *'  # UTC
   workflow_dispatch:
-      
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'production'
+
 jobs:
-  build:
+  run_job:
     runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0    
     
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-
-      - name: Install dependencies
-        run: |
-          pip install selenium requests futures eventlet
-
-      - name: run iptvpy
-        run: |
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        pip install selenium requests futures eventlet
+        
+    - name: Run run iptvpy
+      run: |
           cd $GITHUB_WORKSPACE
           python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.py
           python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.py
-          #python ./gxtv.py
-           
-      - name: 提交更改
-        run: |
+          #python ./gxtv.py      
+      
+      
+    - name: Upload generated files
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-files
+        path: |
+          merged_output.txt
+          others_output.txt
+          
+    - name: 提交更改
+      run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.txt py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.txt
-          git commit -m "更新直播源"
-          #git commit *.m3u -m "Update results"
-
-      # - name: Push To Gitee
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GE_TOKEN }}
-      #     repository: ${{ secrets.GE_PATH }}
-      #     directory: .
-      #     branch: iptv
-      #     force: true
-      #     github_url: https://gitee.com
-
-      - name: Push To Github
-        uses: ad-m/github-push-action@master
-        with:
+          # git commit -m "更新直播源"
+          git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
+                   
+    - name: Push To Github
+      uses: ad-m/github-push-action@master
+      with:
           github_token: ${{ secrets.GH_TOKEN }}
-          # repository: ${{ secrets.GH_PATH }}
-          # directory: .
-          # force: true
