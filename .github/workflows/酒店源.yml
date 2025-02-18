@@ -34,8 +34,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
-          git commit *.txt -m "第一次上传"
+          git add iptv.txt iptv2.txt
+          git commit -m "更新直播源"
           #git commit *.m3u -m "Update results"
 
       # - name: Push To Gitee
