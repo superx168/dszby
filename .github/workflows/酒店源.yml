@@ -1,46 +1,37 @@
 name: 酒店源
-
 on:
-  schedule:
-    - cron: '0 18 * * *'  # UTC
+#  schedule:
+#    - cron: 30 10 */3 * *
   workflow_dispatch:
 
 jobs:
-  build:
+  run-script:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-      with:
-          fetch-depth: 0 
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+  
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: 3.x
-        
+
     - name: Install dependencies
       run: |
         pip install selenium requests futures eventlet
-        
-    - name: Run run iptvpy
+
+    - name: run iptvpy
       run: |
-          cd $GITHUB_WORKSPACE
-          #python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.py
-          python py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.py
-          #python ./gxtv.py      
-          
-    - name: 提交更改
+       python ${{ github.workspace }}/py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.py
+       #python ${{ github.workspace }}/py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.py
+       #python ${{ github.workspace }}/py/iptv源收集检测/主频道/专享频道/py/酒店源/gxtv.py
+      
+    - name: 提交更新
       run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.txt py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv2.txt
-          # git commit -m "更新直播源"
-          git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')"
-                   
-    - name: Push To Github
-      uses: ad-m/github-push-action@master
-      with:
-          github_token: ${{ secrets.GH_TOKEN }}
-          directory: .
-          force: true
+        cd $GITHUB_WORKSPACE
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "更新酒店源ip"
+        git push
