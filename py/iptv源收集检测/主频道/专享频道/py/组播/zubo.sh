@@ -17,19 +17,19 @@ fi
 # 根据用户选择设置城市和相应的stream
 case $city_choice in
     1)
-        city="Beijing_liantong_145"
+        city="py/iptv源收集检测/主频道/专享频道/py/组播/template/Beijing_liantong_145"
         stream="rtp/239.3.1.249:8001"
         channel_key="北京联通"
         ;;
 
     2)
-        city="Sichuan_333"
+        city="py/iptv源收集检测/主频道/专享频道/py/组播/template/Sichuan_333"
         stream="udp/239.93.42.33:5140"
         channel_key="四川电信"
         ;;
 
     3)
-        city="Anhui_191"
+        city="py/iptv源收集检测/主频道/专享频道/py/组播/template/Anhui_191"
         stream="rtp/238.1.78.137:6968"
         channel_key="安徽电信"
 	;;
