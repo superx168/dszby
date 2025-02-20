@@ -594,7 +594,7 @@ for line in lines:
   seen_lines.add(line)
 
 # 将唯一的行写入新的文档 
-with open('py/iptv源收集检测/主频道/专享频道/py/酒店源/iptv.txt', 'w', encoding="utf-8") as file:
+with open('py/iptv源收集检测/主频道/专享频道/♪酒店高清.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 
 os.remove("iptv0.txt")
