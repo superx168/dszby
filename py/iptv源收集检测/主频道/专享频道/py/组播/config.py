@@ -2,6 +2,7 @@ ip_version_priority = "ipv6"
 
 source_urls = [
     "https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/全国.txt",
+    "https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt"
 
 ]
 
