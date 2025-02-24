@@ -3780,7 +3780,7 @@ http://117.144.58.42:35455/itv/5000000006000040016.m3u8?cdn=bestzb&Contentid=500
 #EXTINF:-1 tvg-id="1" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
-http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=d9f035ce572781d8d1ee3c4fe9d39296&wsTime=1740329738$V4『线路2』
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=9e72e86b12ef116e555ac2c77ac14022&wsTime=1740362413$V4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
 http://sc.rrs.169ol.com/PLTV/88888888/224/3221227923/index.m3u8$V4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
@@ -4356,185 +4356,185 @@ http://stream.nxtv.com.cn/wspd/sd/live.m3u8?_upt=a94c8b981714334210$V4『线路1
 #EXTINF:-1 tvg-id="13" tvg-name="宁夏卫视" tvg-logo="https://live.fanmingming.com/tv/宁夏卫视.png" group-title="卫视频道",宁夏卫视
 http://tvbox6.com/tv/bfgd.php?id=118$V4『线路13』
 #EXTINF:-1 tvg-id="1" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=bb7a87351717991430$V4『线路1』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=ec4caf3a1732073773$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1873c3ec1719022946$V4『线路2』
+http://sc.rrs.169ol.com/PLTV/88888888/224/3221227123/index.m3u8$V4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=ff6a0a8b1739191764$V4『线路3』
+http://36.105.100.208:35455/itv/5000000006000040015.m3u8?cdn=bestzb$V4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c7bd08871719882761$V4『线路4』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=e9fbe13b1740278128$V4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a3ed97a11718418819$V4『线路5』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=bd4551361732118531$V4『线路5』
 #EXTINF:-1 tvg-id="6" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=ec4caf3a1732073773$V4『线路6』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=4d1bc9761732205690$V4『线路6』
 #EXTINF:-1 tvg-id="7" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8$V4『线路7』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=ba0bb23b1732293815$V4『线路7』
 #EXTINF:-1 tvg-id="8" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1da074361609506578$V4『线路8』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=5f7fedd21732367344$V4『线路8』
 #EXTINF:-1 tvg-id="9" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=14db4a3e1719897185$V4『线路9』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=cf39b9f81732547864$V4『线路9』
 #EXTINF:-1 tvg-id="10" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=bd4551361732118531$V4『线路10』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=96fad5b81732608826$V4『线路10』
 #EXTINF:-1 tvg-id="11" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=0abcf5161719648656$V4『线路11』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a76dc01d1733159541$V4『线路11』
 #EXTINF:-1 tvg-id="12" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=58dbacb91718844831$V4『线路12』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=af785f231733235301$V4『线路12』
 #EXTINF:-1 tvg-id="13" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=63cf437e1591689484$V4『线路13』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a804edc21733310372$V4『线路13』
 #EXTINF:-1 tvg-id="14" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=8b2f07cc1707359845$V4『线路14』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c2b8d6341733400398$V4『线路14』
 #EXTINF:-1 tvg-id="15" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3793351f1719037354$V4『线路15』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=27118f401733505119$V4『线路15』
 #EXTINF:-1 tvg-id="16" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=e2bbe63d1714196546$V4『线路16』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=5faa6a1c1733891024$V4『线路16』
 #EXTINF:-1 tvg-id="17" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a5a3a04e1720508811$V4『线路17』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=41cb69561734971653$V4『线路17』
 #EXTINF:-1 tvg-id="18" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=dbb9f11e1720072042$V4『线路18』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=99e877cd1735060012$V4『线路18』
 #EXTINF:-1 tvg-id="19" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://sc.rrs.169ol.com/PLTV/88888888/224/3221227123/index.m3u8$V4『线路19』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=65e343e11735147846$V4『线路19』
 #EXTINF:-1 tvg-id="20" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://36.105.100.208:35455/itv/5000000006000040015.m3u8?cdn=bestzb$V4『线路20』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a6a1f35e1735221343$V4『线路20』
 #EXTINF:-1 tvg-id="21" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=e9fbe13b1740278128$V4『线路21』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=795d3b521735295276$V4『线路21』
 #EXTINF:-1 tvg-id="22" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=4d1bc9761732205690$V4『线路22』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=7d80b3d01735398823$V4『线路22』
 #EXTINF:-1 tvg-id="23" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=ba0bb23b1732293815$V4『线路23』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=26da81f31735561950$V4『线路23』
 #EXTINF:-1 tvg-id="24" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=5f7fedd21732367344$V4『线路24』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1f8cf8e91735668520$V4『线路24』
 #EXTINF:-1 tvg-id="25" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=cf39b9f81732547864$V4『线路25』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c4e9c2e81736356548$V4『线路25』
 #EXTINF:-1 tvg-id="26" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=96fad5b81732608826$V4『线路26』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=d5f593201736445379$V4『线路26』
 #EXTINF:-1 tvg-id="27" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a76dc01d1733159541$V4『线路27』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=b5620d3a1736518083$V4『线路27』
 #EXTINF:-1 tvg-id="28" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=af785f231733235301$V4『线路28』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3da499b91736608121$V4『线路28』
 #EXTINF:-1 tvg-id="29" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a804edc21733310372$V4『线路29』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=318990531736697612$V4『线路29』
 #EXTINF:-1 tvg-id="30" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c2b8d6341733400398$V4『线路30』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=bb2fa1c51736786036$V4『线路30』
 #EXTINF:-1 tvg-id="31" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=27118f401733505119$V4『线路31』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=fc83ccfd1736875832$V4『线路31』
 #EXTINF:-1 tvg-id="32" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=5faa6a1c1733891024$V4『线路32』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c97b1add1736950113$V4『线路32』
 #EXTINF:-1 tvg-id="33" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=41cb69561734971653$V4『线路33』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=5b1459001737054099$V4『线路33』
 #EXTINF:-1 tvg-id="34" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=99e877cd1735060012$V4『线路34』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=b920cc161737127798$V4『线路34』
 #EXTINF:-1 tvg-id="35" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=65e343e11735147846$V4『线路35』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=6c946c961737216879$V4『线路35』
 #EXTINF:-1 tvg-id="36" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a6a1f35e1735221343$V4『线路36』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3835e40f1737306429$V4『线路36』
 #EXTINF:-1 tvg-id="37" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=795d3b521735295276$V4『线路37』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=93fe1d1b1737382348$V4『线路37』
 #EXTINF:-1 tvg-id="38" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=7d80b3d01735398823$V4『线路38』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=96231c951737471753$V4『线路38』
 #EXTINF:-1 tvg-id="39" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=26da81f31735561950$V4『线路39』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=e492c01e1737560340$V4『线路39』
 #EXTINF:-1 tvg-id="40" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1f8cf8e91735668520$V4『线路40』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=d510b4ae1737649733$V4『线路40』
 #EXTINF:-1 tvg-id="41" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c4e9c2e81736356548$V4『线路41』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=83a4870b1737738108$V4『线路41』
 #EXTINF:-1 tvg-id="42" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=d5f593201736445379$V4『线路42』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=de6f3efa1737825076$V4『线路42』
 #EXTINF:-1 tvg-id="43" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=b5620d3a1736518083$V4『线路43』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=aa7fd0c11737914821$V4『线路43』
 #EXTINF:-1 tvg-id="44" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3da499b91736608121$V4『线路44』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=102831a81738430222$V4『线路44』
 #EXTINF:-1 tvg-id="45" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=318990531736697612$V4『线路45』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=090502061738518463$V4『线路45』
 #EXTINF:-1 tvg-id="46" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=bb2fa1c51736786036$V4『线路46』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=86976e691738605730$V4『线路46』
 #EXTINF:-1 tvg-id="47" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=fc83ccfd1736875832$V4『线路47』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c5a6ea521738678192$V4『线路47』
 #EXTINF:-1 tvg-id="48" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c97b1add1736950113$V4『线路48』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=faedc1ec1738765942$V4『线路48』
 #EXTINF:-1 tvg-id="49" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=5b1459001737054099$V4『线路49』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=7d04d28a1738854243$V4『线路49』
 #EXTINF:-1 tvg-id="50" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=b920cc161737127798$V4『线路50』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=4be44fbb1739293650$V4『线路50』
 #EXTINF:-1 tvg-id="51" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=6c946c961737216879$V4『线路51』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=f40d2f611739369113$V4『线路51』
 #EXTINF:-1 tvg-id="52" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3835e40f1737306429$V4『线路52』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3bfc0ac01739456332$V4『线路52』
 #EXTINF:-1 tvg-id="53" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=93fe1d1b1737382348$V4『线路53』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3c671b231739543816$V4『线路53』
 #EXTINF:-1 tvg-id="54" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=96231c951737471753$V4『线路54』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=798925fb1739632592$V4『线路54』
 #EXTINF:-1 tvg-id="55" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=e492c01e1737560340$V4『线路55』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=cd51ca221739721766$V4『线路55』
 #EXTINF:-1 tvg-id="56" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=d510b4ae1737649733$V4『线路56』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=d1db55e91739808922$V4『线路56』
 #EXTINF:-1 tvg-id="57" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=83a4870b1737738108$V4『线路57』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=b67b5f1f1739896881$V4『线路57』
 #EXTINF:-1 tvg-id="58" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=de6f3efa1737825076$V4『线路58』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=08d665921739984557$V4『线路58』
 #EXTINF:-1 tvg-id="59" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=aa7fd0c11737914821$V4『线路59』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=84577c8b1740072621$V4『线路59』
 #EXTINF:-1 tvg-id="60" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=102831a81738430222$V4『线路60』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=b4c028031740160347$V4『线路60』
 #EXTINF:-1 tvg-id="61" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=090502061738518463$V4『线路61』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=70d66eef1740233657$V4『线路61』
 #EXTINF:-1 tvg-id="62" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=86976e691738605730$V4『线路62』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=f35a89681647856030$V4『线路62』
 #EXTINF:-1 tvg-id="63" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c5a6ea521738678192$V4『线路63』
+http://iptv.0564.org:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路63』
 #EXTINF:-1 tvg-id="64" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=faedc1ec1738765942$V4『线路64』
+http://gf.you123.fun:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路64』
 #EXTINF:-1 tvg-id="65" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=7d04d28a1738854243$V4『线路65』
+http://110.42.45.89:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路65』
 #EXTINF:-1 tvg-id="66" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=4be44fbb1739293650$V4『线路66』
+http://111.29.9.33:6610/000000001000/1000000002000013359/index.m3u8?channel-id=bestzb&Contentid=1000000002000013359&livemode=1&stbId=3$V4『线路66』
 #EXTINF:-1 tvg-id="67" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=f40d2f611739369113$V4『线路67』
+http://61.160.112.102:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路67』
 #EXTINF:-1 tvg-id="68" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3bfc0ac01739456332$V4『线路68』
+http://stream.qhbtv.com/qhws/sd/live.m3u8$V4『线路68』
 #EXTINF:-1 tvg-id="69" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3c671b231739543816$V4『线路69』
+http://live.wqwqwq.sbs/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路69』
 #EXTINF:-1 tvg-id="70" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=798925fb1739632592$V4『线路70』
+http://mh0.asia:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路70』
 #EXTINF:-1 tvg-id="71" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=cd51ca221739721766$V4『线路71』
+http://3501776.xyz:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路71』
 #EXTINF:-1 tvg-id="72" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=d1db55e91739808922$V4『线路72』
+https://php.666230.xyz/proxy/p8.php?id=QHWS$V4『线路72』
 #EXTINF:-1 tvg-id="73" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=b67b5f1f1739896881$V4『线路73』
+http://gslbserv.itv.cmvideo.cn/1.m3u8?channel-id=bestzb&Contentid=5000000006000040015&livemode=1&stbId=yu&mode=1&$V4『线路73』
 #EXTINF:-1 tvg-id="74" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=08d665921739984557$V4『线路74』
+http://gslbserv.itv.cmvideo.cn/1.m3u8?channel-id=ystenlive&Contentid=1000000002000013359&livemode=1&stbId=yu&mode=1&$V4『线路74』
 #EXTINF:-1 tvg-id="75" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=84577c8b1740072621$V4『线路75』
+http://gslbserv.itv.cmvideo.cn/1.m3u8?channel-id=ystenlive&Contentid=6721180114242078041&livemode=1&stbId=yu&mode=1&$V4『线路75』
 #EXTINF:-1 tvg-id="76" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=b4c028031740160347$V4『线路76』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=c7bd08871719882761$V4『线路76』
 #EXTINF:-1 tvg-id="77" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=70d66eef1740233657$V4『线路77』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=3793351f1719037354$V4『线路77』
 #EXTINF:-1 tvg-id="78" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=f35a89681647856030$V4『线路78』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=bb7a87351717991430$V4『线路78』
 #EXTINF:-1 tvg-id="79" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://iptv.0564.org:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路79』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=dbb9f11e1720072042$V4『线路79』
 #EXTINF:-1 tvg-id="80" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://gf.you123.fun:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路80』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a3ed97a11718418819$V4『线路80』
 #EXTINF:-1 tvg-id="81" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://110.42.45.89:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路81』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1873c3ec1719022946$V4『线路81』
 #EXTINF:-1 tvg-id="82" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://111.29.9.33:6610/000000001000/1000000002000013359/index.m3u8?channel-id=bestzb&Contentid=1000000002000013359&livemode=1&stbId=3$V4『线路82』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=58dbacb91718844831$V4『线路82』
 #EXTINF:-1 tvg-id="83" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://61.160.112.102:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路83』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=e2bbe63d1714196546$V4『线路83』
 #EXTINF:-1 tvg-id="84" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://live.wqwqwq.sbs/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路84』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=14db4a3e1719897185$V4『线路84』
 #EXTINF:-1 tvg-id="85" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://mh0.asia:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路85』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=63cf437e1591689484$V4『线路85』
 #EXTINF:-1 tvg-id="86" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://3501776.xyz:35455/itv/1000000002000013359.m3u8?cdn=ystenlive$V4『线路86』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=8b2f07cc1707359845$V4『线路86』
 #EXTINF:-1 tvg-id="87" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-https://php.666230.xyz/proxy/p8.php?id=QHWS$V4『线路87』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=a5a3a04e1720508811$V4『线路87』
 #EXTINF:-1 tvg-id="88" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://gslbserv.itv.cmvideo.cn/1.m3u8?channel-id=bestzb&Contentid=5000000006000040015&livemode=1&stbId=yu&mode=1&$V4『线路88』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=0abcf5161719648656$V4『线路88』
 #EXTINF:-1 tvg-id="89" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://gslbserv.itv.cmvideo.cn/1.m3u8?channel-id=ystenlive&Contentid=1000000002000013359&livemode=1&stbId=yu&mode=1&$V4『线路89』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=ff6a0a8b1739191764$V4『线路89』
 #EXTINF:-1 tvg-id="90" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
-http://gslbserv.itv.cmvideo.cn/1.m3u8?channel-id=ystenlive&Contentid=6721180114242078041&livemode=1&stbId=yu&mode=1&$V4『线路90』
+http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1da074361609506578$V4『线路90』
 #EXTINF:-1 tvg-id="91" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
 http://stream.qhbtv.com/qhws/playlist.m3u8$V4『线路91』
 #EXTINF:-1 tvg-id="92" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png" group-title="卫视频道",青海卫视
@@ -4996,7 +4996,7 @@ http://live.ybtvyun.com/video/s10006-28bc40431485/index.m3u8$V4『线路14』
 #EXTINF:-1 tvg-id="15" tvg-name="延边卫视" tvg-logo="https://live.fanmingming.com/tv/延边卫视.png" group-title="卫视频道",延边卫视
 http://tvbox6.com/tv/bfgd.php?id=117$V4『线路15』
 #EXTINF:-1 tvg-id="1" tvg-name="梨园频道" tvg-logo="https://live.fanmingming.com/tv/梨园频道.png" group-title="数字频道",梨园频道
-http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=288de1d0b2f21a41ca7b70ac40141fe5&wsTime=1740329738$V4『线路1』
+http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=14f80ad4ebc52544325a1ee18e7587e3&wsTime=1740362413$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="梨园频道" tvg-logo="https://live.fanmingming.com/tv/梨园频道.png" group-title="数字频道",梨园频道
 http://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=55bb05098902480ee9baa3ce854f6f53&wsTime=1740286825$V4『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="欢笑剧场" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场.png" group-title="数字频道",欢笑剧场
@@ -5746,7 +5746,7 @@ http://stream.appwuhan.com/4tzb/sd/live.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="武汉六台外语" tvg-logo="https://live.fanmingming.com/tv/武汉六台外语.png" group-title="湖北综合",武汉六台外语
 http://stream.appwuhan.com/6tzb/sd/live.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="河南乡村频道" tvg-logo="https://live.fanmingming.com/tv/河南乡村频道.png" group-title="河南",河南乡村频道
-http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=f81b58e3ec7eb2444dab91769d97db41&wsTime=1740329738$v4
+http://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=4a609e1e0987f81f832c71d8d4d4a882&wsTime=1740362413$v4
 #EXTINF:-1 tvg-id="1" tvg-name="潢川综合" tvg-logo="https://live.fanmingming.com/tv/潢川综合.png" group-title="河南",潢川综合
 http://tvpull.dxhmt.cn:9081/tv/11526-1.m3u8$v4
 #EXTINF:-1 tvg-id="1" tvg-name="兰考新闻" tvg-logo="https://live.fanmingming.com/tv/兰考新闻.png" group-title="河南",兰考新闻
@@ -5872,9 +5872,9 @@ http://dns.yiandrive.com:15907/gztv/xinwen$V4『线路2』
 #EXTINF:-1 tvg-id="1" tvg-name="广州影视" tvg-logo="https://live.fanmingming.com/tv/广州影视.png" group-title="广东频道",广州影视
 https://tencentplaygzrb.gztv.com:443/live/yingshi.m3u8$V4『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="广州影视" tvg-logo="https://live.fanmingming.com/tv/广州影视.png" group-title="广东频道",广州影视
-https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=3b10b4ffc89abaa3c8d5d9b13a9b5661&txTime=191b727bdf2$V4『线路2』
+http://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=1bd3a1082ab5b89f48c1bff9a3760da4&txTime=18d57929bd4$V4『线路2』
 #EXTINF:-1 tvg-id="3" tvg-name="广州影视" tvg-logo="https://live.fanmingming.com/tv/广州影视.png" group-title="广东频道",广州影视
-http://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=1bd3a1082ab5b89f48c1bff9a3760da4&txTime=18d57929bd4$V4『线路3』
+https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=3b10b4ffc89abaa3c8d5d9b13a9b5661&txTime=191b727bdf2$V4『线路3』
 #EXTINF:-1 tvg-id="4" tvg-name="广州影视" tvg-logo="https://live.fanmingming.com/tv/广州影视.png" group-title="广东频道",广州影视
 http://tencentplaygzrb01.gztv.com/live/yingshi.m3u8$V4『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="广州影视" tvg-logo="https://live.fanmingming.com/tv/广州影视.png" group-title="广东频道",广州影视
