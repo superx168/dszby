@@ -97,6 +97,11 @@ def match_channels(template_channels, all_channels):
     for category, channel_list in template_channels.items():
         matched_channels[category] = OrderedDict()
         for channel_name in channel_list:
+            cur_channel_name = channel_name
+            cur_list = [channel_name]
+            if "|" in channel_name:
+                cur_list = channel_name.split("|")
+                cur_channel_name = cur_list[0]
             for online_category, online_channel_list in all_channels.items():
                 for online_channel_name, online_channel_url in online_channel_list:
                     if channel_name == online_channel_name:
