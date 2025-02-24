@@ -1,11 +1,11 @@
-2025-02-24 03:16:47,358 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/天津.txt 获取成功，判断为txt格式
-2025-02-24 03:16:47,359 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/天津.txt 爬取成功✅，包含频道分类: 中国联通-天津-组播
-2025-02-24 03:16:47,574 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/山西.txt 获取成功，判断为txt格式
-2025-02-24 03:16:47,576 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/山西.txt 爬取成功✅，包含频道分类: 中国联通-山西-组播
-2025-02-24 03:16:47,814 - ERROR - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通黑龙江.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://ghproxy.cfd/https:/raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E9%BB%91%E9%BE%99%E6%B1%9F.txt
-2025-02-24 03:16:48,000 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/重庆.txt 获取成功，判断为txt格式
-2025-02-24 03:16:48,000 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/重庆.txt 爬取成功✅，包含频道分类: 中国联通-重庆-组播
-2025-02-24 03:16:48,254 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt 获取成功，判断为txt格式
-2025-02-24 03:16:48,261 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 湖南频道, 其他频道, AKTV, 湖南移动
-2025-02-24 03:16:48,392 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt 获取成功，判断为txt格式
-2025-02-24 03:16:48,393 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 安徽频道, 其他频道, AKTV
+2025-02-24 03:28:54,816 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/天津.txt 获取成功，判断为txt格式
+2025-02-24 03:28:54,818 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/天津.txt 爬取成功✅，包含频道分类: 中国联通-天津-组播
+2025-02-24 03:28:55,025 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/山西.txt 获取成功，判断为txt格式
+2025-02-24 03:28:55,026 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/山西.txt 爬取成功✅，包含频道分类: 中国联通-山西-组播
+2025-02-24 03:28:55,169 - ERROR - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通黑龙江.txt 爬取失败❌, Error: 404 Client Error: Not Found for url: https://ghproxy.cfd/https:/raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9A%E9%BB%91%E9%BE%99%E6%B1%9F.txt
+2025-02-24 03:28:55,318 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/重庆.txt 获取成功，判断为txt格式
+2025-02-24 03:28:55,318 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/重庆.txt 爬取成功✅，包含频道分类: 中国联通-重庆-组播
+2025-02-24 03:28:55,454 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt 获取成功，判断为txt格式
+2025-02-24 03:28:55,460 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 湖南频道, 其他频道, AKTV, 湖南移动
+2025-02-24 03:28:55,575 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt 获取成功，判断为txt格式
+2025-02-24 03:28:55,577 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 安徽频道, 其他频道, AKTV
