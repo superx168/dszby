@@ -99,8 +99,8 @@ def match_channels(template_channels, all_channels):
         for channel_name in channel_list:
             cur_channel_name = channel_name
             cur_list = [channel_name]
-            if "," in channel_name:
-                cur_list = channel_name.split(",")
+            if "|" in channel_name:
+                cur_list = channel_name.split("|")
                 cur_channel_name = cur_list[0]
             for online_category, online_channel_list in all_channels.items():
                 for online_channel_name, online_channel_url in online_channel_list:
