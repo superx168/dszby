@@ -71,7 +71,7 @@ def fetch_channels(url):
             for line in lines:
                 line = line.strip()
                 if line.startswith("#EXTINF"):
-                    match = re.search(r'group-title="(.*?)",(.*)', line)
+                    match = re.search(r'tvg-name=="(.*?)",(.*)', line)
                     if match:
                         current_category = match.group(1).strip()
                         channel_name = match.group(2).strip()
