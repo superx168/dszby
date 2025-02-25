@@ -25,17 +25,11 @@ source_urls = [
 ]
 
 url_blacklist = [
-    "",
-    "",
+
 
 ]
 url_whitelist = [
-     "mt2018.iask.in:55555",
-     "rtp",
-     "udp",
-    # "mitv",
-     "ottrrs.hl.chinamobile.com",
-    # "http://cc-ynbit-wszhibo.ifengli.com:2000",
+
 ]
 
 announcements = [
