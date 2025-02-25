@@ -4,7 +4,7 @@ ip_version_priority = "ipv4"
 source_urls = [
     "https://gh-proxy.com/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/%E5%85%A8%E5%9B%BD.txt",
     "https://gh-proxy.com/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/dengmeiqing/IPTV1/refs/heads/main/live.txt"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/dengmeiqing/IPTV1/refs/heads/main/live.txt",
     "https://gh-proxy.com/https://raw.githubusercontent.com/250992941/iptv/refs/heads/main/st1.txt",
     "https://gh-proxy.com/https://raw.githubusercontent.com/250992941/iptv/refs/heads/main/st2.txt",
     "https://gh-proxy.com/https://raw.githubusercontent.com/l821706/IPTV/refs/heads/main/IPTV.txt",
