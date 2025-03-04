@@ -14,7 +14,7 @@ from datetime import datetime
 # from pypinyin import lazy_pinyin
 from opencc import OpenCC
 # import base64
-import cv2
+# import cv2
 # from bs4 import BeautifulSoup
 # from urllib.parse import urlparse
 # from translate import Translator  # 导入Translator类,用于文本翻译
