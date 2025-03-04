@@ -23,7 +23,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install logging requests OrderedDict
-        pip install tqdm eventlet OpenCC cv2
+        pip install tqdm eventlet OpenCC 
     - name: Run zby_jc.py
       run: python ${{ github.workspace }}/py/zby/zby_jc.py
 
