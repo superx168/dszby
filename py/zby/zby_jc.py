@@ -24,23 +24,13 @@ urls = [
        # 'https://ghproxy.cc/https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt',   #暂时保留
 
         #'https://ghproxy.cc/https://raw.githubusercontent.com/ddhola/file/d7afb504b1ba4fef31813e1166cb892215a9c063/0609test',#港澳台、国外为主
-
-  
-     'https://ghproxy.cc/https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt',
        # #'https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt',
        # 'https://ghproxy.cc/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt',
-
 	# 'https://ghproxy.cc/https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt',
-
-
-
 	# 'https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt',
-
-
-       # 'https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt',
+       'https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt',
        # 'https://ghproxy.cc/https://raw.githubusercontent.com/junge3333/juds6/main/yszb1.txt',
-
-       'https://ghproxy.cc/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt'
+       #'https://ghproxy.cc/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt',
 	     'https://ghproxy.cc/https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt'
 
 ]
