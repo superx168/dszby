@@ -20,7 +20,7 @@ from opencc import OpenCC
 # from translate import Translator  # 导入Translator类,用于文本翻译
 # 定义txt文件的URL列表
 urls = [
-       'https://ghproxy.cc/https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt',  #假m3u
+       #'https://ghproxy.cc/https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt',  #假m3u
        # 'https://ghproxy.cc/https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt',   #暂时保留
 
         #'https://ghproxy.cc/https://raw.githubusercontent.com/ddhola/file/d7afb504b1ba4fef31813e1166cb892215a9c063/0609test',#港澳台、国外为主
