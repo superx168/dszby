@@ -2,36 +2,39 @@ name: 检测组播
 
 on:
   schedule:
-    - cron: '0 6,18,23 * * *'
-  workflow_dispatch:    
+    - cron: '0 17 * * *'  # 每天下午运行
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  filter-and-push:
     runs-on: ubuntu-latest
-    env:
-      TZ: Asia/Shanghai
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-    
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
+    - uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: pip install bs4 requests playwright datetime OpenCC
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
 
-      - name: Run 开始检测提取有效源
-        run: python ${{ github.workspace }}/py/zby/组播检测/zub_jc.py
-        
-      - name: 提交更改
-        run: |
-          git config --local user.email "2856364053@qq.com"
-          git config --local user.name "adminouyang"
-          git add .
-          git commit *.txt -m "action: `date`"
-          #git commit *.m3u -m "action: `date`"
-          git push -f
-          #git pull --rebase
-          git push -f
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install logging requests OrderedDict
+        pip install bs4 requests playwright datetime OpenCC 
+    - name: Run 开始检测提取有效源
+      run: python ${{ github.workspace }}/py/zby/组播检测/zub_jc.py
+
+    - name: 提交更改
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add .
+        # git commit *.txt -m "action: `date`"
+        # git commit *.m3u -m "action: `date`"
+        # git push -f
+        git diff --quiet && git diff --staged --quiet || (git commit -m "action: `date`" && git push)
+      env:
+       TZ: Asia/Shanghai
