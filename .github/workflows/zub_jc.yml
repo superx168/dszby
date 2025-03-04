@@ -20,7 +20,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install bs4 requests playwright datetime
+        run: pip install bs4 requests playwright datetime OpenCC
 
       - name: Run 开始检测提取有效源
         run: python ${{ github.workspace }}/py/zby/组播检测/zub_jc.py
