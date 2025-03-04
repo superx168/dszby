@@ -31,8 +31,7 @@ urls = [
        'https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt',
        # 'https://ghproxy.cc/https://raw.githubusercontent.com/junge3333/juds6/main/yszb1.txt',
        #'https://ghproxy.cc/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt',
-	     'https://ghproxy.cc/https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt'
-
+	'https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/hotel/%E5%85%A8%E5%9B%BD.txt'
 ]
 # 合并文件的函数
 def merge_txt_files(urls, output_filename='py/zby/汇总.txt'):
