@@ -8,6 +8,7 @@ from threading import Thread
 from datetime import datetime
 from datetime import timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from opencc import OpenCC
 ###
 # 定义txt文件的URL列表
 urls = [
