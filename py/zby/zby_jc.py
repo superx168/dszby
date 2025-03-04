@@ -277,8 +277,8 @@ remove_duplicates('py/zby/汇总1.txt', 'py/zby/1.txt')
 #########################
 with open('py/zby/1.txt', 'r', encoding='utf-8') as file:
 # 从整理好的文本中按类别进行特定关键词提取
-	keywords = ['PLTV','yinhe','TVOD','tsfile','itv','php','ottrrs','gaoma','35455']  # 需要提取的关键字列表
-	pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+ keywords = ['tsfile','hls']  # 需要提取的关键字列表
+ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 # pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('py/zby/1.txt', 'r', encoding='utf-8') as file, open('py/zby/2.txt', 'w', encoding='utf-8') as a:  #####定义临时文件名
 	a.write('\n')  #####写入临时文件名
