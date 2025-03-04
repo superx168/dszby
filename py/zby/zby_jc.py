@@ -300,7 +300,7 @@ task_queue = Queue()
 results = []
 channels = []
 error_channels = []
-with open("2.txt", 'r', encoding='utf-8') as file:
+with open("py/zby2.txt", 'r', encoding='utf-8') as file:
 	lines = file.readlines()
 	for line in lines:
 		line = line.strip()
@@ -356,7 +356,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 5
+num_threads = 10
 for _ in range(num_threads):
 	t = threading.Thread(target=worker, daemon=True)
 	t.start()
