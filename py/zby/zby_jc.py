@@ -300,7 +300,7 @@ task_queue = Queue()
 results = []
 channels = []
 error_channels = []
-with open("py/zby2.txt", 'r', encoding='utf-8') as file:
+with open("py/zby/2.txt", 'r', encoding='utf-8') as file:
 	lines = file.readlines()
 	for line in lines:
 		line = line.strip()
