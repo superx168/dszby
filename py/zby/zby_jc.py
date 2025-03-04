@@ -356,7 +356,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 10
+num_threads = 6
 for _ in range(num_threads):
 	t = threading.Thread(target=worker, daemon=True)
 	t.start()
@@ -417,7 +417,7 @@ keywords = ['1905','SiTV','NewTV','iHOT','4K','梨园频道','睛彩','黑莓','
 	'足球频道','纪实科教']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 # pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('py/zby/.txt', 'r', encoding='utf-8') as file, open('py/zby/数字频道.txt', 'w', encoding='utf-8') as b:  #####定义临时文件名
+with open('py/zby/3.txt', 'r', encoding='utf-8') as file, open('py/zby/数字频道.txt', 'w', encoding='utf-8') as b:  #####定义临时文件名
 	b.write('\n数字频道,#genre#\n')  #####写入临时文件名
 	for line in file:
 		if 'genre' not in line:
@@ -430,7 +430,7 @@ keywords = ['東森','翡翠','明珠','华视','華視','中视','台视','民�
 			'精选','电影原声台CMusic','MTV Live','History','大爱','电影免费看','番薯']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 # pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('py/zby/.txt', 'r', encoding='utf-8') as file, open('py/zby/港奥台.txt', 'w', encoding='utf-8') as b:  #####定义临时文件名
+with open('py/zby/3.txt', 'r', encoding='utf-8') as file, open('py/zby/港奥台.txt', 'w', encoding='utf-8') as b:  #####定义临时文件名
 	b.write('\n港奥台,#genre#\n')  #####写入临时文件名
 	for line in file:
 		if 'genre' not in line:
@@ -441,7 +441,7 @@ with open('py/zby/.txt', 'r', encoding='utf-8') as file, open('py/zby/港奥台.
 keywords = ['安徽','合肥','肥西','蚌埠','滁州','池州','淮北','淮南','宿州','芜湖','六安','铜陵','安庆','宣城','马鞍山','阜阳','歙县','岳西','亳州','萧县','固镇','灵璧']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 # pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('py/zby/.txt', 'r', encoding='utf-8') as file, open('py/zby/安徽.txt', 'w', encoding='utf-8') as b:  #####定义临时文件名
+with open('py/zby/3.txt', 'r', encoding='utf-8') as file, open('py/zby/安徽.txt', 'w', encoding='utf-8') as b:  #####定义临时文件名
 	b.write('\n安徽,#genre#\n')  #####写入临时文件名
 	for line in file:
 		if 'genre' not in line:
@@ -546,7 +546,7 @@ with open('py/zby/3.txt', 'r', encoding='utf-8') as file, open('py/zby/广东.tx
 
 # 合并所有的txt文件
 file_contents = []
-file_paths = ["央视.txt", "卫视.txt","数字频道.txt","港奥台.txt","安徽.txt","北京.txt","河南.txt","广东.txt"]  # 替换为实际的文件路径列表
+file_paths = ["py/zby/央视.txt", "py/zby/卫视.txt","py/zby/数字频道.txt","py/zby/港奥台.txt","py/zby/安徽.txt","py/zby/北京.txt","py/zby/河南.txt","py/zby/广东.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
 	with open(file_path, 'r', encoding="utf-8") as file:
 		content = file.read()
