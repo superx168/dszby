@@ -221,7 +221,9 @@ with open('py/zby/汇总.txt', 'w', encoding='utf-8') as new_file:
 
 
 # 打开文本文件进行读取
-def read_and_process_file(input_filename, output_filename, encodings=['utf-8', 'gbk']):
+def read_and_process_file(input_filename, output_filename, encodings=None):
+    if encodings is None:
+        encodings = ['utf-8', 'gbk']
     for encoding in encodings:
         try:
             with open(input_filename, 'r', encoding=encoding) as file:
@@ -313,7 +315,7 @@ def worker():
 			ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
 
 			# 多获取的视频数据进行5秒钟限制
-			with eventlet.Timeout(6, False):
+			with eventlet.Timeout(5, False):
 				start_time = time.time()
 				content = requests.get(ts_url, timeout=1).content
 				end_time = time.time()
@@ -346,7 +348,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 6
+num_threads = 10
 for _ in range(num_threads):
 	t = threading.Thread(target=worker, daemon=True)
 	t.start()
