@@ -13,7 +13,7 @@ from opencc import OpenCC
 # 定义txt文件的URL列表
 urls = [
        #'https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt',  #假m3u
-       'https://ghproxy.cc/https://raw.githubusercontent.com/maitel2020/iptv-self-use/refs/heads/main/iptv.txt',   #暂时保留
+       'https://ghproxy.cc/https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt',   #暂时保留
         #'https://ghproxy.cc/https://raw.githubusercontent.com/ddhola/file/d7afb504b1ba4fef31813e1166cb892215a9c063/0609test',#港澳台、国外为主
        #'https://ghproxy.cc/https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt',
        # #'https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt',
@@ -266,17 +266,17 @@ def remove_duplicates(input_file, output_file):
 # 使用方法
 remove_duplicates('py/zby/组播检测/汇总1.txt', 'py/zby/组播检测/1.txt')
 ##########################
-# with open('py/zby/组播检测/1.txt', 'r', encoding='utf-8') as file:
-# 	# 从整理好的文本中按类别进行特定关键词提取
-# 	keywords = ['udp','rtp','hls','tsfile']  # 需要提取的关键字列表
-# 	pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-# # pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-# with open('py/zby/组播检测/1.txt', 'r', encoding='utf-8') as file, open('py/zby/组播检测/2.txt', 'w', encoding='utf-8') as a:  #####定义临时文件名
-# 	a.write('\n')  #####写入临时文件名
-# 	for line in file:
-# 		if 'genre' in line:
-# 			if re.search(pattern, line):  # 如果行中有任意关键字
-# 				a.write(line)  # 将该
+with open('py/zby/组播检测/1.txt', 'r', encoding='utf-8') as file:
+# 从整理好的文本中按类别进行特定关键词提取
+ keywords = ['udp','rtp','hls','tsfile']  # 需要提取的关键字列表
+ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+# pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('py/zby/组播检测/1.txt', 'r', encoding='utf-8') as file, open('py/zby/组播检测/2.txt', 'w', encoding='utf-8') as a:  #####定义临时文件名
+	a.write('\n')  #####写入临时文件名
+	for line in file:
+		if 'genre' in line:
+			if re.search(pattern, line):  # 如果行中有任意关键字
+				a.write(line)  # 将该
 
 # 开始对组播源频道列表进行下载速度检测
 # 定义一个全局队列，用于存储需要测速的频道信息
