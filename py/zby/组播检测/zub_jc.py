@@ -12,9 +12,9 @@ from opencc import OpenCC
 ###
 # 定义txt文件的URL列表
 urls = [
-       #'https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt',  #假m3u
-       'https://ghproxy.cc/https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt',   #暂时保留
-        #'https://ghproxy.cc/https://raw.githubusercontent.com/ddhola/file/d7afb504b1ba4fef31813e1166cb892215a9c063/0609test',#港澳台、国外为主
+        'https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt',#湖南电信组播
+        #'https://ghproxy.cc/https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt',   #暂时保留
+	'https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/河南.txt',
        #'https://ghproxy.cc/https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt',
        # #'https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt',
        # 'https://ghproxy.cc/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt',
@@ -367,16 +367,22 @@ def group_and_sort_channels(channels):
     groups = {
         '央视频道,#genre#': [],
         '卫视频道,#genre#': [],
+        '数字频道,#genre#': [],	    
         '安徽频道,#genre#': [],      
         '湖南频道,#genre#': [],
+        '河南频道,#genre#': [],	    
         '其他频道,#genre#': []
     }
 
     for name, url, speed in channels:
-        if 'cctv' in name.lower():
+        if 'cctv' in name or '中国教育' in name or 'CGTN'in name.lower():
             groups['央视频道,#genre#'].append((name, url, speed))
         elif '卫视' in name or '凤凰' in name or '翡翠' in name or 'CHC' in name:
             groups['卫视频道,#genre#'].append((name, url, speed))
+        elif ('篮球' in name or '爱' in name or 'IPTV' in name or '热播' in name or '精选' in name or '足球' in name
+	      or '好学生' in name or '音乐现场' in name or '乒羽' in name or '地理' in name or '军事' in name or '魅力' in name
+	      or '国学' in name):
+            groups['数字频道,#genre#'].append((name, url, speed))		
         elif ('安徽' in name or '海豚' in name or '金鹰' in name or '纪实' in name or '合肥' in name or '肥东' in name
               or '肥西' in name or '长丰' in name or '滁州' in name or '全椒' in name or '来安' in name or '定远' in name
               or '凤阳' in name or '明光' in name or '芜湖' in name or '湾沚' in name or '繁昌' in name or '无为' in name
@@ -398,6 +404,8 @@ def group_and_sort_channels(channels):
               or '汨罗' in name or '洪江' in name or '涟源' in name or '湘江' in name or '祁阳' in name or '芷江' in name
               or '蓝山' in name or '辰溪' in name or '通道' in name or '靖州' in name or '麻阳' in name):
             groups['湖南频道,#genre#'].append((name, url, speed))
+        elif ('河南' in name or '移动' in name or '睛彩' in name or '驻马店' in name or '西平' in name or '新蔡' in name):
+            groups['河南频道,#genre#'].append((name, url, speed))		      
         else:
             groups['其他频道,#genre#'].append((name, url, speed))
 
