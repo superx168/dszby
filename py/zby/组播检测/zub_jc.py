@@ -13,7 +13,7 @@ from opencc import OpenCC
 # 定义txt文件的URL列表
 urls = [
        'https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt',  #假m3u
-       'https://ghproxy.cc/https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt',   #暂时保留
+       'https://ghproxy.cc/https://raw.githubusercontent.com/maitel2020/iptv-self-use/refs/heads/main/iptv.txt',   #暂时保留
         #'https://ghproxy.cc/https://raw.githubusercontent.com/ddhola/file/d7afb504b1ba4fef31813e1166cb892215a9c063/0609test',#港澳台、国外为主
        #'https://ghproxy.cc/https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt',
        # #'https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt',
