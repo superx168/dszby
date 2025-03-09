@@ -17,7 +17,7 @@ fi
 # 根据用户选择设置城市和相应的stream
 case $city_choice in
     1)
-        city="py/iptv源收集检测/主频道/专享频道/py/组播/template/Zhejiang_120"
+        city="Zhejiang_120"
         stream="udp/233.50.201.63:5140"
         channel_key="浙江电信"
         ;;
@@ -99,8 +99,8 @@ esac
 ipfile="ip/${channel_key}_ip"
 good_ip="ip/${channel_key}_good_ip"
 # 搜索最新 IP
-cat ip/${channel_key}.html | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
-cat ip/${channel_key}_good_ip >>tmp_ipfile
+cat py/iptv源收集检测/主频道/专享频道/py/组播/template/${channel_key}.html | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
+cat py/iptv源收集检测/主频道/专享频道/py/组播/template/${channel_key}_good_ip >>tmp_ipfile
 sort tmp_ipfile | uniq | sed '/^\s*$/d' > "$ipfile"
 rm -f tmp_ipfile ip/${channel_key}.html $good_ip
 
@@ -136,7 +136,7 @@ i=0
 for temp_file in tmpip/ip_*.txt; do
       ((i++))
      ip=$(<"$temp_file")  # 从临时文件中读取 IP 地址
-     a=$(py/iptv源收集检测/主频道/专享频道/py/组播/speed.sh "$ip" "$stream")
+     a=$(./py/iptv源收集检测/主频道/专享频道/py/组播/speed.sh "$ip" "$stream")
      echo "第 $i/$lines 个：$ip $a"
      echo "$ip $a" >> "speedtest_${city}_$time.log"
 done
@@ -158,34 +158,34 @@ sed "s/ipipip/$ip3/g" "$program" > tmp3.txt
 sed "s/ipipip/$ip4/g" "$program" > tmp4.txt
 sed "s/ipipip/$ip5/g" "$program" > tmp5.txt
 cat tmp1.txt tmp2.txt tmp3.txt tmp4.txt tmp5.txt > tmp_all.txt
-grep -vE '/{3}' tmp_all.txt > "txt/${channel_key}.txt"
+grep -vE '/{3}' tmp_all.txt > "py/iptv源收集检测/主频道/专享频道/py/组播/txt/${channel_key}.txt"
 rm -rf "result_${city}.txt" tmp1.txt tmp2.txt tmp3.txt tmp4.txt tmp5.txt tmp_all.txt
 
 #--------------------合并所有城市的txt文件为:   zubo1.txt-----------------------------------------
 
 echo "浙江电信,#genre#" >zubo1.txt
-cat txt/浙江电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/浙江电信.txt >>zubo1.txt
 echo "江苏电信,#genre#" >>zubo1.txt
-cat txt/江苏电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/江苏电信.txt >>zubo1.txt
 echo "上海电信,#genre#" >>zubo1.txt
-cat txt/上海电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/上海电信.txt >>zubo1.txt
 echo "北京联通,#genre#" >>zubo1.txt
-cat txt/北京联通.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/北京联通.txt >>zubo1.txt
 echo "湖北电信,#genre#" >>zubo1.txt
-cat txt/湖北电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖北电信.txt >>zubo1.txt
 echo "四川电信,#genre#" >>zubo1.txt
-cat txt/四川电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/四川电信.txt >>zubo1.txt
 echo "山西联通,#genre#" >>zubo1.txt
-cat txt/山西联通.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/山西联通.txt >>zubo1.txt
 echo "广西电信,#genre#" >>zubo1.txt
-cat txt/广西电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/广西电信.txt >>zubo1.txt
 echo "山西电信,#genre#" >>zubo1.txt
-cat txt/山西电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/山西电信.txt >>zubo1.txt
 echo "天津联通,#genre#" >>zubo1.txt
-cat txt/天津联通.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/天津联通.txt >>zubo1.txt
 echo "重庆联通,#genre#" >>zubo1.txt
-cat txt/重庆联通.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/重庆联通.txt >>zubo1.txt
 echo "安徽电信,#genre#" >>zubo1.txt
-cat txt/安徽电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/安徽电信.txt >>zubo1.txt
 echo "重庆电信,#genre#" >>zubo1.txt
-cat txt/重庆电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/重庆电信.txt >>zubo1.txt
