@@ -17,7 +17,7 @@ fi
 # 根据用户选择设置城市和相应的stream
 case $city_choice in
     1)
-        city="Zhejiang_120"
+        city="py/iptv源收集检测/主频道/专享频道/py/组播/template/Zhejiang_120"
         stream="udp/233.50.201.63:5140"
         channel_key="浙江电信"
         ;;
