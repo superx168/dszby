@@ -96,15 +96,15 @@ case $city_choice in
 esac
 
 # 使用城市名作为默认文件名，格式为 CityName.ip
-ipfile="ip/${channel_key}_ip"
-good_ip="ip/${channel_key}_good_ip"
+ipfile="py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}_ip"
+good_ip="py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}_good_ip"
 # 搜索最新 IP
-cat py/iptv源收集检测/主频道/专享频道/py/组播/template/${channel_key}.html | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
-cat py/iptv源收集检测/主频道/专享频道/py/组播/template/${channel_key}_good_ip >>tmp_ipfile
+cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}.html | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
+cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}_good_ip >>tmp_ipfile
 sort tmp_ipfile | uniq | sed '/^\s*$/d' > "$ipfile"
 rm -f tmp_ipfile ip/${channel_key}.html $good_ip
 
-while IFS= read -r ip; do
+while IFS= read -r py/iptv源收集检测/主频道/专享频道/py/组播/ip; do
     # 尝试连接 IP 地址和端口号，并将输出保存到变量中
     tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
     #echo "nc -w 1 -v -z $tmp_ip 2>&1"
