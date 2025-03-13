@@ -37,195 +37,200 @@ def is_url_accessible(url):
 
 results = []
 urls_all = []
-with open('py/iptv源收集检测/主频道/专享频道/py/酒店源/酒店标清.ip', 'r', encoding='utf-8') as file:
-        lines = file.readlines()
-        for line in lines:
-            url = line.strip()
-            url = f"http://{url}"
-            urls_all.append(url)
-        urls = set(urls_all)  # 去重得到唯一的URL列表
-        x_urls = []
-        for url in urls:  # 对urls进行处理，ip第四位修改为1，并去重
-            ip_start_index = url.find("//") + 2
-            ip_end_index = url.find(":", ip_start_index)
-            ip_dot_start = url.find(".") + 1
-            ip_dot_second = url.find(".", ip_dot_start) + 1
-            ip_dot_three = url.find(".", ip_dot_second) + 1
-            base_url = url[:ip_start_index]  # http:// or https://
-            ip_address = url[ip_start_index:ip_dot_three]
-            port = url[ip_end_index:]
-            ip_end = "1"
-            modified_ip = f"{ip_address}{ip_end}"
-            x_url = f"{base_url}{modified_ip}{port}"
-            x_urls.append(x_url)
-        urls = set(x_urls)  # 去重得到唯一的URL列表
-    
-        valid_urls = []
-        #   多线程获取可用url
-        with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
-            futures = []
-            for url in urls:
-                url = url.strip()
-                modified_urls = modify_urls(url)
-                for modified_url in modified_urls:
-                    futures.append(executor.submit(is_url_accessible, modified_url))
-    
-            for future in concurrent.futures.as_completed(futures):
-                result = future.result()
-                if result:
-                    valid_urls.append(result)
-                    print(url)
-        # 遍历网址列表，获取JSON文件并解析
-        for url in valid_urls:
-            try:
-                # 发送GET请求获取JSON文件，设置超时时间为0.5秒
+folder_path = 'py/iptv源收集检测/主频道/专享频道/py/酒店源/ip'
+for file_name in os.listdir(folder_path):
+    if file_name.endswith('.txt'):
+        file_paths = os.path.join(folder_path, file_name)
+        print(file_paths)
+    with open('file_paths', 'r', encoding='utf-8') as file:
+            lines = file.readlines()
+            for line in lines:
+                url = line.strip()
+                url = f"http://{url}"
+                urls_all.append(url)
+            urls = set(urls_all)  # 去重得到唯一的URL列表
+            x_urls = []
+            for url in urls:  # 对urls进行处理，ip第四位修改为1，并去重
                 ip_start_index = url.find("//") + 2
+                ip_end_index = url.find(":", ip_start_index)
                 ip_dot_start = url.find(".") + 1
-                ip_index_second = url.find("/", ip_dot_start)
+                ip_dot_second = url.find(".", ip_dot_start) + 1
+                ip_dot_three = url.find(".", ip_dot_second) + 1
                 base_url = url[:ip_start_index]  # http:// or https://
-                ip_address = url[ip_start_index:ip_index_second]
-                url_x = f"{base_url}{ip_address}"
-    
-                json_url = f"{url}"
-                response = requests.get(json_url, timeout=2)
-                json_data = response.json()
-    
+                ip_address = url[ip_start_index:ip_dot_three]
+                port = url[ip_end_index:]
+                ip_end = "1"
+                modified_ip = f"{ip_address}{ip_end}"
+                x_url = f"{base_url}{modified_ip}{port}"
+                x_urls.append(x_url)
+            urls = set(x_urls)  # 去重得到唯一的URL列表
+        
+            valid_urls = []
+            #   多线程获取可用url
+            with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
+                futures = []
+                for url in urls:
+                    url = url.strip()
+                    modified_urls = modify_urls(url)
+                    for modified_url in modified_urls:
+                        futures.append(executor.submit(is_url_accessible, modified_url))
+        
+                for future in concurrent.futures.as_completed(futures):
+                    result = future.result()
+                    if result:
+                        valid_urls.append(result)
+                        print(url)
+            # 遍历网址列表，获取JSON文件并解析
+            for url in valid_urls:
                 try:
-                    # 解析JSON文件，获取name和url字段
-                    for item in json_data['data']:
-                        if isinstance(item, dict):
-                            name = item.get('name')
-                            urlx = item.get('url')
-                            if ',' in urlx:
-                                urlx=f"aaaaaaaa"
-                                
-                            #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
-                            if 'http' in urlx:
-                                urld = f"{urlx}"
-                            else:
-                                urld = f"{url_x}{urlx}"
+                    # 发送GET请求获取JSON文件，设置超时时间为0.5秒
+                    ip_start_index = url.find("//") + 2
+                    ip_dot_start = url.find(".") + 1
+                    ip_index_second = url.find("/", ip_dot_start)
+                    base_url = url[:ip_start_index]  # http:// or https://
+                    ip_address = url[ip_start_index:ip_index_second]
+                    url_x = f"{base_url}{ip_address}"
+        
+                    json_url = f"{url}"
+                    response = requests.get(json_url, timeout=2)
+                    json_data = response.json()
+        
+                    try:
+                        # 解析JSON文件，获取name和url字段
+                        for item in json_data['data']:
+                            if isinstance(item, dict):
+                                name = item.get('name')
+                                urlx = item.get('url')
+                                if ',' in urlx:
+                                    urlx=f"aaaaaaaa"
+                                    
+                                #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
+                                if 'http' in urlx:
+                                    urld = f"{urlx}"
+                                else:
+                                    urld = f"{url_x}{urlx}"
+        
+                                if name and urld:
+                                    # 删除特定文字
+                                    name = name.replace("cctv", "CCTV")
+                                    name = name.replace("中央", "CCTV")
+                                    name = name.replace("央视", "CCTV")
+                                    name = name.replace("高清", "")
+                                    name = name.replace("超清", "")
+                                    name = name.replace("超高", "")
+                                    name = name.replace("HD", "")
+                                    name = name.replace("标清", "")
+                                    name = name.replace("频道", "")
+                                    name = name.replace("-", "")
+                                    name = name.replace(" ", "")
+                                    name = name.replace("PLUS", "+")
+                                    name = name.replace("＋", "+")
+                                    name = name.replace("(", "")
+                                    name = name.replace(")", "")
+                                    name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
+                                    name = name.replace("CCTV1综合", "CCTV1")
+                                    name = name.replace("CCTV2财经", "CCTV2")
+                                    name = name.replace("CCTV3综艺", "CCTV3")
+                                    name = name.replace("CCTV4国际", "CCTV4")
+                                    name = name.replace("CCTV4广电", "CCTV4")
+                                    name = name.replace("CCTV4中文国际", "CCTV4")
+                                    name = name.replace("CCTV4欧洲", "CCTV4")
+                                    name = name.replace("CCTV5体育", "CCTV5")
+                                    name = name.replace("CCTV6电影", "CCTV6")
+                                    name = name.replace("CCTV7军事", "CCTV7")
+                                    name = name.replace("CCTV7军农", "CCTV7")
+                                    name = name.replace("CCTV7农业", "CCTV7")
+                                    name = name.replace("军农", "")
+                                    name = name.replace("CCTV7国防军事", "CCTV7")
+                                    name = name.replace("CCTV8电视剧", "CCTV8")
+                                    name = name.replace("CCTV9记录", "CCTV9")
+                                    name = name.replace("CCTV9纪录", "CCTV9")
+                                    name = name.replace("CCTV10科教", "CCTV10")
+                                    name = name.replace("CCTV11戏曲", "CCTV11")
+                                    name = name.replace("CCTV12社会与法", "CCTV12")
+                                    name = name.replace("CCTV13新闻", "CCTV13")
+                                    name = name.replace("CCTV新闻", "CCTV13")
+                                    name = name.replace("CCTV14少儿", "CCTV14")
+                                    name = name.replace("CCTV少儿", "CCTV14")
+                                    name = name.replace("CCTV15音乐", "CCTV15")
+                                    name = name.replace("CCTV16奥林匹克", "CCTV16")
+                                    name = name.replace("CCTV17农业农村", "CCTV17")
+                                    name = name.replace("CCTV17农业", "CCTV17")
+                                    name = name.replace("CCTV17军农", "CCTV17")
+                                    name = name.replace("CCTV17军事", "CCTV17")
+                                    name = name.replace("CCTV5+体育赛视", "CCTV5+")
+                                    name = name.replace("CCTV5+体育赛事", "CCTV5+")
+                                    name = name.replace("CCTV5+体育", "CCTV5+")
+                                    name = name.replace("CCTV足球", "风云足球")
+                                    name = name.replace("CCTV风云足球", "风云足球")
+                                    name = name.replace("CCTV精品", "文化精品")
+                                    name = name.replace("上海卫视", "东方卫视")
+                                    name = name.replace("奥运匹克", "")
+                                    name = name.replace("军农", "")
+                                    name = name.replace("回放", "")
+                                    name = name.replace("测试", "")
+                                    name = name.replace("CCTV5卡", "CCTV5")
+                                    name = name.replace("CCTV5赛事", "CCTV5")
+                                    name = name.replace("CCTV教育", "CETV1")
+                                    name = name.replace("中国教育1", "CETV1")
+                                    name = name.replace("CETV1中教", "CETV1")
+                                    name = name.replace("中国教育2", "CETV2")
+                                    name = name.replace("中国教育4", "CETV4")
+                                    name = name.replace("CCTV5+体育赛视", "CCTV5+")
+                                    name = name.replace("CCTV5+体育赛事", "CCTV5+")
+                                    name = name.replace("CCTV5+体育", "CCTV5+")
+                                    name = name.replace("CCTV赛事", "CCTV5+")
+                                    name = name.replace("CCTV教育", "CETV1")
+                                    name = name.replace("CCTVnews", "CGTN")
+                                    name = name.replace("CCTVNEWS", "CGTN")
+                                    name = name.replace("1资讯", "凤凰资讯台")
+                                    name = name.replace("2中文", "凤凰台")
+                                    name = name.replace("3XG", "香港台")
+                                    name = name.replace("上海卫视", "东方卫视")
+                                    name = name.replace("全纪实", "乐游纪实")
+                                    name = name.replace("金鹰动画", "金鹰卡通")
+                                    name = name.replace("河南新农村", "河南乡村")
+                                    name = name.replace("河南法制", "河南法治")
+                                    name = name.replace("文物宝库", "收藏天下")
+                                    name = name.replace("梨园", "河南戏曲")
+                                    name = name.replace("梨园春", "河南戏曲")
+                                    name = name.replace("吉林综艺", "吉视综艺文化")
+                                    name = name.replace("BRTVKAKU", "卡酷少儿")
+                                    name = name.replace("kaku少儿", "卡酷少儿")
+                                    name = name.replace("纪实科教", "BRTV纪实科教")
+                                    name = name.replace("北京卡通", "卡酷少儿")
+                                    name = name.replace("卡酷卡通", "卡酷少儿")
+                                    name = name.replace("卡酷动画", "卡酷少儿")
+                                    name = name.replace("佳佳动画", "嘉佳卡通")
+                                    name = name.replace("CGTN今日世界", "CGTN")
+                                    name = name.replace("CGTN英语", "CGTN")
+                                    name = name.replace("ICS", "上视ICS外语频道")
+                                    name = name.replace("法制天地", "法治天地")
+                                    name = name.replace("都市时尚", "都市剧场")
+                                    name = name.replace("上海炫动卡通", "哈哈炫动")
+                                    name = name.replace("炫动卡通", "哈哈炫动")
+                                    name = name.replace("经济科教", "TVB星河")
+                                    name = name.replace("回放", "")
+                                    name = name.replace("测试", "")
+                                    name = name.replace("旅游卫视", "海南卫视")
+                                    name = name.replace("福建东南卫视", "东南卫视")
+                                    name = name.replace("福建东南", "东南卫视")
+                                    name = name.replace("南方卫视粤语节目9", "广东大湾区频道")
+                                    name = name.replace("内蒙古蒙语卫视", "内蒙古蒙语频道")
+                                    name = name.replace("南方卫视", "广东大湾区频道")
+                                    name = name.replace("中国教育1", "CETV1")
+                                    name = name.replace("南方1", "广东经济科教")
+                                    name = name.replace("南方4", "广东影视频道")
+                                    name = name.replace("吉林市1", "吉林新闻综合")
+                                    name = name.replace("CHC家庭电影", "CHC家庭影院")
+                                    name = name.replace("CHC电影", "CHC影迷电影")
     
-                            if name and urld:
-                                # 删除特定文字
-                                name = name.replace("cctv", "CCTV")
-                                name = name.replace("中央", "CCTV")
-                                name = name.replace("央视", "CCTV")
-                                name = name.replace("高清", "")
-                                name = name.replace("超清", "")
-                                name = name.replace("超高", "")
-                                name = name.replace("HD", "")
-                                name = name.replace("标清", "")
-                                name = name.replace("频道", "")
-                                name = name.replace("-", "")
-                                name = name.replace(" ", "")
-                                name = name.replace("PLUS", "+")
-                                name = name.replace("＋", "+")
-                                name = name.replace("(", "")
-                                name = name.replace(")", "")
-                                name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
-                                name = name.replace("CCTV1综合", "CCTV1")
-                                name = name.replace("CCTV2财经", "CCTV2")
-                                name = name.replace("CCTV3综艺", "CCTV3")
-                                name = name.replace("CCTV4国际", "CCTV4")
-                                name = name.replace("CCTV4广电", "CCTV4")
-                                name = name.replace("CCTV4中文国际", "CCTV4")
-                                name = name.replace("CCTV4欧洲", "CCTV4")
-                                name = name.replace("CCTV5体育", "CCTV5")
-                                name = name.replace("CCTV6电影", "CCTV6")
-                                name = name.replace("CCTV7军事", "CCTV7")
-                                name = name.replace("CCTV7军农", "CCTV7")
-                                name = name.replace("CCTV7农业", "CCTV7")
-                                name = name.replace("军农", "")
-                                name = name.replace("CCTV7国防军事", "CCTV7")
-                                name = name.replace("CCTV8电视剧", "CCTV8")
-                                name = name.replace("CCTV9记录", "CCTV9")
-                                name = name.replace("CCTV9纪录", "CCTV9")
-                                name = name.replace("CCTV10科教", "CCTV10")
-                                name = name.replace("CCTV11戏曲", "CCTV11")
-                                name = name.replace("CCTV12社会与法", "CCTV12")
-                                name = name.replace("CCTV13新闻", "CCTV13")
-                                name = name.replace("CCTV新闻", "CCTV13")
-                                name = name.replace("CCTV14少儿", "CCTV14")
-                                name = name.replace("CCTV少儿", "CCTV14")
-                                name = name.replace("CCTV15音乐", "CCTV15")
-                                name = name.replace("CCTV16奥林匹克", "CCTV16")
-                                name = name.replace("CCTV17农业农村", "CCTV17")
-                                name = name.replace("CCTV17农业", "CCTV17")
-                                name = name.replace("CCTV17军农", "CCTV17")
-                                name = name.replace("CCTV17军事", "CCTV17")
-                                name = name.replace("CCTV5+体育赛视", "CCTV5+")
-                                name = name.replace("CCTV5+体育赛事", "CCTV5+")
-                                name = name.replace("CCTV5+体育", "CCTV5+")
-                                name = name.replace("CCTV足球", "风云足球")
-                                name = name.replace("CCTV风云足球", "风云足球")
-                                name = name.replace("CCTV精品", "文化精品")
-                                name = name.replace("上海卫视", "东方卫视")
-                                name = name.replace("奥运匹克", "")
-                                name = name.replace("军农", "")
-                                name = name.replace("回放", "")
-                                name = name.replace("测试", "")
-                                name = name.replace("CCTV5卡", "CCTV5")
-                                name = name.replace("CCTV5赛事", "CCTV5")
-                                name = name.replace("CCTV教育", "CETV1")
-                                name = name.replace("中国教育1", "CETV1")
-                                name = name.replace("CETV1中教", "CETV1")
-                                name = name.replace("中国教育2", "CETV2")
-                                name = name.replace("中国教育4", "CETV4")
-                                name = name.replace("CCTV5+体育赛视", "CCTV5+")
-                                name = name.replace("CCTV5+体育赛事", "CCTV5+")
-                                name = name.replace("CCTV5+体育", "CCTV5+")
-                                name = name.replace("CCTV赛事", "CCTV5+")
-                                name = name.replace("CCTV教育", "CETV1")
-                                name = name.replace("CCTVnews", "CGTN")
-                                name = name.replace("CCTVNEWS", "CGTN")
-                                name = name.replace("1资讯", "凤凰资讯台")
-                                name = name.replace("2中文", "凤凰台")
-                                name = name.replace("3XG", "香港台")
-                                name = name.replace("上海卫视", "东方卫视")
-                                name = name.replace("全纪实", "乐游纪实")
-                                name = name.replace("金鹰动画", "金鹰卡通")
-                                name = name.replace("河南新农村", "河南乡村")
-                                name = name.replace("河南法制", "河南法治")
-                                name = name.replace("文物宝库", "收藏天下")
-                                name = name.replace("梨园", "河南戏曲")
-                                name = name.replace("梨园春", "河南戏曲")
-                                name = name.replace("吉林综艺", "吉视综艺文化")
-                                name = name.replace("BRTVKAKU", "卡酷少儿")
-                                name = name.replace("kaku少儿", "卡酷少儿")
-                                name = name.replace("纪实科教", "BRTV纪实科教")
-                                name = name.replace("北京卡通", "卡酷少儿")
-                                name = name.replace("卡酷卡通", "卡酷少儿")
-                                name = name.replace("卡酷动画", "卡酷少儿")
-                                name = name.replace("佳佳动画", "嘉佳卡通")
-                                name = name.replace("CGTN今日世界", "CGTN")
-                                name = name.replace("CGTN英语", "CGTN")
-                                name = name.replace("ICS", "上视ICS外语频道")
-                                name = name.replace("法制天地", "法治天地")
-                                name = name.replace("都市时尚", "都市剧场")
-                                name = name.replace("上海炫动卡通", "哈哈炫动")
-                                name = name.replace("炫动卡通", "哈哈炫动")
-                                name = name.replace("经济科教", "TVB星河")
-                                name = name.replace("回放", "")
-                                name = name.replace("测试", "")
-                                name = name.replace("旅游卫视", "海南卫视")
-                                name = name.replace("福建东南卫视", "东南卫视")
-                                name = name.replace("福建东南", "东南卫视")
-                                name = name.replace("南方卫视粤语节目9", "广东大湾区频道")
-                                name = name.replace("内蒙古蒙语卫视", "内蒙古蒙语频道")
-                                name = name.replace("南方卫视", "广东大湾区频道")
-                                name = name.replace("中国教育1", "CETV1")
-                                name = name.replace("南方1", "广东经济科教")
-                                name = name.replace("南方4", "广东影视频道")
-                                name = name.replace("吉林市1", "吉林新闻综合")
-                                name = name.replace("CHC家庭电影", "CHC家庭影院")
-                                name = name.replace("CHC电影", "CHC影迷电影")
-
-                                if 'udp' not in urld or 'rtp' not in urld:
-                                    results.append(f"{name},{urld}")
+                                    if 'udp' not in urld or 'rtp' not in urld:
+                                        results.append(f"{name},{urld}")
+                    except:
+                        continue
                 except:
                     continue
-            except:
-                continue
 
 results = sorted(set(results))   # 去重得到唯一的URL列表
 with open("itv0.txt", 'w', encoding='utf-8') as file:
