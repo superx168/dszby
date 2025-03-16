@@ -130,16 +130,16 @@ rm -rf "result_${city}.txt" tmp1.txt tmp2.txt tmp3.txt tmp_all.txt
 #--------------------合并所有城市的txt文件为:   zubo1.txt-----------------------------------------
 
 echo "浙江电信,#genre#" >zubo1.txt
-cat txt/浙江电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/浙江电信.txt >>zubo1.txt
 echo "江苏电信,#genre#" >>zubo1.txt
-cat txt/江苏电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/江苏电信.txt >>zubo1.txt
 echo "上海电信,#genre#" >>zubo1.txt
-cat txt/上海电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/上海电信.txt >>zubo1.txt
 echo "湖北电信,#genre#" >>zubo1.txt
-cat txt/湖北电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖北电信.txt >>zubo1.txt
 echo "山西电信,#genre#" >>zubo1.txt
-cat txt/山西电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/山西电信.txt >>zubo1.txt
 echo "安徽电信,#genre#" >>zubo1.txt
-cat txt/安徽电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/安徽电信.txt >>zubo1.txt
 echo "重庆电信,#genre#" >>zubo1.txt
-cat txt/重庆电信.txt >>zubo1.txt
+cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/重庆电信.txt >>zubo1.txt
