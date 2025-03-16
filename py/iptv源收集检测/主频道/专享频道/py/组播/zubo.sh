@@ -124,7 +124,7 @@ sed "s/ipipip/$ip1/g" "$program" > tmp1.txt
 sed "s/ipipip/$ip2/g" "$program" > tmp2.txt
 sed "s/ipipip/$ip3/g" "$program" > tmp3.txt
 cat tmp1.txt tmp2.txt tmp3.txt > tmp_all.txt
-grep -vE '/{3}' tmp_all.txt > "txt/${channel_key}.txt"
+grep -vE '/{3}' tmp_all.txt > "py/iptv源收集检测/主频道/专享频道/py/组播/txt/${channel_key}.txt"
 rm -rf "result_${city}.txt" tmp1.txt tmp2.txt tmp3.txt tmp_all.txt
 
 #--------------------合并所有城市的txt文件为:   zubo1.txt-----------------------------------------
