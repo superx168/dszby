@@ -1,13 +1,13 @@
-2025-03-24 17:19:41,068 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/天津.txt 获取成功，判断为txt格式
-2025-03-24 17:19:41,070 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/天津.txt 爬取成功✅，包含频道分类: 中国联通-天津-组播
-2025-03-24 17:19:41,355 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/山西.txt 获取成功，判断为txt格式
-2025-03-24 17:19:41,356 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/山西.txt 爬取成功✅，包含频道分类: 中国联通-山西-组播
-2025-03-24 17:19:41,659 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/黑龙江.txt 获取成功，判断为txt格式
-2025-03-24 17:19:41,659 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/黑龙江.txt 爬取成功✅，包含频道分类: 中国联通-黑龙江-组播
-2025-03-24 17:19:41,940 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/重庆.txt 获取成功，判断为txt格式
-2025-03-24 17:19:41,940 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/重庆.txt 爬取成功✅，包含频道分类: 中国联通-重庆-组播
-2025-03-24 17:19:42,344 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt 获取成功，判断为txt格式
-2025-03-24 17:19:42,351 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 湖南频道, 其他频道, 湖南移动
-2025-03-24 17:19:42,606 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt 获取成功，判断为txt格式
-2025-03-24 17:19:42,607 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 安徽频道, 其他频道
-2025-03-24 17:19:42,716 - INFO - 爬取完成✅，共计频道数：1069
+2025-03-25 17:19:17,609 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/天津.txt 获取成功，判断为txt格式
+2025-03-25 17:19:17,610 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/天津.txt 爬取成功✅，包含频道分类: 中国联通-天津-组播
+2025-03-25 17:19:17,789 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/山西.txt 获取成功，判断为txt格式
+2025-03-25 17:19:17,790 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/山西.txt 爬取成功✅，包含频道分类: 中国联通-山西-组播
+2025-03-25 17:19:17,995 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/黑龙江.txt 获取成功，判断为txt格式
+2025-03-25 17:19:17,996 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/黑龙江.txt 爬取成功✅，包含频道分类: 中国联通-黑龙江-组播
+2025-03-25 17:19:18,322 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/重庆.txt 获取成功，判断为txt格式
+2025-03-25 17:19:18,323 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/重庆.txt 爬取成功✅，包含频道分类: 中国联通-重庆-组播
+2025-03-25 17:19:18,550 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt 获取成功，判断为txt格式
+2025-03-25 17:19:18,556 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 湖南频道, 其他频道, 湖南移动
+2025-03-25 17:19:18,814 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt 获取成功，判断为txt格式
+2025-03-25 17:19:18,815 - INFO - url: https://ghproxy.cc/https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/安徽组播/iptv_list.txt 爬取成功✅，包含频道分类: 更新时间, 央视频道, 卫视频道, 安徽频道, 其他频道
+2025-03-25 17:19:18,929 - INFO - 爬取完成✅，共计频道数：1086
