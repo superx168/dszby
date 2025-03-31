@@ -13,10 +13,14 @@
 
 频道,#genre#
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&amp;wsIPSercert=8de23d0849e78e3b16ec92a809235421&amp;wsMonitor=0#rtmp://zhibo.hkstv.tv/livestream/mutfysrq
-香港卫视,rtmp://zhibo.hkstv.tv/livestream/mutfysrq
+凤凰卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&amp;wsIPSercert=8de23d0849e78e3b16ec92a2092354
+凤凰卫视,https://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&amp;amp;wsIPSercert=8de23d0849e78e3b16ec92a2092354
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=8ee59707fee3ef96c922e680-167055218938751&wsIPSercert=d24f6d7c9d3646d9533d492d5209384b&wsMonitor=0
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=e5b4ef626c5980be2fbdf2e7-158332927312639&wsIPSercert=6f8d45434604e7d22f5b0abbc0231d01&wsMonitor=0
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&amp;wsIPSercert=8de23d0849e78e3b16ec92a809235421&amp;wsMonitor=0
+香港卫视,https://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+香港卫视,rtmp://zhibo.hkstv.tv/livestream/mutfysrq
 凤凰香港,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=e5b4ef626c5980be2fbdf2e7-158332927312639&amp;wsIPSercert=6f8d45434604e7d22f5b0abbc0231d01&amp;wsMonitor=0
 
 频道,#genre#
@@ -407,6 +411,8 @@ TVBXingHe,http://aktv-stream.m16tv.cfd/stream/astro_a1/tvbxinghe/AKTV.m3u8
 中视新闻,http://aktv-stream.m16tv.cfd/stream/taiwan/null-13/AKTV.m3u8
 台视新闻,http://aktv-stream.m16tv.cfd/stream/taiwan/null-15/AKTV.m3u8
 龙华电影,http://aktv-stream.m16tv.cfd/stream/taiwan/null-8/AKTV.m3u8
+凤凰中文,http://aktv-stream.m16tv.cfd/stream/aktv/null-3/AKTV.m3u8
+凤凰资讯,http://aktv-stream.m16tv.cfd/stream/aktv/null-4/AKTV.m3u8
 
 频道,#genre#
 TVB亚洲武侠,http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
@@ -461,16 +467,6 @@ AXN,http://aktv_stream1.m16tv.cfd/stream/aktv2/axn/AKTV.m3u8
 东森新闻,http://aktv_stream1.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
 寰宇新闻,http://aktv_stream1.m16tv.cfd/stream/aktv/null-7/AKTV.m3u8
 TVBS-新闻,http://aktv_stream1.m16tv.cfd/stream/aktv/tvbs-1/AKTV.m3u8
-天映,http://aktv_stream1.m16tv.cfd/stream/astro_a1/celestialmovies/AKTV.m3u8
-台视,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-3/AKTV.m3u8
-中视,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-4/AKTV.m3u8
-华视,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-5/AKTV.m3u8
-龙华偶像,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-9/AKTV.m3u8
-龙华日韩,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-7/AKTV.m3u8
-龙华经典,http://aktv_stream1.m16tv.cfd/stream/taiwan/null/AKTV.m3u8
-中视新闻,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-13/AKTV.m3u8
-龙华电影,http://aktv_stream1.m16tv.cfd/stream/taiwan/null-8/AKTV.m3u8
-纬来体育,http://aktv_stream1.m16tv.cfd/stream/tuntun/null/AKTV.m3u8
 
 频道,#genre#
 TVBPlus,https://cdn.163189.xyz/live/tvbp/stream.m3u8
@@ -497,13 +493,15 @@ TVBJ1,https://stream1.freetv.fun/fei-cui-tai-bei-mei-ban-1.ctv
 TVBPlus,https://stream1.freetv.fun/tvb-j2-2.ctv
 凤凰中文,https://stream1.freetv.fun/2b657a181daa345025199e7d6b8de95a1a87b19abceafbd16e2499a49da33c6f.m3u8
 TVBPlus,https://stream1.freetv.fun/tvb-j2-1.m3u8
+AMC电影,https://stream1.freetv.fun/amcdian-ying-2.m3u8
 东森,https://stream1.freetv.fun/dong-sen-mei-zhou-3.m3u8
 东森,https://stream1.freetv.fun/dong-sen-mei-zhou-4.m3u8
 东森,https://stream1.freetv.fun/dong-sen-mei-zhou-5.m3u8
 东森,https://stream1.freetv.fun/dong-sen-mei-zhou-6.m3u8
 东森新闻,https://stream1.freetv.fun/dong-sen-mei-zhou-xin-wen-2.m3u8
 中视,https://stream1.freetv.fun/zhong-shi-7.m3u8
-台视,https://stream1.freetv.fun/tai-shi-7.m3u8
+中视,https://stream1.freetv.fun/zhong-shi-10.m3u8
+台视,https://stream1.freetv.fun/tai-shi-3.m3u8
 大爱2,https://stream1.freetv.fun/da-ai-2-1.m3u8
 大爱,https://stream1.freetv.fun/da-ai-2.m3u8
 大爱,https://stream1.freetv.fun/da-ai-3.m3u8
@@ -543,19 +541,18 @@ TVBPlus,https://stream1.freetv.fun/tvb-j2-1.m3u8
 三立新闻,https://stream1.freetv.fun/san-li-xin-wen-4.m3u8
 东森超视,https://stream1.freetv.fun/dong-sen-chao-shi-8.m3u8
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-2.m3u8
+中天新闻,https://stream1.freetv.fun/zhong-tian-xin-wen-7.m3u8
 东森卫视,https://stream1.freetv.fun/dong-sen-mei-zhou-wei-shi-1.m3u8
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-10.m3u8
 民视新闻,https://stream1.freetv.fun/min-shi-xin-wen-18.m3u8
 民视新闻,https://stream1.freetv.fun/min-shi-xin-wen-14.m3u8
 民视新闻,https://stream1.freetv.fun/min-shi-xin-wen-8.m3u8
-台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-3.m3u8
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-15.m3u8
 中天新闻,https://stream1.freetv.fun/zhong-tian-xin-wen-4.m3u8
 东森,https://stream1.freetv.fun/dong-sen-mei-zhou-xin-wen-1.m3u8
 靖洋戏剧,https://stream1.freetv.fun/jing-yang-xi-ju-1.ctv
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-14.m3u8
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-12.m3u8
-民视第一,https://stream1.freetv.fun/min-shi-di-yi-1.m3u8
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-5.ctv
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-12.ctv
 凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-2.ctv
@@ -563,12 +560,12 @@ TVBPlus,https://stream1.freetv.fun/tvb-j2-1.m3u8
 三立新闻,https://stream1.freetv.fun/san-li-xin-wen-6.ctv
 东森超视,https://stream1.freetv.fun/dong-sen-chao-shi-6.m3u8
 三立戏剧,https://stream1.freetv.fun/san-li-xi-ju-4.m3u8
+三立戏剧,https://stream1.freetv.fun/san-li-xi-ju-3.ctv
+寰宇新闻,https://stream1.freetv.fun/huan-yu-xin-wen-7.m3u8
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-17.m3u8
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-15.m3u8
 东森超视,https://stream1.freetv.fun/dong-sen-chao-shi-9.m3u8
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-5.m3u8
-凤凰资讯,https://stream1.freetv.fun/feng-huang-zi-xun-19.m3u8
-中视新闻,https://stream1.freetv.fun/zhong-shi-xin-wen-6.m3u8
 台视新闻,https://stream1.freetv.fun/tai-shi-xin-wen-4.m3u8
 凤凰香港,https://stream1.freetv.fun/feng-huang-xiang-gang-10.ctv
 凤凰中文,https://stream1.freetv.fun/feng-huang-zhong-wen-18.m3u8
@@ -779,6 +776,25 @@ AMC最爱电影,https://tv.iill.top/litv/4gtv-4gtv017
 龙华偶像频高,https://cdn8.163189.xyz/live/lhox/stream.m3u8
 龙华日韩频高,https://cdn8.163189.xyz/live/lhrh/stream.m3u8
 龙华戏剧频高,https://cdn8.163189.xyz/live/lhxj/stream.m3u8
+
+频道,#genre#
+无线翡翠,http://ku9.3n.cc/smt.php?id=jade_twn
+无线明珠,http://ku9.3n.cc/smt.php?id=pearl_twn
+无线娱乐,http://ku9.3n.cc/smt.php?id=Tvbentertainment
+天映闽特,http://ku9.3n.cc/smt.php?id=Celestial
+龙祥电影,http://ku9.3n.cc/smt.php?id=lungxiangtime_twn
+纬来电影,http://ku9.3n.cc/smt.php?id=videolandmovie
+民视闽南,http://ku9.3n.cc/smt.php?id=ftvhd_taiwan
+中视闽南,http://ku9.3n.cc/smt.php?id=zhongshihd_twn
+华视闽南,http://ku9.3n.cc/smt.php?id=ctshd_twn
+台视闽南,http://ku9.3n.cc/smt.php?id=ttv_taiwan
+AXN电影,http://ku9.3n.cc/smt.php?id=axn_twn
+龙华电影,http://ku9.3n.cc/smt.php?id=xingwei_movie
+龙华偶像,http://ku9.3n.cc/smt.php?id=lunghuaidol_twn
+龙华洋片,http://ku9.3n.cc/smt.php?id=lunghuawestern_twn
+纬来日本,http://ku9.3n.cc/smt.php?id=videolandjapan
+三立闽南,http://ku9.3n.cc/smt.php?id=sanlitaiwan
+ELta影剧,http://ku9.3n.cc/smt.php?id=eltayingju_twn
 
 频道,#genre#
 天映电影,http://live4play.uk/livehttpplay?channel_id=10130
