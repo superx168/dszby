@@ -69,10 +69,10 @@ esac
 ipfile="py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}_ip"
 good_ip="py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}_good_ip"
 # 搜索最新 IP
-cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}.html | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
+#cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}.html | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
 cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${channel_key}_good_ip >>tmp_ipfile
 sort tmp_ipfile | uniq | sed '/^\s*$/d' > "$ipfile"
-rm -f tmp_ipfile ip/${channel_key}.html $good_ip
+rm -f tmp_ipfile $good_ip    #rm -f tmp_ipfile ip/${channel_key}.html $good_ip
 
 while IFS= read -r ip; do
     # 尝试连接 IP 地址和端口号，并将输出保存到变量中
