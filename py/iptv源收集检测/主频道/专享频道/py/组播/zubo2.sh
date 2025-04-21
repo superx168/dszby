@@ -73,15 +73,15 @@ esac
 
 # 使用城市名作为默认文件名，格式为 CityName.ip
 time=$(date +%m%d%H%M)
-ipfile=ip/${city}_ip.txt
-good_ip=ip/good_${city}_ip.txt
-result_ip=ip/result_${city}_ip.txt
+ipfile=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_ip.txt
+good_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/good_${city}_ip.txt
+result_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/result_${city}_ip.txt
 echo "======== 开始检索 ${city} ========"
 echo "从 fofa 获取ip+端口"
 curl -o test.html $url_fofa
 grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' test.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
 echo "从 '${result_ip}' 读取ip并添加到检测列表"
-cat ip/${city}_ip.txt >> tmp_ipfile
+cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_ip.txt >> tmp_ipfile
 awk '/M|k/{print $2}' $result_ip >> tmp_ipfile
 sort tmp_ipfile | uniq | sed '/^\s*$/d' > $ipfile
 rm -f tmp_ipfile test.html
@@ -120,7 +120,7 @@ ip2=$(awk 'NR==2{print $2}' $result_ip)
 ip3=$(awk 'NR==3{print $2}' $result_ip)
 rm -f speedtest_${city}_$time.log     
 # 用 3 个最快 ip 生成对应城市的 txt 文件
-program=template/template_${city}.txt
+program=py/iptv源收集检测/主频道/专享频道/py/组播/template/template_${city}.txt
 sed "s/ipipip/$ip1/g" $program > tmp_1.txt
 sed "s/ipipip/$ip2/g" $program > tmp_2.txt
 sed "s/ipipip/$ip3/g" $program > tmp_3.txt
@@ -130,7 +130,7 @@ echo "${city}-组播2,#genre#" >> tmp_all.txt
 cat tmp_2.txt >> tmp_all.txt
 echo "${city}-组播3,#genre#" >> tmp_all.txt
 cat tmp_3.txt >> tmp_all.txt
-grep -vE '/{3}' tmp_all.txt > "txt/${city}.txt"
+grep -vE '/{3}' tmp_all.txt > "py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt"
 rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_all.txt
 echo "${city} 测试完成，生成可用文件：'txt/${city}.txt'"
 #--------合并所有城市的txt文件---------
