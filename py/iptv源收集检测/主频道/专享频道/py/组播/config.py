@@ -1,7 +1,7 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo.txt"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo.txt",
     "https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt"
 
 ]
