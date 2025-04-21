@@ -207,7 +207,7 @@ def updateChannelUrlsM3U(channels, template_channels):
                                 else:
                                     base_url = url
 
-                                new_url = f"{base_url}{url_suffix}"
+                                new_url = f"{base_url}"  #f"{base_url}{url_suffix}"
 
                                 f_m3u.write(
                                     f'#EXTINF:-1 tvg-id="{index}" tvg-name="{channel_name}" tvg-logo="https://live.fanmingming.com/tv/{channel_name}.png" group-title="{category}",{channel_name}\n'
