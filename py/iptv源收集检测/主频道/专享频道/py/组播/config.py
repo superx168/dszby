@@ -7,11 +7,12 @@ source_urls = [
 ]
 
 url_blacklist = [
+    "tvgslb.hn.chinamobile.com:8089"
   
 ]
 url_whitelist = [
     "rtp",
-    "udp",
+    "udp"
 ]
 
 announcements = [
