@@ -13,16 +13,9 @@ from opencc import OpenCC
 # 定义txt文件的URL列表
 urls = [
         'https://ghproxy.cc/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt',#湖南电信组播
-        #'https://ghproxy.cc/https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt',   #暂时保留
+        'https://ghproxy.cc/https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt',   #暂时保留
 	'https://ghproxy.cc/https://raw.githubusercontent.com/lalifeier/IPTV/refs/heads/main/txt/udpxy/中国联通/河南.txt',
-       #'https://ghproxy.cc/https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E7%BB%BC%E5%90%88%E6%BA%90.txt',
-       # #'https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt',
-       # 'https://ghproxy.cc/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt',
-       # 'https://ghproxy.cc/https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt',
-       # 'https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt',
-       # 'https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt',
-       # 'https://ghproxy.cc/https://raw.githubusercontent.com/junge3333/juds6/main/yszb1.txt',
-       #'https://ghproxy.cc/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt'
+	'https://ghproxy.cc/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo1.txt',
       ''
 
 ]
