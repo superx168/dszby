@@ -6,7 +6,8 @@ if [ $# -eq 0 ]; then
   echo "2.江苏电信"
   echo "3.四川电信"
   echo "4.湖北电信"
-  read -t 5 -p "超时未输入,将按默认设置测试" city_choice
+  echo "5.安徽电信"
+  read -t 6 -p "超时未输入,将按默认设置测试" city_choice
 
   if [ -z "$city_choice" ]; then
       echo "未检测到输入,默认测试全部"
