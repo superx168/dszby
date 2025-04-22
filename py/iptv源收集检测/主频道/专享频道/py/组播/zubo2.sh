@@ -81,7 +81,7 @@ echo "从 fofa 获取ip+端口"
 curl -o test.html $url_fofa
 grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' test.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
 echo "从 '${ipfile}' 读取ip并添加到检测列表"
- cat $ipfile >> tmp_ipfile
+cat $ipfile >> tmp_ipfile
 sort tmp_ipfile | uniq | sed '/^\s*$/d' > $ipfile
 rm -f tmp_ipfile test.html
 
@@ -113,6 +113,7 @@ rm -f zubo.tmp $ipfile $good_ip
 
 echo "测速结果排序"
 awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
+awk '/M|k/{print $2}' $result_ip > $ipfile
 cat $result_ip
 ip1=$(awk 'NR==1{print $2}' $result_ip)
 ip2=$(awk 'NR==2{print $2}' $result_ip)
