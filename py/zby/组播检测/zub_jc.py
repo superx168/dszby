@@ -375,7 +375,7 @@ def group_and_sort_channels(channels):
     }
 
     for name, url, speed in channels:
-        if 'cctv' in name or '中国教育' in name or 'CGTN'in name.lower():
+        if 'CCTV' in name or '中国教育' in name or 'CGTN'in name.lower():
             groups['央视频道,#genre#'].append((name, url, speed))
         elif '卫视' in name or '凤凰' in name or '翡翠' in name or 'CHC' in name:
             groups['卫视频道,#genre#'].append((name, url, speed))
