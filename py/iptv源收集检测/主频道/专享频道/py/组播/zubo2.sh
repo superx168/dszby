@@ -80,9 +80,8 @@ echo "======== 开始检索 ${city} ========"
 echo "从 fofa 获取ip+端口"
 curl -o test.html $url_fofa
 grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' test.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
-echo "从 '${result_ip}' 读取ip并添加到检测列表"
-cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_ip.txt >> tmp_ipfile
-awk '/M|k/{print $2}' $result_ip >> tmp_ipfile
+echo "从 '${ipfile}' 读取ip并添加到检测列表"
+ cat $ipfile >> tmp_ipfile
 sort tmp_ipfile | uniq | sed '/^\s*$/d' > $ipfile
 rm -f tmp_ipfile test.html
 
