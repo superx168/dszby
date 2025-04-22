@@ -335,7 +335,7 @@ with open('3.txt', 'r', encoding='utf-8') as file:
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('3.txt', 'r', encoding='utf-8') as file, open('a3.txt', 'w', encoding='utf-8') as a:    #####定义临时文件名
-    a.write(f"央视频道{current_time}更新,#genre#\n")                                                                 #####写入临时文件名
+    # a.write(f"央视频道{current_time}更新,#genre#\n")                                                                 #####写入临时文件名
     for line in file:
       if 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -346,7 +346,7 @@ keywords = ['卫视']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('3.txt', 'r', encoding='utf-8') as file, open('b3.txt', 'w', encoding='utf-8') as b:    #####定义临时文件名
-    b.write('\n卫视频道,#genre#\n')                                                                  #####写入临时文件名
+    # b.write('\n卫视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if 'genre' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -357,7 +357,7 @@ keywords = [',']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('3.txt', 'r', encoding='utf-8') as file, open('z3.txt', 'w', encoding='utf-8') as z:    #####定义临时文件名
-    z.write('\n其他频道,#genre#\n')                                                                  #####写入临时文件名
+    # z.write('\n其他频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
