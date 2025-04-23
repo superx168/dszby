@@ -1,8 +1,8 @@
 name: zubo1
 
 on:
-  schedule:
-    - cron: '10 3,12 * * *'
+  # schedule:
+  #   - cron: '10 3,12 * * *'
   workflow_dispatch:
 
 jobs:
