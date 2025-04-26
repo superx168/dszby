@@ -2,10 +2,10 @@ pwd
 if [ $# -eq 0 ]; then
   echo "开始测试······"
   echo "在5秒内输入1~5可选择城市"
-  echo "1.浙江电信"
-  echo "2.江苏电信"
-  echo "3.四川电信"
-  echo "4.湖北电信"
+  echo "1.广东电信"
+  echo "2.北京联通"
+  echo "3.湖南电信"
+  echo "4.广东联通"
   echo "5.安徽电信"
   read -t 6 -p "超时未输入,将按默认设置测试" city_choice
 
@@ -20,28 +20,28 @@ fi
 # 设置城市和相应的stream
 case $city_choice in
     1)
-        city="浙江电信"
-        stream="udp/233.50.201.100:5140"
-        channel_key="浙江电信"
-        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iua1meaxnyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=20"
+        city="广东电信"
+        stream="udp/239.77.1.19:5146"
+        channel_key="广东电信"
+        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=20"
         ;;
     2)
-        city="江苏电信"
-        stream="udp/239.49.8.19:9614"
-        channel_key="江苏电信"
-        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuaxn%2BiLjyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
+        city="北京联通"
+        stream="rtp/239.3.1.241:8000"
+        channel_key="北京联通"
+        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IkJlaWppbmciICYmIG9yZz0iQ0hJTkEgVU5JQ09NIENoaW5hMTY5IEJhY2tib25lIiAmJiBwcm90b2NvbD0iaHR0cCI%3D&page=1&page_size=10"
         ;;
     3)
-        city="四川电信"
-        stream="udp/239.93.0.169:5140"
-	channel_key="四川电信"
-	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IuWbm%2BW3nSIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
+        city="湖南电信"
+        stream="udp/239.76.246.101:1234"
+        channel_key="湖南电信"
+	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikh1bmFuIiAmJiBvcmc9IkNoaW5hbmV0IiAmJiBwcm90b2NvbD0iaHR0cCI%3D&page=1&page_size=10"
         ;;
     4)
-        city="湖北电信"
-        stream="rtp/239.69.1.40:9880"
-        channel_key="湖北电信"
-        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iua5luWMlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=20"
+        city="广东联通"
+        stream="udp/239.0.1.1:5001"
+        channel_key="广东联通"
+        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyIgJiYgb3JnPSJDSElOQSBVTklDT00gQ2hpbmExNjkgQmFja2JvbmUiICYmIHByb3RvY29sPSJodHRwIg%3D%3D&page=1&page_size=20"
         ;;
     5)
         city="安徽电信"
@@ -50,24 +50,24 @@ case $city_choice in
 	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IkFuaHVpIiAmJiBvcmc9IkNoaW5hbmV0IiAmJiBwcm90b2NvbD0iaHR0cCI%3D&page=1&page_size=20"
         ;;	
     6)
-        city="广东电信"
-        stream="udp/239.77.1.19:5146"
-        channel_key="广东电信"
-        ;;
+        city="Zhejiang_120"
+        stream="udp/233.50.201.63:5140"
+        channel_key="浙江电信"
+        ;;	
     7)
-        city="北京联通"
-        stream="rtp/239.3.1.241:8000"
-        channel_key="北京联通"
+        city="Jiangsu"
+        stream="udp/239.49.8.19:9614"
+        channel_key="江苏电信"
 	;;
     8)
-        city="湖南电信"
-        stream="udp/239.76.246.101:1234"
-        channel_key="湖南电信"
+        city="Shanghai_103"
+        stream="udp/239.45.1.42:5140"
+	channel_key="上海电信"
 	;;
     9)
-        city="广东联通"
-        stream="udp/239.0.1.1:5001"
-        channel_key="广东联通"
+        city="Hubei_90"
+        stream="rtp/239.69.1.249:11136"
+        channel_key="湖北电信"
 	;;
     0)
         # 逐个处理{ }内每个选项
