@@ -34,12 +34,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y yt-dlp sed nmap
         
-      # - name: 检测组播源
-      #   run: |
-      #     cd $GITHUB_WORKSPACE
-      #     cat zubo.txt > zubo_备份.txt
-      #     bash ./py/iptv源收集检测/主频道/专享频道/py/组播/zubo1.sh
-      #     cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/广东电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/北京联通.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖南电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/广东联通.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖北电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/浙江电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/江苏电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/河南电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/天津联通.txt > py/iptv源收集检测/主频道/专享频道/py/组播/txt/zubo.txt
+      - name: 检测组播源
+        run: |
+          cd $GITHUB_WORKSPACE
+          cat zubo.txt > zubo_备份.txt
+          bash ./py/iptv源收集检测/主频道/专享频道/py/组播/zubo1.sh
+          cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/广东电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/北京联通.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖南电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/广东联通.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖北电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/浙江电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/江苏电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/河南电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/天津联通.txt > py/iptv源收集检测/主频道/专享频道/py/组播/txt/zubo.txt
           
       - name: 提交更改
         run: |
