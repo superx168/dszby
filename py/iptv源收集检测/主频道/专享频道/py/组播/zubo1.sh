@@ -137,7 +137,7 @@ echo "${city}-组播2,#genre#" >> tmp_all.txt
 cat tmp_2.txt >> tmp_all.txt
 echo "${city}-组播3,#genre#" >> tmp_all.txt
 cat tmp_3.txt >> tmp_all.txt
-grep -vE '/{3}' tmp_all.txt > "txt/${city}.txt"
+grep -vE '/{3}' tmp_all.txt > "py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt"
 rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_all.txt
 echo "${city} 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt'"
 #--------合并所有城市的txt文件---------
