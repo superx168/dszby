@@ -1,35 +1,51 @@
-name: zubo1
+name: iptv_zb
 
 on:
-  # schedule:
-  #   - cron: '10 3,12 * * *'
+  schedule:
+    - cron: '0 7,22 * * *'  
   workflow_dispatch:
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0   
-      
+    
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install -r py/iptv源收集检测/主频道/专享频道/py/组播/requirements.txt
+      - name: 获取酒店源
+        run: |
+          cd $GITHUB_WORKSPACE
+          # cat iptv.txt > iptv_备份.txt
+          python ./py/iptv源收集检测/主频道/专享频道/py/组播/iptv_zb.py
+          
       - name: Install Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y yt-dlp sed nmap
         
-      - name: 获取测试组播源
-        run: |
-          cd $GITHUB_WORKSPACE
-          bash ./py/iptv源收集检测/主频道/专享频道/py/组播/zubo1.sh
-          cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖北电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/浙江电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/江苏电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/四川电信.txt > py/iptv源收集检测/主频道/专享频道/py/组播/txt/zubo1.txt
+      # - name: 检测组播源
+      #   run: |
+      #     cd $GITHUB_WORKSPACE
+      #     cat zubo.txt > zubo_备份.txt
+      #     bash ./py/iptv源收集检测/主频道/专享频道/py/组播/zubo1.sh
+      #     cat py/iptv源收集检测/主频道/专享频道/py/组播/txt/广东电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/北京联通.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖南电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/广东联通.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/湖北电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/浙江电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/江苏电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/河南电信.txt py/iptv源收集检测/主频道/专享频道/py/组播/txt/天津联通.txt > py/iptv源收集检测/主频道/专享频道/py/组播/txt/zubo.txt
           
-      - name: 更新组播源
+      - name: 提交更改
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "更新组播源"
+          git commit -m "更新直播源"
+          # git commit *.m3u -m "Add generated file"
           git push
