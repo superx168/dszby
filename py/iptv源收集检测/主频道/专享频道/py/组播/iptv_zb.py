@@ -330,7 +330,7 @@ def hotel_iptv(config_file):
 
 def main():
     print("\n开始获取组播源")
-    for config_file in glob.glob(os.path.join('py/iptv源收集检测/主频道/专享频道/py/组播/ip', 'py/iptv源收集检测/主频道/专享频道/py/组播/ip/*_config.txt')):
+    for config_file in glob.glob(os.path.join('ip', '*_config.txt')):
         multicast_province(config_file)
     print(f"组播源获取完成\n{'='*25}\n开始获取酒店源\n{'='*25}")
     hotel_config_files = [f"py/iptv源收集检测/主频道/专享频道/py/组播/ip/酒店高清.ip", f"py/iptv源收集检测/主频道/专享频道/py/组播/ip/酒店标清.ip"]
