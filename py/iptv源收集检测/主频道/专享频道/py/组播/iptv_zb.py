@@ -323,7 +323,7 @@ def hotel_iptv(config_file):
     with open('py/iptv源收集检测/主频道/专享频道/py/组播/txt/speed_result.txt', 'a', encoding='utf-8') as f:
         f.writelines(unify_channel_name(results))
     print("测速完成，排序后写入文件：'speed_result.txt'")
-    with open('py/iptv源收集检测/主频道/专享频道/py/组播/txt/speed_result.txt', 'r', encoding='utf-8') as f, open('1.txt', 'w', encoding='utf-8') as a:
+    with open('py/iptv源收集检测/主频道/专享频道/py/组播/txt/speed_result.txt', 'r', encoding='utf-8') as f, open('py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt', 'w', encoding='utf-8') as a:
         for line in f:
             name, channel_url, speed = line.strip().split(',')
             a.write(f"{name},{channel_url}\n")
@@ -336,27 +336,27 @@ def main():
     hotel_config_files = [f"py/iptv源收集检测/主频道/专享频道/py/组播/ip/酒店高清.ip", f"py/iptv源收集检测/主频道/专享频道/py/组播/ip/酒店标清.ip"]
     for config_file in hotel_config_files:
         hotel_iptv(config_file)
-    classify_channels('1.txt', '央视.txt', keywords="央视频道,CCTV,风云剧场,怀旧剧场,第一剧场,兵器,女性,地理,央视文化,风云音乐,CHC")
-    classify_channels('1.txt', '卫视.txt', keywords="卫视频道,卫视")
-    classify_channels('1.txt', '河南.txt', keywords="河南频道,河南,信阳,漯河,郑州,驻马店,平顶山,安阳,武术世界,梨园,南阳")
-    classify_channels('1.txt', '广西.txt', keywords="广西频道,广西,南宁,玉林,桂林,北流")
-    classify_channels('1.txt', '港台.txt', keywords="香港频道,凤凰,香港,明珠台,翡翠台,星河")
-    classify_channels('1.txt', '其他.txt', keywords="其他频道,tsfile")
+    classify_channels('py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt', 'py/iptv源收集检测/主频道/专享频道/py/组播/txt/央视.txt', keywords="央视频道,CCTV,风云剧场,怀旧剧场,第一剧场,兵器,女性,地理,央视文化,风云音乐,CHC")
+    classify_channels('py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt', 'py/iptv源收集检测/主频道/专享频道/py/组播/txt/卫视.txt', keywords="卫视频道,卫视")
+    classify_channels('py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt', 'py/iptv源收集检测/主频道/专享频道/py/组播/txt/河南.txt', keywords="河南频道,河南,信阳,漯河,郑州,驻马店,平顶山,安阳,武术世界,梨园,南阳")
+    classify_channels('py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt', 'py/iptv源收集检测/主频道/专享频道/py/组播/txt/广西.txt', keywords="广西频道,广西,南宁,玉林,桂林,北流")
+    classify_channels('py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt', 'py/iptv源收集检测/主频道/专享频道/py/组播/txt/港台.txt', keywords="香港频道,凤凰,香港,明珠台,翡翠台,星河")
+    classify_channels('py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt', 'py/iptv源收集检测/主频道/专享频道/py/组播/txt/其他.txt', keywords="其他频道,tsfile")
     # 合并写入文件
     file_contents = []
-    file_paths = ["央视.txt","卫视.txt","txt/浙江.txt","河南.txt","广西.txt","港台.txt","其他.txt"]  # 替换为实际的文件路径列表
+    file_paths = ["py/iptv源收集检测/主频道/专享频道/py/组播/txt/央视.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/卫视.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/浙江.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/河南.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/广西.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/港台.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/其他.txt"]  # 替换为实际的文件路径列表
     for file_path in file_paths:
         with open(file_path, 'r', encoding="utf-8") as f:
             content = f.read()
             file_contents.append(content)
     now = datetime.datetime.now(datetime.UTC) + datetime.timedelta(hours=8)
     current_time = now.strftime("%Y/%m/%d %H:%M")
-    with open("1.txt", "w", encoding="utf-8") as f:
+    with open("py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt", "w", encoding="utf-8") as f:
         f.write(f"{current_time}更新,#genre#\n")
         f.write(f"浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8\n")
         f.write('\n'.join(file_contents))
     # 原始顺序去重
-    with open('1.txt', 'r', encoding="utf-8") as f:
+    with open('py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt', 'r', encoding="utf-8") as f:
         lines = f.readlines()
     unique_lines = [] 
     seen_lines = set() 
@@ -367,7 +367,7 @@ def main():
     with open('py/iptv源收集检测/主频道/专享频道/py/组播/txt/iptv.txt', 'w', encoding="utf-8") as f:
         f.writelines(unique_lines)
     # 移除过程文件
-    files_to_remove = ["1.txt","央视.txt","卫视.txt","河南.txt","广西.txt","港台.txt","其他.txt"]
+    files_to_remove = ["py/iptv源收集检测/主频道/专享频道/py/组播/txt/1.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/央视.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/卫视.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/河南.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/广西.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/港台.txt","py/iptv源收集检测/主频道/专享频道/py/组播/txt/其他.txt"]
     for file in files_to_remove:
         if os.path.exists(file):
             os.remove(file)
