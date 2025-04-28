@@ -1,13 +1,13 @@
 pwd
 if [ $# -eq 0 ]; then
   echo "开始测试······"
-  echo "在5秒内输入1~5可选择城市"
+  echo "在5秒内输入1~4可选择城市"
   echo "1.浙江电信"
   echo "2.江苏电信"
-  echo "3.四川电信"
+  echo "3.天津联通"
   echo "4.湖北电信"
-  echo "5.安徽电信"
-  read -t 6 -p "超时未输入,将按默认设置测试" city_choice
+  echo "5.河南电信"
+  read -t 5 -p "超时未输入,将按默认设置测试" city_choice
 
   if [ -z "$city_choice" ]; then
       echo "未检测到输入,默认测试全部"
@@ -31,24 +31,24 @@ case $city_choice in
         channel_key="江苏电信"
         url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuaxn%2BiLjyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
         ;;
-    3)
-        city="四川电信"
-        stream="udp/239.93.0.169:5140"
-	channel_key="四川电信"
-	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IuWbm%2BW3nSIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
+    5)
+        city="河北联通"
+        stream="rtp/239.253.92.154:6011"
+	channel_key="河北联通"
+	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWMlyIgJiYgb3JnPSJDSElOQSBVTklDT00gQ2hpbmExNjkgQmFja2JvbmUiICYmIHByb3RvY29sPSJodHRwIg%3D%3D&page=1&page_size=10"
         ;;
-    4)
+    3)
         city="湖北电信"
         stream="rtp/239.69.1.40:9880"
         channel_key="湖北电信"
         url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iua5luWMlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=20"
         ;;
-    5)
-        city="安徽电信"
-        stream="rtp/238.1.79.27:4328"
-        channel_key="安徽电信"
-	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IkFuSHVpIiAmJiBvcmc9IkNoaW5hbmV0IiAmJiBwcm90b2NvbD0iaHR0cCI%3D&page=1&page_size=10"
-        ;;	
+    4)
+        city="河南电信"
+        stream="rtp/239.16.20.21:10210"
+        channel_key="河南电信"
+        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWNlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
+        ;;
     6)
         city="广东电信"
         stream="udp/239.77.1.19:5146"
@@ -61,7 +61,7 @@ case $city_choice in
 	;;
     8)
         city="湖南电信"
-        stream="udp/239.76.246.101:1234"
+        stream="udp/239.76.246.151:1234"
         channel_key="湖南电信"
 	;;
     9)
@@ -71,7 +71,7 @@ case $city_choice in
 	;;
     0)
         # 逐个处理{ }内每个选项
-        for option in {1..5}; do
+        for option in {1..9}; do
           bash "$0" $option  # 假定fofa.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
@@ -87,7 +87,8 @@ echo "======== 开始检索 ${city} ========"
 echo "从 fofa 获取ip+端口"
 curl -o test.html $url_fofa
 grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' test.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > tmp_ipfile
-awk '/M|k/{print $2}' $result_ip >> tmp_ipfile
+echo "从 '${ipfile}' 读取ip并添加到检测列表"
+cat $ipfile >> tmp_ipfile
 sort tmp_ipfile | uniq | sed '/^\s*$/d' > $ipfile
 rm -f tmp_ipfile test.html
 
@@ -136,7 +137,7 @@ echo "${city}-组播2,#genre#" >> tmp_all.txt
 cat tmp_2.txt >> tmp_all.txt
 echo "${city}-组播3,#genre#" >> tmp_all.txt
 cat tmp_3.txt >> tmp_all.txt
-grep -vE '/{3}' tmp_all.txt > "py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt"
+grep -vE '/{3}' tmp_all.txt > "txt/${city}.txt"
 rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_all.txt
-echo "${city} 测试完成，生成可用文件：'txt/${city}.txt'"
+echo "${city} 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt'"
 #--------合并所有城市的txt文件---------
