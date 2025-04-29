@@ -7,7 +7,8 @@ if [ $# -eq 0 ]; then
   echo "3.天津联通"
   echo "4.湖北电信"
   echo "5.河南电信"
-  read -t 5 -p "超时未输入,将按默认设置测试" city_choice
+  echo "6.安徽电信"
+  read -t 6 -p "超时未输入,将按默认设置测试" city_choice
 
   if [ -z "$city_choice" ]; then
       echo "未检测到输入,默认测试全部"
@@ -31,12 +32,6 @@ case $city_choice in
         channel_key="江苏电信"
         url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuaxn%2BiLjyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
         ;;
-    5)
-        city="河北联通"
-        stream="rtp/239.253.92.154:6011"
-	channel_key="河北联通"
-	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWMlyIgJiYgb3JnPSJDSElOQSBVTklDT00gQ2hpbmExNjkgQmFja2JvbmUiICYmIHByb3RvY29sPSJodHRwIg%3D%3D&page=1&page_size=10"
-        ;;
     3)
         city="湖北电信"
         stream="rtp/239.69.1.40:9880"
@@ -49,29 +44,41 @@ case $city_choice in
         channel_key="河南电信"
         url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWNlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
         ;;
+    5)
+        city="河北联通"
+        stream="rtp/239.253.92.154:6011"
+	channel_key="河北联通"
+	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWMlyIgJiYgb3JnPSJDSElOQSBVTklDT00gQ2hpbmExNjkgQmFja2JvbmUiICYmIHByb3RvY29sPSJodHRwIg%3D%3D&page=1&page_size=10"
+        ;;
     6)
+        city="安徽电信"
+        stream="rtp/239.16.20.21:10210"
+        channel_key="安徽电信"
+        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWNlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
+        ;;
+    7)
         city="广东电信"
         stream="udp/239.77.1.19:5146"
         channel_key="广东电信"
         ;;
-    7)
+    8)
         city="北京联通"
         stream="rtp/239.3.1.241:8000"
         channel_key="北京联通"
 	;;
-    8)
+    9)
         city="湖南电信"
         stream="udp/239.76.246.151:1234"
         channel_key="湖南电信"
 	;;
-    9)
+    10)
         city="广东联通"
         stream="udp/239.0.1.1:5001"
         channel_key="广东联通"
 	;;
     0)
         # 逐个处理{ }内每个选项
-        for option in {1..9}; do
+        for option in {1..10}; do
           bash "$0" $option  # 假定fofa.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
