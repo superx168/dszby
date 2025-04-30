@@ -1,14 +1,14 @@
 pwd
 if [ $# -eq 0 ]; then
   echo "开始测试······"
-  echo "在5秒内输入1~4可选择城市"
+  echo "在5秒内输入1~5可选择城市"
   echo "1.浙江电信"
   echo "2.江苏电信"
   echo "3.天津联通"
   echo "4.湖北电信"
   echo "5.河南电信"
-  echo "6.安徽电信"
-  read -t 6 -p "超时未输入,将按默认设置测试" city_choice
+  # echo "6.安徽电信"
+  read -t 5 -p "超时未输入,将按默认设置测试" city_choice
 
   if [ -z "$city_choice" ]; then
       echo "未检测到输入,默认测试全部"
@@ -52,9 +52,9 @@ case $city_choice in
         ;;
     6)
         city="安徽电信"
-        stream="rtp/239.16.20.21:10210"
+        stream="rtp//238.1.79.27:4328"
         channel_key="安徽电信"
-        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWNlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
+        # url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IkFuaHVpIiAmJiBvcmc9IkNoaW5hbmV0IiAmJiBwcm90b2NvbD0iaHR0cCI%3D&page=1&page_size=20"
         ;;
     7)
         city="广东电信"
