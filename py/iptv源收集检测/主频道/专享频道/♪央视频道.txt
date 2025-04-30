@@ -18,7 +18,9 @@ CCTV16,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8$
 CCTV17,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8$hlj yd
 CHC影迷电影, https://ali.hlspull.yximgs.com/live/diyp_chcyingmi.flv
 CHC家庭影院, https://ali.hlspull.yximgs.com/live/diyp_chcjiating.flv
-CHC动作电影, https://ali.hlspull.yximgs.com/live/diyp_chcdongzuo.flv
+CHC动作电影,https://stream1.freetv.fun/chcdong-zuo-dian-ying-14.m3u8
+CHC动作电影,https://stream1.freetv.fun/chcdong-zuo-dian-ying-16.m3u8
+CHC动作电影,https://stream1.freetv.fun/chcdong-zuo-dian-ying-17.ctv
 
 CETV1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8$hlj yd
 CETV2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8$hlj yd
