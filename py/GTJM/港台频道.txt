@@ -1,316 +1,288 @@
-戏剧电影sport,#genre#
 电影戏剧4gtv,#genre#
+戏剧电影sport,#genre#
 🇨🇳斗鱼影剧,#genre#
-人间卫视[720p],http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 番薯音乐[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8#http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
 番薯音乐[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
-大爱2[720p],https://pulltv2.wanfudaluye.com/live/tv2.m3u8?
-大爱2[720p],https://pulltv1.wanfudaluye.com/live/tv2.m3u8?
 人间卫视[720p],https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
-大爱1[720p],https://pulltv1.wanfudaluye.com/live/tv1.m3u8?
 中视新闻[720p],http://50.7.234.10:8278/ca73a13c37/playlist.m3u8?tid=mee3f06f682eb&ct=18335&tsum=7491cceca17c1e2af05824583855f8bd
-凤凰卫视[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
+民视[1080p],http://37.27.111.214:8080/live/6/hls.m3u8
+八大综合[1080p],http://50.7.234.10:8278/badazhonghe/playlist.m3u8?tid=MC7C4692263546922635&ct=19225&tsum=ffdc7a6397b511103e0df0b92e678790
 东森综合[1080p],http://50.7.234.10:8278/ettvzhonghe/playlist.m3u8?tid=MC4C1214674912146749&ct=19254&tsum=9b96a50ba99dca1a02a27b05a6fb4b0d
-八大戏剧[1080p],http://50.7.234.10:8278/badadrama/playlist.m3u8?tid=ME4E4734124647341246&ct=19225&tsum=c4e596572a79ad99675ee2137d1cc43d
-八大综合[1080p],http://50.7.234.10:8278/badazhonghe/playlist.m3u8?tid=MCFC9951205299512052&ct=19249&tsum=dc4ca0de5e57c9f4caee0bb4e80c098a
-EYETV戏剧[720p],http://50.7.234.10:8278/eyetvxiju_twn/playlist.m3u8?tid=ME3E6686724066867240&ct=19254&tsum=728fc49fcd53cd770381ffd87883b1d1
+中天综合[1080p],http://50.7.234.10:8278/ctizhonghe/playlist.m3u8?tid=MB6B3888954738889547&ct=19254&tsum=d0cb922e44e8a16bea598530697c581e
+东森洋片[1080p],http://50.7.234.10:8278/ettvwestern/playlist.m3u8?tid=MC2C7134276471342764&ct=19225&tsum=4889d0c08d077336bd5066b912891aee
 民视第一[720p],http://50.7.234.10:8278/lunghuajingdian_twn/playlist.m3u8?tid=MC2C7597780175977801&ct=19249&tsum=b7602981567d8f0171e8de29154f5014
-公视[720p],http://50.7.234.10:8278/ctv_taiwan/playlist.m3u8?ct=17990&tid=13765524&tsum=03eb77c1c186944b97737f14e95076c0
-东森财经新闻[720p],http://50.7.234.10:8278/ettvcaijing_twn/playlist.m3u8?tid=MB8B2069463920694639&ct=19249&tsum=05ff51a1b274ce7d31d05bbf11df18ad
-凤凰资讯[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
+香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+八大戏剧[1080p],http://50.7.234.10:8278/badadrama/playlist.m3u8?tid=m4970c4e1b988&ct=18335&tsum=20cb1d15d4e116ab9e44edb542cf51a5
 人间卫视[720p],http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
+香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&amp;wsIPSercert=8de23d0849e78e3b16ec92a809235421&amp;wsMonitor=0
 番薯台[1080p],http://61.216.67.119:1935/TWHG/E1/chunklistw70581102.m3u8
 番薯音乐[1080p],http://61.216.67.119:1935/TWHG/E1/chunklistw7058102.m3u8?
+﻿番薯[1080p],http://61.216.67.119:1935/TWHG/E1/chunklistw7058102.m3u8
 香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=e5b4ef626c5980be2fbdf2e7-158332927312639&wsIPSercert=6f8d45434604e7d22f5b0abbc0231d01&wsMonitor=0
-番薯音乐[1080p],http://61.216.67.119:1935/TWHG/E1/chunklistw705811302.m3u8?
-龙华洋片[720p],http://50.7.234.10:8278/lunghuawestern_twn/playlist.m3u8?tid=MC1C3944472239444722&ct=19226&tsum=99c0c7c82e2fc48b16605865c3eaeb82
+龙华电影[1080p],http://live_bin.m16tv.cfd/stream/taiwan/null-8/AKTV.m3u8
 凤凰卫视[576p],http://218.202.220.2:5000/nn_live.ts?id=NEWSASIA
+人间卫视[720p],https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 TVB星河国语[720p],http://php.jdshipin.com:8880/smt.php?id=Xinhe
-人间卫视[720p],https://5ddce30eb4b55.streamlock.net:443/bltvhd/bltv1/chunklist.m3u8
-无线翡翠台[720p],http://php.jdshipin.com:8880/smt.php?id=jade_twn
-美亚电影国[720p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=meiya
 无线华丽台[720p],http://php.jdshipin.com:8880/smt.php?id=Wlt
-TVB华丽台[720p],http://php.jdshipin.com:8880/smt.php?id=Tvbjade
 无线明珠台[720p],http://php.jdshipin.com:8880/smt.php?id=pearl_twn
-AMC[1080p],http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
-TVB无线华丽[720p],http://php.jdshipin.com/TVOD/iptv.php?id=huali
 TVB星河国语[720p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
-US|AMCWest[720p],http://doubleclicktv.live:80/70376812/52663544/295775
-香港卫视[576p],http://zhibo.hkstv.tv:80/livestream/mutfysrq.flv
-TVB无线华丽[720p],http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w100.m3u8
-TVB无线功夫[720p],http://v2h.jdshipin.com/asia_action1/1asia_action.stream/chunklist_w101.m3u8
-神乐欧美影院[1080p],http://tc-tct.douyucdn2.cn/dyliveflv1a/20415rnWbjg6Ex1K_2000.flv?wsAuth=3b64dd17d293b133c58bda21e3147e5b&token=cpn-androidmpro-0-20415-b6774b3b3249db1768f0ac048c5ed218ac54e1f82b04b2bf&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-神乐影院[1080p],http://huanqiuzhibo.cn/manifest/douyu.php?id=85894
-斗鱼影视25[720p],http://zzy789.xyz/douyu1.php?id=7623292
-斗鱼影视22[720p],http://zzy789.xyz/douyu1.php?id=10297898
 翡翠台4K[1080p],http://aktv_stream.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
 无线卫星新闻[1080p],http://aktv_stream.m16tv.cfd/stream/aktv3/null-2/AKTV.m3u8
-东森幼幼[1080p],http://50.7.234.10:8278/yoyo_twn/playlist.m3u8?ct=17874&tid=m84c9b210bc7f11269156&tsum=51340c8fb7ca02ab978ee0791843501d
-番薯111[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
-凤凰卫视[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=8ee59707fee3ef96c922e680-167055218938751&wsIPSercert=d24f6d7c9d3646d9533d492d5209384b&wsMonitor=0
-香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0
-香港卫视[576p],https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv
-香港卫视[576p],https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv
-纬来体育[1080p],http://aktv_stream.m16tv.cfd/stream/test/null/AKTV.m3u8
-凤凰资讯[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
-龙华电影[1080p],https://cdn8.163189.xyz/live/lhdy/stream.m3u8
-翡翠台[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fct3
-翡翠台[720p],http://php.jdshipin.com/TVOD/iptv.php?id=fct
-香港卫视[576p],http://anren.live/HK/BSJDUFpB.m3u8
-TVB星河[720p],http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
-翡翠台[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2
-翡翠台[720p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
-凤凰中文[720p],https://k44991.kylintv.tv/live/pxna_iphone.m3u8
-TVBS亚洲[1080p],http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
-翡翠台[2160p],http://php.jdshipin.com/TVOD/iptv.php?id=fct4
-TVB无线新闻[1080p],https://cdn.iptv8k.top/dl/jspd.php?id=2&time=20240926215313&ip=111.229.253.40
-TVB星河[720p],http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
-三立戏剧[720p],http://50.7.234.10:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
-TVBJ2[1080p],http://php.jdshipin.com:8880/PLTV/iptv.php?id=j2
-凤凰中文[1080p],https://cdn.163189.xyz/live/fhzw/stream.m3u8
-翡翠台[2160p],https://cdn.163189.xyz/live/fct4k/stream.m3u8
-凤凰资讯[1080p],https://cdn3.163189.xyz/live/fhzx/stream.m3u8
-TVBJ1[1080p],https://cdn3.163189.xyz/live/j1/stream.m3u8
-翡翠台[1080p],http://php.jdshipin.com:8880/PLTV/iptv.php?id=fct3
-翡翠台[2160p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
-TVB星河[720p],http://php.jdshipin.com:8880/PLTV/iptv.php?id=xinghe
-美亚电影[720p],http://php.jdshipin.com:8880/smt.php?id=meiyamovie_twn
-翡翠台[1080p],https://cdn3.163189.xyz/live/fct/stream.m3u8
-美亚电影[720p],http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MD3D6323299363232993&ct=18392&tsum=3f73f541d33abe71140d28ada99a071b
-凤凰香港[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk
-TVBJ1美[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=j1
-凤凰资讯[1080p],https://cdn6.163189.xyz/live/fhzx/stream.m3u8
-凤凰香港[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
-凤凰香港[1080p],https://cdn6.163189.xyz/live/fhhk/stream.m3u8
-无线翡翠频4k[2160p],http://cdn.163189.xyz/live/fct4k/stream.m3u8
-无线翡翠[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fct2
+无线翡翠频4k[2160p],http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 无线翡翠[720p],http://php.jdshipin.com/smt.php?id=jade_twn
-无线千禧[720p],http://php.jdshipin.com/smt.php?id=Tvbclassic
-天映经典[540p],http://php.jdshipin.com/smt.php?id=Celestial2
-天映[720p],http://php.jdshipin.com/smt.php?id=Celestial
-无线新闻[1080p],http://beishan008.asuscomm.com:8890/bysid/83.m3u8
+无线翡翠频4k[2160p],http://cdn.163189.xyz/live/fct4k/stream.m3u8
+TVBJ1美[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=j1
+无线翡翠[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fct2
+无线翡翠[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+无线翡翠[720p],http://php.jdshipin.com/TVOD/iptv.php?id=fct
 无线明珠粤高[720p],http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
-无线星河[720p],http://php.jdshipin.com/smt.php?id=Xinhe
-无线明珠英标[720p],http://php.jdshipin.com/TVOD/iptv.php?id=mzt
-无线娱乐[720p],http://php.jdshipin.com/smt.php?id=Tvbentertainment
-美亚电影[720p],http://php.jdshipin.com/TVOD/iptv.php?id=meiya
-台视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20076
-龙华洋片[720p],http://live4play.uk/livehttpplay?channel_id=20090
-纬来育乐[720p],http://live4play.uk/livehttpplay?channel_id=20202
-龙祥时代[1080p],http://live4play.uk/livehttpplay?channel_id=20114
-民视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20074
-纬来电影[1080p],http://live4play.uk/livehttpplay?channel_id=20199
-天映电影[720p],http://live4play.uk/livehttpplay?channel_id=10130
-东森财经[720p],http://live4play.uk/livehttpplay?channel_id=20078
-八大娱乐[1080p],http://live4play.uk/livehttpplay?channel_id=20071
-公视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20087
-中视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20088
-凤凰中文[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fhzw
-纬来戏剧[1080p],http://live4play.uk/livehttpplay?channel_id=20200
-采昌综合[720p],http://live4play.uk/livehttpplay?channel_id=20141
-凤凰香港[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fhhk
+天映[720p],http://php.jdshipin.com/smt.php?id=Celestial
+神乐影院[1080p],http://huanqiuzhibo.cn/manifest/douyu.php?id=85894
 华视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20086
+中视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20088
+天映经典[576p],http://live4play.uk/livehttpplay?channel_id=20063
+民视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20074
+公视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20087
+经典影剧[1080p],http://lxajh.top/tv/douyu.php?id=3928
+无线千禧[720p],http://php.jdshipin.com/smt.php?id=Tvbclassic
+斗鱼影视22[720p],http://zzy789.xyz/douyu1.php?id=10297898
+斗鱼影视25[720p],http://zzy789.xyz/douyu1.php?id=7623292
+无线新闻台[1080p],http://php.jdshipin.com:8880/smt.php?id=inews_twn
+采昌综合[720p],http://live4play.uk/livehttpplay?channel_id=20141
+东森财经[720p],http://live4play.uk/livehttpplay?channel_id=20078
+东森洋片[1080p],http://live4play.uk/livehttpplay?channel_id=20080
+八大娱乐[1080p],http://live4play.uk/livehttpplay?channel_id=20071
+龙华洋片[720p],http://live4play.uk/livehttpplay?channel_id=20090
 纬来日本[1080p],http://live4play.uk/livehttpplay?channel_id=20303
 纬来综合[1080p],http://live4play.uk/livehttpplay?channel_id=20201
-天映经典[576p],http://live4play.uk/livehttpplay?channel_id=20063
-凤凰资讯[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fhzx
+龙祥时代[720p],http://live4play.uk/livehttpplay?channel_id=20114
+纬来电影[1080p],http://live4play.uk/livehttpplay?channel_id=20199
+纬来育乐[720p],http://live4play.uk/livehttpplay?channel_id=20202
 无线翡翠频4k[2160p],http://php.jdshipin.com/PLTV/iptv.php?id=fct4
-美亚电影[720p],http://php.jdshipin.com/PLTV/iptv.php?id=meiya
-无线星河[720p],http://php.jdshipin.com/PLTV/iptv.php?id=tvbxh
-无线千禧[720p],http://php.jdshipin.com/PLTV/iptv.php?id=tvbc
-无线翡翠[1080p],http://cdn3.132.us.kg/live/fct/stream.m3u8
-龙华电影[1080p],https://cdn3.132.us.kg/live/lhdy/stream.m3u8
-凤凰香港[1080p],http://cdn3.132.us.kg/live/fhhk/stream.m3u8
-龙华经典[1080p],https://cdn3.132.us.kg/live/lhjd/stream.m3u8
-无线明珠粤高[720p],http://php.jdshipin.com/PLTV/iptv.php?id=mzt2
-TVBJ1美[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=tvbj1
-无线新闻[1080p],http://cdn3.132.us.kg/live/wxxw/stream.m3u8
-东森洋片[1080p],http://live4play.uk/livehttpplay?channel_id=20080
-凤凰卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&amp;wsIPSercert=8de23d0849e78e3b16ec92a2092354
-香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&amp;wsIPSercert=8de23d0849e78e3b16ec92a809235421&amp;wsMonitor=0
-﻿番薯[1080p],http://61.216.67.119:1935/TWHG/E1/chunklistw7058102.m3u8
-人间卫视[720p],http://61.216.67.119:1935/bltvhd/bltv1/chunklistw1266569526.m3u
-人间卫视[720p],https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
-人间卫视[720p],https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w614428743.m3u8
-香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-大爱1[720p],https://pulltv2.wanfudaluye.com/live/tv1.m3u8
-大爱2[720p],http://pulltv2.wanfudaluye.com/live/tv2.m3u8
-大爱二台[720p],https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-大爱2[720p],http://pulltv1.wanfudaluye.com/live/tv2.m3u8
-大爱2[720p],https://pulltv1.wanfudaluye.com/live/tv2.m3u8
-大爱一台[720p],https://pulltv1.wanfudaluye.com/live/tv1.m3u8
-美亚C+[1080p],http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
-东森新闻[1080p],http://50.7.234.10:8278/ettvnews/playlist.m3u8?tid=MD8D8672451386724513&ct=19234&tsum=d08fdb1dd5078503ffd859a065bc9290
-东森电影[1080p],http://50.7.234.10:8278/ettvmovie/playlist.m3u8?tid=MBDB9268852192688521&ct=19254&tsum=7514b50ebc2e4b06f2e402578d0ac996
-中天娱乐[1080p],http://50.7.234.10:8278/ctient/playlist.m3u8?tid=MC9C7081133170811331&ct=19249&tsum=8b08b54208f3ee30e12f419d587f46ac
-民视台湾[720p],http://50.7.234.10:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD6045594360455943&ct=19193&tsum=0de4f998b15ba8f2ecdaa107d866212a
-无线华丽[720p],http://php.jdshipin.com/smt.php?id=Tvbjade
-爱尔达影剧[720p],http://50.7.234.10:8278/eltadrama_twn/playlist.m3u8?tid=MFDF4206608342066083&ct=19225&tsum=c6e03c86e60731f01aef66e1b32dcc84
-龙华偶像[720p],http://50.7.234.10:8278/lunghuaidol_twn/playlist.m3u8?tid=MD6D6087277960872779&ct=19249&tsum=83e30fd8200429793355d21bf37719ff
-八大戏剧[1080p],http://50.7.234.10:8278/badadrama/playlist.m3u8?tid=m4970c4e1b988&ct=18335&tsum=20cb1d15d4e116ab9e44edb542cf51a5
-天良[1080p],http://60.248.91.20:8000/main
-番薯[1080p],http://61.216.67.119:1935/TWHG/E1/chunklistw705811302.m3u8
-无线翡翠[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fct3
-无线明珠[720p],http://php.jdshipin.com/PLTV/iptv.php?id=mzt
-龙华卡通[720p],https://cdn3.132.us.kg/live/lhkt/stream.m3u8
+龙华偶像[720p],http://live4play.uk/livehttpplay?channel_id=20023
+无线翡翠[720p],http://php.jdshipin.com/PLTV/iptv.php?id=fct
 无线翡翠频4k[2160p],http://cdn.163.dedyn.io/live/fct4k/stream.m3u8
+无线明珠粤高[720p],http://php.jdshipin.com/PLTV/iptv.php?id=mzt2
+无线华丽国标[720p],http://php.jdshipin.com/PLTV/iptv.php?id=huali
+无线翡翠[1080p],http://cdn3.132.us.kg/live/fct/stream.m3u8
+龙华经典[1080p],https://cdn3.132.us.kg/live/lhjd/stream.m3u8
 龙华偶像[1080p],https://cdn3.132.us.kg/live/lhox/stream.m3u8
 龙华日韩[1080p],https://cdn3.132.us.kg/live/lhrh/stream.m3u8
-龙华戏剧[1080p],https://cdn3.132.us.kg/live/lhxj/stream.m3u8
-大爱综合[720p],http://live4play.uk/livehttpplay?channel_id=20032
-龙华日韩[1080p],https://cdn8.163189.xyz/live/lhrh/stream.m3u8
-龙华戏剧[1080p],https://cdn8.163189.xyz/live/lhxj/stream.m3u8
-龙华卡通[720p],https://cdn8.163189.xyz/live/lhkt/stream.m3u8
-龙华经典[1080p],https://cdn8.163189.xyz/live/lhjd/stream.m3u8
-龙华偶像[1080p],https://cdn8.163189.xyz/live/lhox/stream.m3u8
-无线娱乐[720p],http://php.jdshipin.com:8880/smt.php?id=Tvbentertainment
-天映[720p],http://php.jdshipin.com:8880/smt.php?id=Celestial
-无线华丽[720p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=huali
-无线翡翠[720p],http://php.jdshipin.com/PLTV/iptv.php?id=fct
-无线娱乐[720p],http://php.jdshipin.com/PLTV/iptv.php?id=tvbylxw
+凤凰卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&amp;wsIPSercert=8de23d0849e78e3b16ec92a2092354
+凤凰资讯[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+无线翡翠[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fct3
+无线娱乐[720p],http://php.jdshipin.com/smt.php?id=Tvbentertainment
 无线明珠[720p],http://cdn.163.dedyn.io/live/mzt/stream.m3u8
+无线翡翠[720p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
 纬来电影[1080p],http://mytv.cdn.com.mp/live/wldy/stream.m3u8
-龙祥时代[1080p],http://mytv.cdn.com.mp/live/lxsd/stream.m3u8
-无线星河[720p],http://php.jdshipin.com/PLTV/iptv.php?id=xinghe
-TVB娱乐新闻[720p],http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
-TVBS[1080p],http://50.7.234.10:8278/tvbs/playlist.m3u8?tid=MDED5111960351119603&ct=19226&tsum=49931e2d3885c468d56ffae2c2db9e6e
-三立台湾[1080p],http://50.7.234.10:8278/sanlitaiwan/playlist.m3u8?tid=MD3D6272113862721138&ct=19344&tsum=67db4abe16d57b8ac1ca573eab42c5e4
-龙华经典[1080p],http://aktv_stream.m16tv.cfd/stream/taiwan/null/AKTV.m3u8
-东森新闻[1080p],http://50.7.234.10:8278/ettvnews/playlist.m3u8?tid=m1785954e5a67&ct=18336&tsum=ce82c650c85a63fe1ead9e30f2d4bfb4
-凤凰中文[1080p],http://cdn.163.dedyn.io/live/fhzw/stream.m3u8
-凤凰资讯[1080p],http://cdn3.163189.xyz/live/fhzx/stream.m3u8
-凤凰中文[1080p],http://cdn.163189.xyz/live/fhzw/stream.m3u8
-无线新闻[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbxw
-翡翠台[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
-纬来体育[1080p],http://live_bin.m16tv.cfd/stream/test/null/AKTV.m3u8
-三立新闻[1080p],http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.345888.xyz.cdn.cloudflare.net/gt/aktv.php?variable=null-14
-凤凰香港[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
-三立新闻[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=273&time=20240926215313&ip=111.229.253.40
-纬来体育[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=292&time=20240926215313&ip=111.229.253.40
-纬来育乐[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=289&time=20240926215313&ip=111.229.253.40
-纬来体育[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=291&time=20240926215313&ip=111.229.253.40
-东森综合[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=220&time=20240926215313&ip=111.229.253.40
-东森超视[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=217&time=20240926215313&ip=111.229.253.40
-东森综合[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=221&time=20240926215313&ip=111.229.253.40
-无线明珠[720p],http://cdn5.132.us.kg/live/mzt/stream.m3u8
-CCTV13[720p],https://stream1.freetv.fun/5faa47be190587cc85b9a83523c5bff88b5440ff623beb37d113818557a34903.m3u8
-翡翠台[720p],http://php.jdshipin.com/TVOD/iptv.php?id=huali2
-TVB亚洲武侠[720p],http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
-香港卫视[576p],https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.m3u8
-香港卫视[576p],https://stream1.freetv.fun/ae7eaf28d8610cdc1651ef6a1f7dbb24b49c5a87627d0d881330afaea37a1616.m3u8
-陕西卫视[1080p],https://www.freetv.top/migu/738910838.m3u8?migutoken=3d2992ea78cf0d16e27303f2161b886b2f53f2772c9048d2cf024f810a7a6007aa15c432ba27023ed9ebdf2d93f5d4510ba233d9e8a9a429cc12bc2fb6a40c03bfa415dc27c8f998eec1905302
-香港卫视[720p],https://stream1.freetv.fun/79e4d77e2f29a2ca7f7cabbbe2ee02d32a4f2f7fb91ae94d0fb9573c9f94b4ab.ctv
-香港卫视[576p],https://stream1.freetv.fun/xiang-gang-wei-shi-8.m3u8
-香港卫视[576p],https://stream1.freetv.fun/xiang-gang-wei-shi-13.m3u8
-东森超视[1080p],https://stream1.freetv.fun/dong-sen-chao-shi-6.m3u8
-东森超视[1080p],https://stream1.freetv.fun/dong-sen-chao-shi-9.m3u8
-翡翠台[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
-东森综合[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=221&amp;time=20240926215313&amp;ip=111.229.253.40
-东森综合[1080p],http://live4play.uk/livehttpplay?channel_id=20104
-东森超视[1080p],https://stream1.freetv.fun/dong-sen-chao-shi-7.ctv
-翡翠台[720p],http://v2h.jdshipin.com:80/jade2/jade.stream/chunklist_w100.m3u8
-翡翠台[2160p],https://stream1.freetv.fun/ba009d94229ed40a5d9289178463fba7aa31fb0622f8ab2d66c01147828743ab.m3u8
-民视[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-2/AKTV.m3u8
-民视综艺[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-16/AKTV.m3u8
-民视[720p],https://stream1.freetv.fun/min-shi-10.ctv
-东森超视[1080p],https://stream1.freetv.fun/dong-sen-chao-shi-6.ctv
-三立都会[1080p],http://live4play.uk/livehttpplay?channel_id=20100
-三立综合[720p],http://live4play.uk/livehttpplay?channel_id=12038
-三立戏剧[720p],https://stream1.freetv.fun/san-li-xi-ju-3.ctv
-TVB星河[720p],http://php.jdshipin.com/TVOD/iptv.php?id=tvbxh
-东森新闻[1080p],http://aktv_stream1.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
-东森新闻[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-10/AKTV.m3u8
-TVB明珠[720p],http://php.jdshipin.com:8880/iptv.php?id=mzt
-TVB+[1080p],http://cdn.163189.xyz/live/tvbp/stream.m3u8
-寰宇新闻[1080p],http://aktv_stream1.m16tv.cfd/stream/aktv/null-7/AKTV.m3u8
-东森超视[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=216&time=20240926215313&ip=111.229.253.40
-东森新闻[1080p],https://stream1.freetv.fun/dong-sen-xin-wen-2.m3u8
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-10.m3u8
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-4.m3u8
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-17.m3u8
-民视新闻[720p],http://live4play.uk/livehttpplay?channel_id=20097
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-20.m3u8
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-2.m3u8
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-3.m3u8
-台视新闻[1080p],https://stream1.freetv.fun/tai-shi-xin-wen-1.m3u8
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-5.m3u8
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-6.m3u8
-民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-17.ctv
-台视新闻[1080p],https://stream1.freetv.fun/tai-shi-xin-wen-5.m3u8
-台视新闻[1080p],https://stream1.freetv.fun/tai-shi-xin-wen-20.m3u8
-台视新闻[1080p],https://stream1.freetv.fun/tai-shi-xin-wen-22.m3u8
-民视新闻[720p],https://stream1.freetv.fun/min-shi-xin-wen-12.ctv
-台视新闻[1080p],https://stream1.freetv.fun/tai-shi-xin-wen-8.m3u8
-中视新闻[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-13/AKTV.m3u8
-中天新闻[1080p],https://stream1.freetv.fun/zhong-tian-xin-wen-4.m3u8
-TVB无线新闻[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
-TVB无线新闻[1080p],http://cdn.iptv8k.top/dl/jspd.php?id=2
-三立台湾[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=269&time=20240926215313&ip=111.229.253.40
-TVB无线新闻[720p],http://v2hcdn.jdshipin.com/news/news.stream/chunklist_w1005.m3u8
-东森电影[1080p],http://live4play.uk/livehttpplay?channel_id=20077
-靖天电影[720p],http://live4play.uk/livehttpplay?channel_id=12037
-龙华电影[1080p],https://stream1.freetv.fun/1178a02eb676ee58293691fdc19fed767b2dc61d866c1fee41447a8503ec0253.m3u8
-美亚电影[720p],http://live4play.uk/livehttpplay?channel_id=20197
-凤凰香港[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=e5b4ef626c5980be2fbdf2e7-158332927312639&amp;wsIPSercert=6f8d45434604e7d22f5b0abbc0231d01&amp;wsMonitor=0
-TVB无线新闻[720p],https://v2hcdn.jdshipin.com/news/news.stream/chunklist_w105.m3u8
-凤凰香港[720p],http://203.205.191.53/qctv.fengshows.cn/live/0701phk72.m3u8
-纬来体育[1080p],http://aktv_stream1.m16tv.cfd/stream/aktv3/null-1/AKTV.m3u8
-凤凰资讯[720p],https://stream1.freetv.fun/a5857ad51b58a0f7a8c9cbdf291571692b0eed9f5ab2cfce97a211260533c0d8.m3u8
-东森电影[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=231&time=20240926215313&ip=111.229.253.40
-天映经典[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=71&time=20240926215313&ip=111.229.253.40
-东森洋片[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=232&time=20240926215313&ip=111.229.253.40
-靖天戏剧[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=318&time=20240926215313&ip=111.229.253.40
-纬来体育[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=292&amp;time=20240926215313&amp;ip=111.229.253.40
-纬来体育[1080p],http://live4play.uk/livehttpplay?channel_id=20120
-无线翡翠[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fct2
+龙祥时代[720p],http://mytv.cdn.com.mp/live/lxsd/stream.m3u8
+无线华丽[720p],http://php.jdshipin.com/smt.php?id=Tvbjade
+无线娱乐[720p],http://php.jdshipin.com:8880/smt.php?id=Tvbentertainment
+龙华偶像[1080p],https://cdn8.163189.xyz/live/lhox/stream.m3u8
+龙华卡通[720p],https://cdn8.163189.xyz/live/lhkt/stream.m3u8
+龙华日韩[1080p],https://cdn8.163189.xyz/live/lhrh/stream.m3u8
+龙华经典[1080p],https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+无线星河[720p],http://php.jdshipin.com/smt.php?id=Xinhe
+无线新闻[1080p],http://beishan008.asuscomm.com:8890/bysid/83.m3u8
 无线明珠[1080p],http://beishan008.asuscomm.com:8890/bysid/2.m3u8
+天映[720p],http://php.jdshipin.com:8880/smt.php?id=Celestial
+凤凰中文[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰香港频备[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+无线华丽[720p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=huali
 翡翠台版TVBJ1[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=j1
-无线翡翠[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
-凤凰资讯[720p],http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
-中天新闻[1080p],http://cdn.iptv8k.top/dl/jspd.php?id=1
-无线华丽国标[720p],http://php.jdshipin.com/PLTV/iptv.php?id=huali
+无线翡翠[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fct2
+美亚电影[720p],http://php.jdshipin.com/TVOD/iptv.php?id=meiya
 TVBJ1[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=tvbj1
+无线明珠英标[720p],http://php.jdshipin.com/TVOD/iptv.php?id=mzt
+凤凰中文[1080p],http://aktv_stream.m16tv.cfd/stream/aktv/null-3/AKTV.m3u8
+无线翡翠[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
+TVB翡翠台4K[2160p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
+无线娱乐[720p],http://php.jdshipin.com/PLTV/iptv.php?id=tvbylxw
+天映经典[540p],http://php.jdshipin.com/smt.php?id=Celestial2
+无线明珠[720p],http://php.jdshipin.com/PLTV/iptv.php?id=mzt
+无线明珠[720p],http://cdn5.132.us.kg/live/mzt/stream.m3u8
+凤凰香港[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fhhk
+凤凰香港[1080p],https://cdn6.163189.xyz/live/fhhk/stream.m3u8
+凤凰资讯[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fhzx
+纬来体育[720p],http://live4play.uk/livehttpplay?channel_id=20120
+TVBJ1美[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=tvbj1
+东森洋片[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=232&time=20240926215313&ip=111.229.253.40
+东森超视[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=216&time=20240926215313&ip=111.229.253.40
+天映经典[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=71&time=20240926215313&ip=111.229.253.40
 靖天映画[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=320&time=20240926215313&ip=111.229.253.40
-中天新闻[1080p],http://222.128.55.152:9080/live/fc.m3u8
+纬来育乐[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=289&time=20240926215313&ip=111.229.253.40
+靖天戏剧[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=318&time=20240926215313&ip=111.229.253.40
+凤凰中文[1080p],https://cdn.163189.xyz/live/fhzw/stream.m3u8
+凤凰资讯[1080p],https://cdn6.163189.xyz/live/fhzx/stream.m3u8
+台视闽南[720p],http://live4play.uk/livehttpplay?channel_id=20076
+凤凰中文[1080p],http://live4play.uk/livehttpplay?channel_id=30014
+凤凰资讯[1080p],http://live4play.uk/livehttpplay?channel_id=30015
+凤凰香港[1080p],http://live4play.uk/livehttpplay?channel_id=30016
+美亚电影[720p],http://live4play.uk/livehttpplay?channel_id=20197
+凤凰中文[720p],http://live4play.uk/livehttpplay?channel_id=20065
+番薯音乐[1080p],http://61.216.67.119:1935/TWHG/E1/chunklistw705811302.m3u8?
+凤凰香港[720p],http://live4play.uk/livehttpplay?channel_id=20067
+三立都会[1080p],http://live4play.uk/livehttpplay?channel_id=20100
+凤凰中文[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=fhzw
+凤凰资讯[720p],http://live4play.uk/livehttpplay?channel_id=20066
+民视新闻[720p],http://live4play.uk/livehttpplay?channel_id=20097
+三立综合[720p],http://live4play.uk/livehttpplay?channel_id=12038
+东森电影[1080p],http://live4play.uk/livehttpplay?channel_id=20077
+国🔊纬来评述[1080p],https://hdl2.szsummer.cn/live/35141579.flv?auth_key=1746115200-82262973c8ca48bcb5d9e6a91a65db9c-0-ca47aee1cbfac97ef0be423d65caf287
+美亚电影[720p],http://php.jdshipin.com/PLTV/iptv.php?id=meiya
+凤凰香港[1080p],http://cdn3.132.us.kg/live/fhhk/stream.m3u8
+无线新闻[1080p],http://cdn3.132.us.kg/live/wxxw/stream.m3u8
+凤凰中文[1080p],http://cdn.163.dedyn.io/live/fhzw/stream.m3u8
+无线星河[720p],http://php.jdshipin.com/PLTV/iptv.php?id=xinghe
+龙华电影[1080p],https://cdn3.132.us.kg/live/lhdy/stream.m3u8
+无线新闻[1080p],http://php.jdshipin.com/PLTV/iptv.php?id=wxxwt
+龙华戏剧[1080p],https://cdn3.132.us.kg/live/lhxj/stream.m3u8
+靖天电影[720p],http://live4play.uk/livehttpplay?channel_id=12037
+无线星河[720p],http://php.jdshipin.com/PLTV/iptv.php?id=tvbxh
+龙华电影[1080p],https://cdn8.163189.xyz/live/lhdy/stream.m3u8
+龙华戏剧[1080p],https://cdn8.163189.xyz/live/lhxj/stream.m3u8
+美亚电影[720p],http://php.jdshipin.com:8880/smt.php?id=meiyamovie_twn
+东森电影[1080p],http://mytv.cdn.com.mp/live/dsdy/stream.m3u8
+无线新闻台备用[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=wxxwt
+无线新闻[1080p],http://php.jdshipin.com/smt.php?id=inews_twn
+无线功夫[720p],http://v2h.jdshipin.com/asia_action1/1asia_action.stream/chunklist_w101.m3u8
+翡翠台马来西亚版[720p],http://php.jdshipin.com/TVOD/iptv.php?id=huali
+无线华丽[720p],http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w100.m3u8
+凤凰资讯备用[720p],http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
+东森洋片[1080p],http://50.7.234.10:8278/ettvwestern/playlist.m3u8?tid=mfdfc048e6c2416337202&ct=17874&tsum=cad39b26202d525ea820bee1d69e545f
+无线星河[720p],http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
+无线新闻[1080p],http://aktv_stream.m16tv.cfd/stream/aktv/null-1/AKTV.m3u8
+香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=8ee59707fee3ef96c922e680-167055218938751&wsIPSercert=d24f6d7c9d3646d9533d492d5209384b&wsMonitor=0
+无线新闻[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbxw
+东森综合[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=221&time=20240926215313&ip=111.229.253.40
+东森电影[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=231&time=20240926215313&ip=111.229.253.40
+纬来体育[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=291&time=20240926215313&ip=111.229.253.40
+翡翠台[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
+东森综合[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=220&time=20240926215313&ip=111.229.253.40
+香港卫视[576p],http://zhibo.hkstv.tv:80/livestream/mutfysrq.flv
+凤凰中文备用[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
+凤凰中文[1080p],http://cdn.163189.xyz/live/fhzw/stream.m3u8
+凤凰香港备用[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=fhhk2
+翡翠台4K[2160p],https://cdn.163189.xyz/live/fct4k/stream.m3u8
+香港卫视[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0
+凤凰资讯[1080p],https://cdn3.163189.xyz/live/fhzx/stream.m3u8
+香港卫视[576p],https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv
+东森幼幼[1080p],http://50.7.234.10:8278/yoyo_twn/playlist.m3u8?ct=17874&tid=m84c9b210bc7f11269156&tsum=51340c8fb7ca02ab978ee0791843501d
+东森超视[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=217&time=20240926215313&ip=111.229.253.40
+香港卫视[576p],https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv
+翡翠台[1080p],http://php.jdshipin.com:8880/PLTV/iptv.php?id=fct3
+人间卫视[720p],https://5ddce30eb4b55.streamlock.net:443/bltvhd/bltv1/chunklist.m3u8
+无线娱乐新闻[720p],http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+番薯111[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
+东森综合[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=221&amp;time=20240926215313&amp;ip=111.229.253.40
+翡翠台[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3&token=512df05ba47edb46400575c93e179adb7981226d414516400ed1d382cb126adc517715d4ccd3a2276bf3c7b72d52f58905225cf0b1cc461b7888443f
+香港卫视[576p],http://anren.live/HK/BSJDUFpB.m3u8
+三立戏剧[720p],http://50.7.234.10:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
 寰宇新闻[1080p],http://222.128.55.152:9080/live/hy.m3u8
+中天新闻[1080p],http://aktv-stream.m16tv.cfd/stream/aktv/null-6/AKTV.m3u8
+TVBJ2[1080p],http://php.jdshipin.com:8880/PLTV/iptv.php?id=j2
+TVB明珠[1080p],http://aktv-stream.m16tv.cfd/stream/aktv/null-2/AKTV.m3u8
+TVBS亚洲[1080p],http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
+东森新闻[1080p],http://50.7.234.10:8278/ettvnews/playlist.m3u8?tid=m1785954e5a67&ct=18336&tsum=ce82c650c85a63fe1ead9e30f2d4bfb4
+无线华丽[720p],http://php.jdshipin.com/TVOD/iptv.php?id=huali2
+中视新闻[1080p],http://aktv-stream.m16tv.cfd/stream/taiwan/null-13/AKTV.m3u8
+TVB明珠[720p],http://php.jdshipin.com/smt.php?id=pearl_twn
+三立新闻[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=273&time=20240926215313&ip=111.229.253.40
+TVB星河[720p],http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
+TVB星河[720p],http://php.jdshipin.com:8880/PLTV/iptv.php?id=xinghe
+中天新闻[1080p],http://cdn.iptv8k.top/dl/jspd.php?id=1
+TVB亚洲武侠[720p],http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
+TVB无线新闻[1080p],https://cdn.iptv8k.top/dl/jspd.php?id=2&time=20240926215313&ip=111.229.253.40
 台视新闻[1080p],http://222.128.55.152:9080/live/ts.m3u8
-纬来体育[1080p],http://aktv-stream.m16tv.cfd/stream/test/null/AKTV.m3u8
+TVB娱乐新闻[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2
+中天新闻[1080p],http://222.128.55.152:9080/live/fc.m3u8
+凤凰香港[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk
+纬来体育[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=292&time=20240926215313&ip=111.229.253.40
+纬来体育[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=292&amp;time=20240926215313&amp;ip=111.229.253.40
+凤凰香港[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk2
+凤凰香港[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
+凤凰资讯[1080p],http://cdn3.163189.xyz/live/fhzx/stream.m3u8
+翡翠台[720p],http://v2h.jdshipin.com:80/jade2/jade.stream/chunklist_w100.m3u8
+凤凰中文[720p],https://k44991.kylintv.tv/live/pxna_iphone.m3u8
+东森超视[1080p],https://stream1.freetv.fun/dong-sen-chao-shi-6.m3u8
+中天新闻[1080p],https://stream1.freetv.fun/zhong-tian-xin-wen-4.m3u8
+凤凰资讯[1080p],https://stream1.freetv.fun/feng-huang-zi-xun-3.ctv
+凤凰中文[1080p],https://stream1.freetv.fun/feng-huang-zhong-wen-19.ctv
+台视新闻[1080p],https://stream1.freetv.fun/tai-shi-xin-wen-20.m3u8
+民视新闻[1080p],https://stream1.freetv.fun/min-shi--xin-wen-1.m3u8
+民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-6.m3u8
+民视新闻[1080p],https://stream1.freetv.fun/min-shi-xin-wen-4.m3u8
+东森新闻[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-10/AKTV.m3u8
+中视新闻[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-13/AKTV.m3u8
+龙华电影[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-8/AKTV.m3u8
+TVB+[1080p],http://cdn.163189.xyz/live/tvbp/stream.m3u8
+凤凰资讯[576p],http://218.202.220.2:5000/nn_live.ts?id=FHZX
+EYETV戏剧[720p],http://50.7.234.10:8278/eyetvxiju_twn/playlist.m3u8?tid=ME3E6686724066867240&ct=19254&tsum=728fc49fcd53cd770381ffd87883b1d1
+TVB无线新闻[1080p],http://cdn.iptv8k.top/dl/jspd.php?id=2
+凤凰资讯[720p],https://stream1.freetv.fun/feng-huang-zi-xun-20.m3u8
+TVB无线新闻[720p],http://v2hcdn.jdshipin.com/news/news.stream/chunklist_w1005.m3u8
+TVB无线新闻[720p],https://v2hcdn.jdshipin.com/news/news.stream/chunklist_w105.m3u8
+人间卫视[720p],https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w614428743.m3u8
+东森财经[720p],http://50.7.234.10:8278/ettvcaijing_twn/playlist.m3u8?tid=m999b5a0f7fca17599138&ct=17874&tsum=345085d2d6d4401fdb3da968dfee5a54
+凤凰中文[1080p],https://stream1.freetv.fun/4e695e885cc20b20b7e3ec874fe52ed75e27443778c8ff29e498c4c9d7cec4a0.m3u8
+TVB明珠[720p],http://php.jdshipin.com:8880/iptv.php?id=mzt
+TVB星河[720p],http://php.jdshipin.com/TVOD/iptv.php?id=tvbxh
+凤凰中文[576p],https://stream1.freetv.fun/feng-huang-zhong-wen-12.m3u8
+三立台湾[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=269&time=20240926215313&ip=111.229.253.40
+天良[1080p],http://60.248.91.20:8000/main
+凤凰中文[1080p],https://stream1.freetv.fun/91dffd2dca60b65821a94747f2f3020dfc9642bb89f86ed7fa6d8b0b7487c5d2.m3u8
+翡翠台[2160p],https://stream1.freetv.fun/ba009d94229ed40a5d9289178463fba7aa31fb0622f8ab2d66c01147828743ab.m3u8
+凤凰资讯[720p],https://stream1.freetv.fun/a5857ad51b58a0f7a8c9cbdf291571692b0eed9f5ab2cfce97a211260533c0d8.m3u8
+凤凰中文[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=19&time=20240926215313&ip=111.229.253.40
+东森[1080p],https://stream1.freetv.fun/dong-sen-mei-zhou-xin-wen-1.m3u8
+龙华电影[1080p],https://stream1.freetv.fun/1178a02eb676ee58293691fdc19fed767b2dc61d866c1fee41447a8503ec0253.m3u8
+凤凰香港[576p],http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=e5b4ef626c5980be2fbdf2e7-158332927312639&amp;wsIPSercert=6f8d45434604e7d22f5b0abbc0231d01&amp;wsMonitor=0
+香港卫视[576p],https://stream1.freetv.fun/ae7eaf28d8610cdc1651ef6a1f7dbb24b49c5a87627d0d881330afaea37a1616.m3u8
+凤凰资讯[720p],https://k44991.kylintv.tv/live/pxinhd_iphone.m3u8
+美亚C+[1080p],http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
+东森财经新闻[720p],http://50.7.234.10:8278/ettvcaijing_twn/playlist.m3u8?tid=MB8B2069463920694639&ct=19249&tsum=05ff51a1b274ce7d31d05bbf11df18ad
 频道,#genre#
 凤凰香港[720p],https://stream1.freetv.fun/feng-huang-xiang-gang-11.ctv
-凤凰中文[1080p],https://stream1.freetv.fun/feng-huang-zhong-wen-1.m3u8
-凤凰中文[1080p],https://stream1.freetv.fun/4e695e885cc20b20b7e3ec874fe52ed75e27443778c8ff29e498c4c9d7cec4a0.m3u8
-凤凰中文[576p],https://stream1.freetv.fun/feng-huang-zhong-wen-12.m3u8
-凤凰中文[1080p],https://stream1.freetv.fun/91dffd2dca60b65821a94747f2f3020dfc9642bb89f86ed7fa6d8b0b7487c5d2.m3u8
-凤凰中文[1080p],https://stream1.freetv.fun/feng-huang-zhong-wen-19.ctv
-凤凰中文[1080p],https://cdn.iptv8k.top/dl/jrys.php?id=19&time=20240926215313&ip=111.229.253.40
-凤凰资讯[720p],http://203.205.191.53/qctv.fengshows.cn/live/0701pin72.m3u8
-凤凰资讯[720p],https://k44991.kylintv.tv/live/pxinhd_iphone.m3u8
-凤凰资讯[1080p],https://stream1.freetv.fun/feng-huang-zi-xun-2.m3u8
-凤凰资讯[720p],https://stream1.freetv.fun/feng-huang-zi-xun-10.ctv
-凤凰资讯[1080p],https://stream1.freetv.fun/feng-huang-zi-xun-3.ctv
--翡翠台[1080p],http://8hb85846je10.vicp.fun:8001/bysid/1.m3u8
--无线新闻台[1080p],http://8hb85846je10.vicp.fun:5000/bysid/83.m3u8
--凤凰卫视香港台[1080p],http://8hb85846je10.vicp.fun:5000/bysid/85.m3u8
-凤凰资讯[576p],http://218.202.220.2:5000/nn_live.ts?id=FHZX
-凤凰资讯[1080p],https://stream1.freetv.fun/feng-huang-zi-xun-2.ctv
+东森新闻[1080p],https://stream1.freetv.fun/dong-sen-xin-wen-2.m3u8
+TVB无线新闻[1080p],http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 凤凰资讯[720p],https://stream1.freetv.fun/feng-huang-zi-xun-20.ctv
-大爱2[720p],https://stream1.freetv.fun/da-ai-2-1.m3u8
-凤凰资讯[720p],https://stream1.freetv.fun/feng-huang-zi-xun-25.ctv
-民视新闻[1080p],https://stream1.freetv.fun/min-shi--xin-wen-1.m3u8
-三立综合[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-6/AKTV.m3u8
--凤凰卫视香港台[1080p],http://tri-metal.dsmynas.net:8001/bysid/85.m3u8
--凤凰卫视香港台[1080p],http://bziyunshao.synology.me:8890/bysid/85.m3u8
-凤凰资讯[1080p],http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.345888.xyz.cdn.cloudflare.net/gt/aktv.php?variable=null-4
-东森新闻[1080p],https://stream1.freetv.fun/dong-sen-mei-zhou-xin-wen-2.m3u8
-中视[720p],https://stream1.freetv.fun/zhong-shi-8.ctv
--无线新闻台[1080p],http://tri-metal.dsmynas.net:8001/bysid/83.m3u8
--无线新闻台[1080p],http://bziyunshao.synology.me:8890/bysid/83.m3u8
-美亚电影台国语[720p],http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MC6C9419277694192776&ct=19234&tsum=43f9d2e13c7cbbce7e5c5ec94fa38750
+TVB千禧经典[720p],http://php.jdshipin.com/TVOD/iptv.php?id=tvbc
+香港卫视[720p],https://stream1.freetv.fun/79e4d77e2f29a2ca7f7cabbbe2ee02d32a4f2f7fb91ae94d0fb9573c9f94b4ab.ctv
+东森超视[1080p],https://stream1.freetv.fun/dong-sen-chao-shi-6.ctv
+陕西卫视[1080p],https://www.freetv.top/migu/738910838.m3u8?migutoken=3d2992ea78cf0d16e27303f2161b886b2f53f2772c9048d2cf024f810a7a6007aa15c432ba27023ed9ebdf2d93f5d4510ba233d9e8a9a429cc12bc2fb6a40c03bfa415dc27c8f998eec1905302
+CCTV13[720p],https://stream1.freetv.fun/5faa47be190587cc85b9a83523c5bff88b5440ff623beb37d113818557a34903.m3u8
+台视新闻[1080p],https://stream1.freetv.fun/tai-shi-xin-wen-8.m3u8
+三立新闻[1080p],http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.345888.xyz.cdn.cloudflare.net/gt/aktv.php?variable=null-14
+凤凰香港[1080p],http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.345888.xyz.cdn.cloudflare.net/gt/aktv.php?variable=null-5
 凤凰中文[576p],https://stream1.freetv.fun/feng-huang-zhong-wen-12.ctv
-大爱[720p],https://stream1.freetv.fun/da-ai-2.m3u8
-国产源撸阁④[720p],https://lajiao-bo.com/20190501/HtOWsWii/index.m3u8
-龙华偶像[720p],http://50.7.234.10:8278/lunghuaidol_twn/playlist.m3u8?tid=ME6E1618913016189130&ct=19226&tsum=392d7662a2ff7080289fbe9646e8501d
+龙华洋片[720p],http://50.7.234.10:8278/lunghuawestern_twn/playlist.m3u8?tid=MC1C3944472239444722&ct=19226&tsum=99c0c7c82e2fc48b16605865c3eaeb82
+东森洋片[1080p],http://50.7.234.10:8278/ettvwestern/playlist.m3u8?tid=MB7B8303252483032524&ct=19249&tsum=14f89967cdf6c504230be29a87cc54f0
 -翡翠台[1080p],http://tri-metal.dsmynas.net:8000/bysid/1.m3u8
-寰宇新闻[1080p],http://aktv_stream1.m16tv.cfd/stream/taiwan/null-14/AKTV.m3u8
-凤凰资讯[720p],https://stream1.freetv.fun/feng-huang-zi-xun-20.m3u8
+东森戏剧[1080p],http://50.7.234.10:8278/ettvdrama/playlist.m3u8?tid=MA2A9945921599459215&ct=19249&tsum=c9097ecdf4a17c0922196dbf04b0c6e7
+-凤凰卫视香港台[1080p],http://tri-metal.dsmynas.net:8001/bysid/85.m3u8
+-无线新闻台[1080p],http://tri-metal.dsmynas.net:8001/bysid/83.m3u8
+美亚电影台国语[720p],http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MC6C9419277694192776&ct=19234&tsum=43f9d2e13c7cbbce7e5c5ec94fa38750
+-凤凰卫视香港台[1080p],http://bziyunshao.synology.me:8890/bysid/85.m3u8
+-无线新闻台[1080p],http://bziyunshao.synology.me:8890/bysid/83.m3u8
+-无线新闻台[1080p],http://8hb85846je10.vicp.fun:5000/bysid/83.m3u8
+-翡翠台[1080p],http://8hb85846je10.vicp.fun:8001/bysid/1.m3u8
+-凤凰卫视香港台[1080p],http://8hb85846je10.vicp.fun:5000/bysid/85.m3u8
+东森综合[1080p],http://live4play.uk/livehttpplay?channel_id=20104
+凤凰资讯[1080p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
+神乐欧美影院[1080p],http://tc-tct.douyucdn2.cn/dyliveflv1a/20415rnWbjg6Ex1K_2000.flv?wsAuth=3b64dd17d293b133c58bda21e3147e5b&token=cpn-androidmpro-0-20415-b6774b3b3249db1768f0ac048c5ed218ac54e1f82b04b2bf&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
+美亚电影国[720p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=meiya
+人间卫视[720p],http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
+纬来戏剧[1080p],http://live4play.uk/livehttpplay?channel_id=20200
+中视[1080p],http://37.27.111.214:8080/live/7/hls.m3u8
+民视台湾[720p],http://50.7.234.10:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd
+靖天[720p],http://50.7.234.10:8278/jingtianintl_twn/playlist.m3u8?tid=MC7C4153806141538061&ct=19254&tsum=79854f3ccdc23693ea39da52af54d35b
+三立综合[720p],http://50.7.234.10:8278/sanlizhonghe/playlist.m3u8?tid=m3362167a08a014596868&ct=17874&tsum=4472a7c943b67bf52fe5e836ca9f3b6b
+龙华卡通[720p],https://cdn3.132.us.kg/live/lhkt/stream.m3u8
+翡翠台[1080p],https://cdn3.163189.xyz/live/fct/stream.m3u8
+无线翡翠台[720p],http://php.jdshipin.com:8880/smt.php?id=jade_twn
+民视台湾台[720p],http://50.7.234.10:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2
+香港卫视[576p],https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.m3u8
+人间卫视[720p],http://61.216.67.119:1935/bltvhd/bltv1/chunklistw1266569526.m3u
+TVB华丽台[720p],http://php.jdshipin.com:8880/smt.php?id=Tvbjade
+凤凰资讯[1080p],http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.345888.xyz.cdn.cloudflare.net/gt/aktv.php?variable=null-4
+番薯[1080p],http://61.216.67.119:1935/TWHG/E1/chunklistw705811302.m3u8
