@@ -80,6 +80,6 @@ def multicast_province(config_file):
         f.write(f"{province}{operator}-组播,#genre#\n")
         for channel in output:
             f.write(channel)
-for config_file in glob.glob(os.path.join('ip', '*_config.txt')):
+for config_file in glob.glob(os.path.join('ip', 'py/iptv源收集检测/主频道/专享频道/py/组播/ip/*_config.txt')):
     multicast_province(config_file)
 print(f"组播地址获取完成")
