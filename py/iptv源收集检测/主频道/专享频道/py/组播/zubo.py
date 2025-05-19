@@ -69,7 +69,7 @@ def multicast_province(config_file):
     print(f"\n{province} 扫描完成，获取有效ip_port共：{len(all_ip_ports)}个\n{all_ip_ports}\n")
     with open(f"py/iptv源收集检测/主频道/专享频道/py/组播/ip/{province}_ip.txt", 'w', encoding='utf-8') as f:
         f.write('\n'.join(all_ip_ports))    #有效ip_port写入文件
-    template_file = os.path.join('template', f"py/iptv源收集检测/主频道/专享频道/py/组播/template/template_{province}.txt")
+    template_file = os.path.join('py/iptv源收集检测/主频道/专享频道/py/组播/template', f"template_{province}.txt")
     if not os.path.exists(template_file):
         print(f"缺少模板文件: {template_file}")
         return        
