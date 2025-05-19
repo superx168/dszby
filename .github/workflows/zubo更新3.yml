@@ -27,7 +27,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           # cat iptv.txt > iptv_备份.txt
-          python py/iptv源收集检测/主频道/专享频道/py/组播/zubo.py
+          python py/iptv源收集检测/主频道/专享频道/py/组播/zubo2.py
           
       - name: Install Dependencies
         run: |
