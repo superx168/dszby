@@ -48,4 +48,4 @@ jobs:
           git add .
           git commit -m "更新直播源"
           # git commit *.m3u -m "Add generated file"
-          git push
+          git push --force origin main
