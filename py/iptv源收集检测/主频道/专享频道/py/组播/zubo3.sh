@@ -55,9 +55,9 @@ case $city_choice in
         stream="udp/239.76.246.151:1234"
 	;;
     9)
-        city="广东联通"
-        stream="udp/239.0.1.1:5001"
-	;;
+        city="辽宁联通"
+        stream="rtp/232.0.0.126:1234"
+        ;;
     10)
         city="四川电信"
         stream="udp/239.93.0.169:5140"
@@ -110,9 +110,61 @@ case $city_choice in
         city="重庆电信"
         stream="rtp/235.254.196.249:1268"
         ;;
+    23)
+        city="河北电信"
+        stream="rtp/239.254.200.174:6000"
+        ;;
+    24)
+        city="河南联通"
+        stream="rtp/225.1.4.98:1127"
+        ;;
+    25)
+        city="海南电信"
+        stream="rtp/239.253.64.253:5140"
+        ;;
+    26)
+        city="黑龙江联通"
+        stream="rtp/229.58.190.150:5000"
+        ;;
+    27)
+        city="甘肃电信"
+        stream="udp/239.255.30.249:8231"
+        ;;
+    28)
+        city="新疆电信"
+        stream="udp/238.125.3.174:5140"
+        ;;
+    29)
+        city="内蒙古电信"
+        stream="rtp/239.29.0.2:5000"
+        ;;
+    30)
+        city="北京电信"
+        stream="rtp/225.1.8.21:8002"
+        ;;
+    31)
+        city="湖北联通"
+        stream="rtp/228.0.0.60:6108"
+        ;;
+    32)
+        city="吉林电信"
+        stream="rtp/239.37.0.231:5540"
+        ;;
+    33)
+        city="云南电信"
+        stream="rtp/239.200.200.145:8840"
+        ;;
+    34)
+        city="山东联通"
+        stream="rtp/239.253.254.78:8000"
+        ;;
+    35)
+        city="重庆联通"
+        stream="udp/225.0.4.187:7980"
+        ;;
     0)
         # 逐个处理{ }内每个选项
-        for option in {1..22}; do
+        for option in {1..35}; do
           bash "$0" $option  # 假定fofa.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
@@ -151,13 +203,13 @@ while read line; do
     ip=$line
     url="http://$ip/$stream"
     #echo $url
-    curl $url --connect-timeout 5 --max-time 60 -o /dev/null >zubo.tmp 2>&1
+    curl $url --connect-timeout 5 --max-time 40 -o /dev/null >zubo.tmp 2>&1
     a=$(head -n 3 zubo.tmp | awk '{print $NF}' | tail -n 1)  
     echo "第$i/$lines个：$ip    $a"
     echo "$ip    $a" >> speedtest_${city}_$time.log
 done < $good_ip
 #cat $good_ip > $ipfile
-rm -rf zubo.tmp $ipfile $good_ip
+rm -rf zubo.tmp $good_ip
 
 echo "测速结果排序"
 awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
