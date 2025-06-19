@@ -122,14 +122,14 @@ def txt_to_m3u(input_file, output_file):
                     f.write(f'{channel_url}\n')
 
 def main():
-    for config_file in glob.glob(os.path.join('ip', 'py/iptv源收集检测/主频道/专享频道/py/组播/ip/*_config.txt')):
+    for config_file in glob.glob(os.path.join('py/iptv源收集检测/主频道/专享频道/py/组播/ip', '*_config.txt')):
         multicast_province(config_file)
     file_contents = []
-    for file_path in glob.glob('组播_*电信.txt'):
+    for file_path in glob.glob('py/iptv源收集检测/主频道/专享频道/py/组播/扫描/组播_*电信.txt'):
         with open(file_path, 'r', encoding="utf-8") as f:
             content = f.read()
             file_contents.append(content)
-    for file_path in glob.glob('组播_*联通.txt'):
+    for file_path in glob.glob('py/iptv源收集检测/主频道/专享频道/py/组播/扫描/组播_*联通.txt'):
         with open(file_path, 'r', encoding="utf-8") as f:
             content = f.read()
             file_contents.append(content)
