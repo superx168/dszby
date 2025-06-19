@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r py/iptv源收集检测/主频道/专享频道/py/组播/requirements.txtrequirements.txt
+          pip install -r py/iptv源收集检测/主频道/专享频道/py/组播/requirements.txt
 
       - name: 获取组播源
         run: |
