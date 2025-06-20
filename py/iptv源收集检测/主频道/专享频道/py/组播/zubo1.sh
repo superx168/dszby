@@ -32,30 +32,30 @@ case $city_choice in
         channel_key="江苏电信"
         url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuaxn%2BiLjyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
         ;;
-    3)
-        city="湖北电信"
-        stream="rtp/239.69.1.40:9880"
-        channel_key="湖北电信"
-        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iua5luWMlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=20"
-        ;;
-    4)
-        city="河南电信"
-        stream="rtp/239.16.20.21:10210"
-        channel_key="河南电信"
-        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWNlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
-        ;;
-    5)
-        city="河北联通"
-        stream="rtp/239.253.92.154:6011"
-	channel_key="河北联通"
-	url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWMlyIgJiYgb3JnPSJDSElOQSBVTklDT00gQ2hpbmExNjkgQmFja2JvbmUiICYmIHByb3RvY29sPSJodHRwIg%3D%3D&page=1&page_size=10"
-        ;;
-    6)
-        city="安徽电信"
-        stream="rtp//238.1.79.27:4328"
-        channel_key="安徽电信"
-        # url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IkFuaHVpIiAmJiBvcmc9IkNoaW5hbmV0IiAmJiBwcm90b2NvbD0iaHR0cCI%3D&page=1&page_size=20"
-        ;;
+ #    3)
+ #        city="湖北电信"
+ #        stream="rtp/239.69.1.40:9880"
+ #        channel_key="湖北电信"
+ #        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iua5luWMlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=20"
+ #        ;;
+ #    4)
+ #        city="河南电信"
+ #        stream="rtp/239.16.20.21:10210"
+ #        channel_key="河南电信"
+ #        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWNlyIgJiYgb3JnPSJDaGluYW5ldCIgJiYgcHJvdG9jb2w9Imh0dHAi&page=1&page_size=10"
+ #        ;;
+ #    5)
+ #        city="河北联通"
+ #        stream="rtp/239.253.92.154:6011"
+	# channel_key="河北联通"
+	# url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Iuays%2BWMlyIgJiYgb3JnPSJDSElOQSBVTklDT00gQ2hpbmExNjkgQmFja2JvbmUiICYmIHByb3RvY29sPSJodHRwIg%3D%3D&page=1&page_size=10"
+ #        ;;
+ #    6)
+ #        city="安徽电信"
+ #        stream="rtp//238.1.79.27:4328"
+ #        channel_key="安徽电信"
+ #        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IkFuaHVpIiAmJiBvcmc9IkNoaW5hbmV0IiAmJiBwcm90b2NvbD0iaHR0cCI%3D&page=1&page_size=20"
+ #        ;;
  #    7)
  #        city="广东电信"
  #        stream="udp/239.77.1.19:5146"
@@ -126,14 +126,14 @@ done < $good_ip
 rm -f zubo.tmp $ipfile $good_ip
 
 echo "测速结果排序"
-awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > ${city}_config
-awk '/M|k/{print $2}' $result_ip > $ipfile
-cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config
-ip1=$(awk 'NR==1{print $2}' ${city}_config)
-ip2=$(awk 'NR==2{print $2}' ${city}_config)
-ip3=$(awk 'NR==3{print $2}' ${city}_config)
+awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > ${city}_config.txt
+awk '/M|k/{print $2}' ${city}_config.txt > $ipfile
+cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
+ip1=$(awk 'NR==1{print $2}' ${city}_config.txt)
+ip2=$(awk 'NR==2{print $2}' ${city}_config.txt)
+ip3=$(awk 'NR==3{print $2}' ${city}_config.txt)
 rm -f speedtest_${city}_$time.log  
-echo "${city}_config 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt'"
+echo "${city}_config.txt 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt'"
 # 用 3 个最快 ip 生成对应城市的 txt 文件
 # program=py/iptv源收集检测/主频道/专享频道/py/组播/template/template_${city}.txt
 # sed "s/ipipip/$ip1/g" $program > tmp_1.txt
