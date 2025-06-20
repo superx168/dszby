@@ -127,13 +127,24 @@ rm -f zubo.tmp $ipfile $good_ip
 
 echo "测速结果排序"
 awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
-awk '/M|k/{print $2}' $result_ip > $ipfile
+# awk '/M|k/{print $2}' $result_ip > $ipfile
 cat result_ip
 ip1=$(awk 'NR==1{print $2}' $result_ip)
 ip2=$(awk 'NR==2{print $2}' $result_ip)
 ip3=$(awk 'NR==3{print $2}' $result_ip)
-rm -f speedtest_${city}_$time.log  
+# rm -f speedtest_${city}_$time.log  
+# 将最快的3个IP保存到配置文件中
+echo "保存最快的3个IP到 ip/${city}_config.txt"
+echo "# ${city} 最快的3个IP" > ip/${city}_config.txt
+echo "第一名: $ip1" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
+echo "第二名: $ip2" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
+echo "第三名: $ip3" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
+
+# 清理临时文件
+rm -f speedtest_${city}_$time.log $result_ip
 echo "${city}_config.txt 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt'"
+
+
 # 用 3 个最快 ip 生成对应城市的 txt 文件
 # program=py/iptv源收集检测/主频道/专享频道/py/组播/template/template_${city}.txt
 # sed "s/ipipip/$ip1/g" $program > tmp_1.txt
