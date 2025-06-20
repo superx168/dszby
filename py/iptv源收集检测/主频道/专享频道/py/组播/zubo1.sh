@@ -7,7 +7,7 @@ if [ $# -eq 0 ]; then
   echo "3.天津联通"
   echo "4.湖北电信"
   echo "5.河南电信"
-  # echo "6.安徽电信"
+  echo "6.安徽电信"
   read -t 5 -p "超时未输入,将按默认设置测试" city_choice
 
   if [ -z "$city_choice" ]; then
@@ -56,29 +56,29 @@ case $city_choice in
         channel_key="安徽电信"
         # url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IkFuaHVpIiAmJiBvcmc9IkNoaW5hbmV0IiAmJiBwcm90b2NvbD0iaHR0cCI%3D&page=1&page_size=20"
         ;;
-    7)
-        city="广东电信"
-        stream="udp/239.77.1.19:5146"
-        channel_key="广东电信"
-        ;;
-    8)
-        city="北京联通"
-        stream="rtp/239.3.1.241:8000"
-        channel_key="北京联通"
-	;;
-    9)
-        city="湖南电信"
-        stream="udp/239.76.246.151:1234"
-        channel_key="湖南电信"
-	;;
-    10)
-        city="广东联通"
-        stream="udp/239.0.1.1:5001"
-        channel_key="广东联通"
-	;;
+ #    7)
+ #        city="广东电信"
+ #        stream="udp/239.77.1.19:5146"
+ #        channel_key="广东电信"
+ #        ;;
+ #    8)
+ #        city="北京联通"
+ #        stream="rtp/239.3.1.241:8000"
+ #        channel_key="北京联通"
+	# ;;
+ #    9)
+ #        city="湖南电信"
+ #        stream="udp/239.76.246.151:1234"
+ #        channel_key="湖南电信"
+	# ;;
+ #    10)
+ #        city="广东联通"
+ #        stream="udp/239.0.1.1:5001"
+ #        channel_key="广东联通"
+	# ;;
     0)
         # 逐个处理{ }内每个选项
-        for option in {1..10}; do
+        for option in {1..6}; do
           bash "$0" $option  # 假定fofa.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
@@ -126,25 +126,26 @@ done < $good_ip
 rm -f zubo.tmp $ipfile $good_ip
 
 echo "测速结果排序"
-awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
+awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > ${city}_config
 awk '/M|k/{print $2}' $result_ip > $ipfile
-cat $result_ip
-ip1=$(awk 'NR==1{print $2}' $result_ip)
-ip2=$(awk 'NR==2{print $2}' $result_ip)
-ip3=$(awk 'NR==3{print $2}' $result_ip)
-rm -f speedtest_${city}_$time.log     
+cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config
+ip1=$(awk 'NR==1{print $2}' ${city}_config)
+ip2=$(awk 'NR==2{print $2}' ${city}_config)
+ip3=$(awk 'NR==3{print $2}' ${city}_config)
+rm -f speedtest_${city}_$time.log  
+echo "${city}_config 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt'"
 # 用 3 个最快 ip 生成对应城市的 txt 文件
-program=py/iptv源收集检测/主频道/专享频道/py/组播/template/template_${city}.txt
-sed "s/ipipip/$ip1/g" $program > tmp_1.txt
-sed "s/ipipip/$ip2/g" $program > tmp_2.txt
-sed "s/ipipip/$ip3/g" $program > tmp_3.txt
-echo "${city}-组播1,#genre#" > tmp_all.txt
-cat tmp_1.txt >> tmp_all.txt
-echo "${city}-组播2,#genre#" >> tmp_all.txt
-cat tmp_2.txt >> tmp_all.txt
-echo "${city}-组播3,#genre#" >> tmp_all.txt
-cat tmp_3.txt >> tmp_all.txt
-grep -vE '/{3}' tmp_all.txt > "py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt"
-rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_all.txt
-echo "${city} 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt'"
+# program=py/iptv源收集检测/主频道/专享频道/py/组播/template/template_${city}.txt
+# sed "s/ipipip/$ip1/g" $program > tmp_1.txt
+# sed "s/ipipip/$ip2/g" $program > tmp_2.txt
+# sed "s/ipipip/$ip3/g" $program > tmp_3.txt
+# echo "${city}-组播1,#genre#" > tmp_all.txt
+# cat tmp_1.txt >> tmp_all.txt
+# echo "${city}-组播2,#genre#" >> tmp_all.txt
+# cat tmp_2.txt >> tmp_all.txt
+# echo "${city}-组播3,#genre#" >> tmp_all.txt
+# cat tmp_3.txt >> tmp_all.txt
+# grep -vE '/{3}' tmp_all.txt > "py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt"
+# rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_all.txt
+# echo "${city} 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/txt/${city}.txt'"
 #--------合并所有城市的txt文件---------
