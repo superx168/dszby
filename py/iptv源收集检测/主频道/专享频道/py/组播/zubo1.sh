@@ -87,7 +87,7 @@ esac
 
 # 使用城市名作为默认文件名，格式为 CityName.ip
 time=$(date +%m%d%H%M)
-ipfile=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_ip.txt
+ipfile=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 good_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/good_${city}_ip.txt
 result_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/result_${city}_ip.txt
 echo "======== 开始检索 ${city} ========"
@@ -126,12 +126,12 @@ done < $good_ip
 rm -f zubo.tmp $ipfile $good_ip
 
 echo "测速结果排序"
-awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > ${city}_config.txt
-awk '/M|k/{print $2}' ${city}_config.txt > $ipfile
-cat py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
-ip1=$(awk 'NR==1{print $2}' ${city}_config.txt)
-ip2=$(awk 'NR==2{print $2}' ${city}_config.txt)
-ip3=$(awk 'NR==3{print $2}' ${city}_config.txt)
+awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
+awk '/M|k/{print $2}' $result_ip > $ipfile
+cat result_ip
+ip1=$(awk 'NR==1{print $2}' $result_ip)
+ip2=$(awk 'NR==2{print $2}' $result_ip)
+ip3=$(awk 'NR==3{print $2}' $result_ip)
 rm -f speedtest_${city}_$time.log  
 echo "${city}_config.txt 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt'"
 # 用 3 个最快 ip 生成对应城市的 txt 文件
