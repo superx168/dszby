@@ -134,8 +134,8 @@ ip2=$(awk 'NR==2{print $2}' $result_ip)
 ip3=$(awk 'NR==3{print $2}' $result_ip)
 # rm -f speedtest_${city}_$time.log  
 # 将最快的3个IP保存到配置文件中
-echo "保存最快的3个IP到 ip/${city}_config.txt"
-echo "# ${city} 最快的3个IP" > ip/${city}_config.txt
+echo "保存最快的3个IP到 py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt"
+echo "${city} 最快的3个IP" > ip/${city}_config.txt
 echo "第一名: $ip1" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "第二名: $ip2" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "第三名: $ip3" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
