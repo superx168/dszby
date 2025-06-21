@@ -87,7 +87,7 @@ esac
 
 # 使用城市名作为默认文件名，格式为 CityName.ip
 time=$(date +%m%d%H%M)
-ipfile=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
+ipfile=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_ip.txt
 good_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/good_${city}_ip.txt
 result_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "======== 开始检索 ${city} ========"
@@ -128,7 +128,7 @@ rm -f zubo.tmp $ipfile $good_ip
 echo "测速结果排序"
 awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
 # awk '/M|k/{print $2}' $result_ip > $ipfile
-cat result_ip
+cat $result_ip
 ip1=$(awk 'NR==1{print $2}' $result_ip)
 ip2=$(awk 'NR==2{print $2}' $result_ip)
 ip3=$(awk 'NR==3{print $2}' $result_ip)
