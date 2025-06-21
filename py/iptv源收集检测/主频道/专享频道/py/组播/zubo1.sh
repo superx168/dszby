@@ -89,7 +89,7 @@ esac
 time=$(date +%m%d%H%M)
 ipfile=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 good_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/good_${city}_ip.txt
-result_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/result_${city}_ip.txt
+result_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "======== 开始检索 ${city} ========"
 echo "从 fofa 获取ip+端口"
 curl -o test.html $url_fofa
@@ -134,14 +134,14 @@ ip2=$(awk 'NR==2{print $2}' $result_ip)
 ip3=$(awk 'NR==3{print $2}' $result_ip)
 # rm -f speedtest_${city}_$time.log  
 # 将最快的3个IP保存到配置文件中
-echo "保存最快的3个IP到 py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt"
-echo "${city} 最快的3个IP" > ip/${city}_config.txt
+echo "保存最快的3个IP到 ${city}_config.txt"
+echo "${city} 最快的3个IP" > py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "$ip1" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "$ip2" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "$ip3" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 
-# 清理临时文件
-rm -f speedtest_${city}_$time.log $result_ip 
+# 清理临时文件$result_ip 
+rm -f speedtest_${city}_$time.log 
 echo "${city}_config.txt 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt'"
 
 
