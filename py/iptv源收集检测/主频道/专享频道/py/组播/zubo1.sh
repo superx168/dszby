@@ -87,9 +87,9 @@ esac
 
 # 使用城市名作为默认文件名，格式为 CityName.ip
 time=$(date +%m%d%H%M)
-ipfile=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
+ipfile=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_ip.txt
 good_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/good_${city}_ip.txt
-result_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/result_${city}_ip.txt
+result_ip=py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "======== 开始检索 ${city} ========"
 echo "从 fofa 获取ip+端口"
 curl -o test.html $url_fofa
@@ -140,8 +140,8 @@ echo "第一名: $ip1" >> py/iptv源收集检测/主频道/专享频道/py/组�
 echo "第二名: $ip2" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 echo "第三名: $ip3" >> py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt
 
-# 清理临时文件
-rm -f speedtest_${city}_$time.log $result_ip
+# 清理临时文件$result_ip
+rm -f speedtest_${city}_$time.log 
 echo "${city}_config.txt 测试完成，生成可用文件：'py/iptv源收集检测/主频道/专享频道/py/组播/ip/${city}_config.txt'"
 
 
