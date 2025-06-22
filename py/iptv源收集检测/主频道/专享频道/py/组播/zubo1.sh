@@ -126,8 +126,8 @@ done < $good_ip
 rm -f zubo.tmp $ipfile $good_ip
 
 echo "测速结果排序"
-awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
-# awk '/M|k/{print $2}' $result_ip > $ipfile
+awk '/M|k/{print $1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
+# awk '/M|k/{print $2"  "$1}' $result_ip > $ipfile
 cat $result_ip
 ip1=$(awk 'NR==1{print $2}' $result_ip)
 ip2=$(awk 'NR==2{print $2}' $result_ip)
