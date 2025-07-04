@@ -129,9 +129,9 @@ echo "测速结果排序"
 awk '/M|k/{print $2"  "$1}' speedtest_${city}_$time.log | sort -n -r > $result_ip
 # awk '/M|k/{print $2"  "$1}' $result_ip > $ipfile
 cat $result_ip
-ip1=$(awk 'NR==1{print $2",2"}' $result_ip)
-ip2=$(awk 'NR==2{print $2",2"}' $result_ip)
-ip3=$(awk 'NR==3{print $2",2"}' $result_ip)
+ip1=$(awk 'NR==1{print $2",12"}' $result_ip)
+ip2=$(awk 'NR==2{print $2",12"}' $result_ip)
+ip3=$(awk 'NR==3{print $2",10"}' $result_ip)
 # rm -f speedtest_${city}_$time.log  
 # 将最快的3个IP保存到配置文件中
 # echo "保存最快的3个IP到 ${city}_config.txt"
