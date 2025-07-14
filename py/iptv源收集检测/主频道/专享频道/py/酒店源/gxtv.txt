@@ -1,18 +1,11 @@
-CCTV1,http://123.10.79.161:808/hls/1/index.m3u8
-CCTV3,http://123.10.79.161:808/hls/3/index.m3u8
-CCTV6,http://123.10.79.161:808/hls/6/index.m3u8
-CCTV11,http://123.10.79.161:808/hls/11/index.m3u8
 
-云南卫视,http://123.10.79.161:808/hls/46/index.m3u8
-厦门卫视,http://123.10.79.161:808/hls/69/index.m3u8
-天津卫视,http://123.10.79.161:808/hls/38/index.m3u8
-浙江卫视,http://123.10.79.161:808/hls/35/index.m3u8
-深圳卫视,http://123.10.79.161:808/hls/41/index.m3u8
-湖北卫视,http://123.10.79.161:808/hls/43/index.m3u8
-湖南卫视,http://123.10.79.161:808/hls/33/index.m3u8
-陕西卫视,http://123.10.79.161:808/hls/57/index.m3u8
-CHC家庭影院,http://123.10.79.161:808/hls/99/index.m3u8
-新农村,http://123.10.79.161:808/hls/25/index.m3u8
-河南国际,http://123.10.79.161:808/hls/26/index.m3u8
-漯河综合,http://123.10.79.161:808/hls/73/index.m3u8
+四川卫视,http://123.10.79.161:808/hls/44/index.m3u8
+山西卫视,http://123.10.79.161:808/hls/56/index.m3u8
+辽宁卫视,http://123.10.79.161:808/hls/48/index.m3u8
+重庆卫视,http://123.10.79.161:808/hls/50/index.m3u8
+动作影院,http://123.10.79.161:808/hls/97/index.m3u8
+早教,http://123.10.79.161:808/hls/92/index.m3u8
+河南武术世界,http://123.10.79.161:808/hls/29/index.m3u8
+河南河南收藏天下,http://123.10.79.161:808/hls/28/index.m3u8
+监控,http://123.10.79.161:808/hls/87/index.m3u8
 金鹰卡通,http://123.10.79.161:808/hls/65/index.m3u8
