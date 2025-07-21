@@ -1,4 +1,4 @@
-2025/07/21 06:16更新,#genre#
+2025/07/21 15:25更新,#genre#
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 央视频道,#genre#
 CCTV1,http://106.111.244.182:60001/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -5898,6 +5898,10 @@ CCTV1,http://119.129.173.174:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&
 CCTV5,http://119.129.173.174:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV8,http://119.129.173.190:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV9,http://119.129.173.174:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV4,http://221.13.235.233:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5,http://221.13.235.190:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV6,http://221.13.235.233:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV12,http://119.129.173.174:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 
 卫视频道,#genre#
 湖北卫视,http://1.195.131.69:9909/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -9901,6 +9905,8 @@ CCTV9,http://119.129.173.174:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&
 山东卫视,http://106.115.24.166:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
 深圳卫视,http://106.115.24.166:9901/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 广东卫视,http://106.115.24.166:9901/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
+河南卫视,http://221.13.235.190:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+云南卫视,http://59.32.97.230:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 浙江频道,#genre#
 浙江钱江频道,http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 浙江经济生活,http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
@@ -10512,6 +10518,8 @@ CCTV9,http://119.129.173.174:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&
 河南公共,http://221.13.234.77:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 河南电视剧,http://221.13.234.77:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
 武术世界,http://106.115.24.166:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
+河南电视剧,http://221.13.235.190:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
+河南法治,http://221.13.235.190:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 广西频道,#genre#
 广西综艺,http://36.136.38.87:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 广西都市,http://36.136.38.87:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -12478,3 +12486,4 @@ CETV早期教育,http://59.32.97.230:9901/tsfile/live/1038_1.m3u8?key=txiptv&pla
 风云足球,http://106.115.24.166:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
 国防军事,http://106.115.24.166:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 老故事,http://106.115.24.166:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
+广东移动,http://59.32.97.230:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
