@@ -36,14 +36,14 @@ case $city_choice in
         city="山东联通"
         stream="udp/239.253.254.78:8000"
         channel_key="山东联通"
-        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249InNoYW5kb25nIg%3D%3D&page=1&page_size=10"
+        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249InNoYW5kb25nIg%3D%3D&page=1&page_size=20"
         ;;
 
     4)
         city="辽宁联通"
         stream="rtp/232.0.0.126:1234"
         channel_key="辽宁联通"
-        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249ImxpYW9uaW5nIg%3D%3D&page=1&page_size=10"
+        url_fofa="https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249ImxpYW9uaW5nIg%3D%3D&page=1&page_size=20"
         ;;
  #    3)
  #        city="湖北电信"
